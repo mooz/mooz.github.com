@@ -1,0 +1,43 @@
+html {
+}
+
+body {
+    background-color : #FFFFFF;
+    font-family      : 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size        : 100%;
+    height           : 100%;
+}
+
+.container {
+}
+
+h1 {
+    text-align    : center;
+    font-size     : 800%;
+    margin-top    : 15%;
+}
+
+#head-mooz {
+    color : #007fff;
+}
+
+#head-on {
+    color : #ff007f;
+}
+
+#head-github {
+    color : #7fff00;
+}
+
+a {
+    text-decoration : none;
+}
+
+a, a:link, a:visited {
+    text-shadow     : 0 0 1.0em #b1b1b1;
+}
+
+a:hover, a:active {
+    text-decoration : none;
+    text-shadow     : 0 0 1.05em #7d7d7d;
+}
