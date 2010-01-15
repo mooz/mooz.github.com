@@ -467,7 +467,7 @@ window.onload = function () {
 
         input.startButton.onclick = function () { start(); };
 
-        input.stopButton.onclick  = function () { opts.canceled = true; };
+        input.stopButton.onclick  = function () { canceled = true; };
         input.stopButton.style.display = "none";
 
         createPresetList();
