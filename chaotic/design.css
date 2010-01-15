@@ -1,0 +1,98 @@
+html {
+}
+
+body {
+    background-color : #FFFFFF;
+    font-family      : 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size        : 80%;
+    height           : 100%;
+}
+
+.container {
+}
+
+h1 {
+    text-align    : center;
+    font-size     : 200%;
+    text-shadow   : 0 0 0.5em #b1b1b1;
+}
+
+#head-chaos {
+    color : #007fff;
+}
+
+#head-canvas {
+    color : #ff007f;
+}
+
+#head-github {
+    color : #7fff00;
+}
+
+a {
+    text-decoration : none;
+}
+
+a, a:link, a:visited {
+
+}
+
+a:hover, a:active {
+    text-decoration : none;
+    text-shadow     : 0 0 1.05em #7d7d7d;
+}
+
+dl {
+    margin-bottom : 50px;
+}
+
+dl dt {
+    background   : #2883ef;
+    color        : #fff;
+    float        : left;
+    font-weight  : bold;
+    margin-right : 10px;
+    padding      : 5px;
+    width        : 7em;
+}
+
+dl dd {
+    margin  : 2px 0;
+    padding : 5px 0;
+}
+
+dl dd .spinContainer {
+    display : inline-block;
+    margin  : auto 5px;
+}
+
+input {
+    margin : auto 5px;
+}
+
+.input-numeric {
+    ime-mode : disabled;
+    width    : 7em;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+table {
+    border: none;
+}
+
+table td {
+    text-align: left;
+    padding: 10px;
+}
+
+#copyright {
+    text-align : right;
+    padding    : 10px;
+}
+
+#chaos-preset-list {
+    margin-left: 17px;
+}

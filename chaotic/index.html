@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>C.H.A.O.T.I.C C.A.N.V.A.S</title>
+        <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+
+        <script type="text/javascript" src="./lib/jscolor.js"></script>
+        <script type="text/javascript" src="./lib/spinbutton.js"></script>
+        <script type="text/javascript" src="./chaos-cross.js"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./design.css" type="text/css" />
+        <link rel="stylesheet" href="./lib/spin.css" type="text/css" />
+
+        <meta name="description" content="canvas" />
+        <meta name="author" content="mooz" />
+    </head>
+    <body>
+        <noscript>Please enable the JavaScript</noscript>
+        <h1><span id="head-chaos">C.H.A.O.T.I.C</span> <span id="head-canvas">C.A.N.V.A.S</span></h1>
+        <table>
+            <tr>
+                <td>
+                    <canvas id="chaos-canvas">C.H.A.O.T.I.C C.A.N.V.A.S</canvas>
+                </td>
+                <td width="100%">
+                    <!-- ================================================== -->
+                    <form>
+                        <h2>Settings<select id="chaos-preset-list"></select></h2>
+                        <dl>
+                            <dt>Type</dt>
+                            <dd>
+                                <input type="radio" name="type" value="real" id="chaos-type-real" />Real
+                                <input type="radio" name="type" valur="complex" id="chaos-type-complex" checked="checked" />Complex
+                            </dd>
+                            <dt>Scale</dt>
+                            <dd><input type="text" class="input-numeric" id="chaos-scale-pixel"/>pixels</dd>
+                            <dt>Color</dt>
+                            <dd><input class="color" id="chaos-color"></dd>
+                            <dt>Saturation</dt>
+                            <dd><input type="text" class="input-numeric" id="chaos-saturation"/></dd>
+                            <dt>Iteration</dt>
+                            <dd><input type="text" class="input-numeric" id="chaos-iteration"/></dd>
+                            <dt>Coefficients</dt>
+                            <dd id="chaos-coef-container">
+                                <span class="chaos-coef">a</span><input type="text" class="input-numeric" id="chaos-coef-a"/>
+                                <span class="chaos-coef">b</span><input type="text" class="input-numeric" id="chaos-coef-b"/>
+                                <span class="chaos-coef">c</span><input type="text" class="input-numeric" id="chaos-coef-c"/>
+                                <span class="chaos-coef">d</span><input type="text" class="input-numeric" id="chaos-coef-d"/>
+                            </dd>
+                            <p>
+                                <input type="button" value="Draw" id="chaos-start-button"/>
+                                <input type="button" value="Stop" id="chaos-stop-button" />
+                                <input type="text" readonly="readonly" id="chaos-progress-meter"/>
+                            </p>
+                        </dl>
+                    </form>
+                    <!-- ================================================== -->
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <p id="copyright">Presented by mooz &lt;stillpedant _at_ gmail.com&gt; <a href="http://d.hatena.ne.jp/mooz/">literary masturbation</a></p>
+    </body>
+</html>
