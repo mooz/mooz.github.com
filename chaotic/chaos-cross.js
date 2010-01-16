@@ -341,6 +341,16 @@ window.onload = function () {
             coefD      : 0.33,
             color      : "F4FF5C",
             saturation : 0.76
+        },
+
+        "Toixc": {
+            type       : TYPE_COMPLEX,
+            coefA      : 1.02,
+            coefB      : 0.14,
+            coefC      : -1.83,
+            coefD      : 0.36,
+            color      : "F94AFF",
+            saturation : 0.82
         }
     };
 
@@ -502,7 +512,7 @@ window.onload = function () {
         var from = new Date();
         calcTable(function (table) {
                       var to = new Date();
-                      // window.alert(to - from);
+                      window.alert(to - from);
 
                       var rgb   = input.color.color.rgb;
                       var img   = table2imgSimple(table, scale, scale, saturation,
