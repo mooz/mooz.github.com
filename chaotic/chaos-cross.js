@@ -512,7 +512,7 @@ window.onload = function () {
         var from = new Date();
         calcTable(function (table) {
                       var to = new Date();
-                      window.alert(to - from);
+                      // window.alert(to - from);
 
                       var rgb   = input.color.color.rgb;
                       var img   = table2imgSimple(table, scale, scale, saturation,
