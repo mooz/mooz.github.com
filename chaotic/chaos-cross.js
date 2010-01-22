@@ -52,14 +52,14 @@ window.onload = function () {
     const TYPE_REAL    = 0;
     const TYPE_COMPLEX = 1;
 
-    function calcTable(callback, type, width, height, loopCount, a, b, c, d) {
+    function calcTable(callback, arg_type, width, height, loopCount, arg_a, arg_b, arg_c, arg_d) {
         var table = new Array(width * height);
         for (var i = 0; i < table.length; ++i)
             table[i] = 0;
 
         var x, y;
 
-        if (type === TYPE_REAL)
+        if (arg_type === TYPE_REAL)
         {
             x = 0.1;
             y = 0.0;
@@ -70,16 +70,16 @@ window.onload = function () {
             y = 0.1;
         }
 
-        // progress
-        var interval = loopCount / 20;
+        var interval = ~~(loopCount / Math.min(100, ~~(20 * (loopCount / 1000000))));
         var progress = 0;
-        // progress
 
         canceled = false;
 
         progress = 0;
         window.setTimeout(
             function () {
+                var tbl = table;
+
                 var local_x = x;
                 var local_y = y;
 
@@ -88,10 +88,16 @@ window.onload = function () {
                 const yMax = xMax;
                 const yMin = xMin;
 
-                const wdiv2  = width / 2;
-                const hdiv2  = height / 2;
-                const xConst = width / (2.0 * xMax);
-                const yConst = height / (2.0 * yMax);
+                var w = width;
+                var h = height;
+
+                const wdiv2  = w / 2;
+                const hdiv2  = h / 2;
+                const xConst = w / (2.0 * xMax);
+                const yConst = h / (2.0 * yMax);
+
+                var a = arg_a, b = arg_b, c = arg_c, d = arg_d;
+                var type = arg_type;
 
                 var pixX, pixY;
 
@@ -125,7 +131,7 @@ window.onload = function () {
                         pixX = ~~(wdiv2 + xConst * local_x);
                         pixY = ~~(hdiv2 + yConst * local_y);
 
-                        table[pixX + width * pixY]++;
+                        tbl[pixX + w * pixY]++;
                     }
                 }
 
@@ -156,7 +162,7 @@ window.onload = function () {
 
                     callback(table);
                 }
-            }, 0);
+            }, 1);
     }
 
     function table2imgSimple(table, width, height, saturation, r, g, b) {
@@ -513,6 +519,7 @@ window.onload = function () {
         calcTable(function (table) {
                       var to = new Date();
                       // window.alert(to - from);
+                      // window.status = (to - from) + " msec";
 
                       var rgb   = input.color.color.rgb;
                       var img   = table2imgSimple(table, scale, scale, saturation,
