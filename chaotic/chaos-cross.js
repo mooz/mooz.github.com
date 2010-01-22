@@ -343,7 +343,7 @@ window.onload = function () {
             saturation : 0.76
         },
 
-        "Toixc": {
+        "Toxic": {
             type       : TYPE_COMPLEX,
             coefA      : 1.02,
             coefB      : 0.14,
