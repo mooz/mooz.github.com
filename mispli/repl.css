@@ -1,0 +1,91 @@
+html {
+}
+
+body {
+    background-color : #FFFFFF;
+    font-family      : 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size        : 80%;
+    height           : 100%;
+}
+
+.container {
+}
+
+a {
+    text-decoration : none;
+    color           : #e64460;
+    font-weight     : bold;
+}
+
+a, a:link, a:visited {
+}
+
+a:hover, a:active {
+    text-decoration : none;
+    text-shadow     : 0 0 1.05em #7d7d7d;
+}
+
+h1 {
+    text-align    : center;
+    font-size     : 200%;
+    text-shadow   : 0 0 0.5em #b1b1b1;
+}
+
+.head-accent {
+    color : #ff007f;
+}
+
+#head-subtitle, #head-link, #copyright {
+    text-align : center;
+    color      : #849eaa;
+}
+
+#main-repl, #main-repl-input {
+    font-family      : Monaco, Consolas, "Bitstream Vera Sans Mono", monospace;
+    color            : #ddd;
+    font-weight      : bold;
+    background-color : #111;
+}
+
+#main-repl {
+    padding : 10px;
+}
+
+#main-repl-input-row {
+    width : 100%;
+}
+
+#main-repl-input {
+    background-color : #303030;
+    border           : 1px solid #6f6f6f;
+    width            : 95%;
+    padding          : 4px;
+}
+
+.repl-input {
+    color: #888;
+}
+
+.repl-result {
+    color       : #97b5f1;
+    font-weight : bold;
+}
+
+.repl-output {
+    color       : #ddd;
+    font-weight : bold;
+}
+
+.repl-error {
+    color       : #e64460;
+    font-weight : bold;
+}
+
+input {
+    margin : auto 5px;
+}
+
+#copyright {
+    text-align : right;
+    padding    : 10px;
+}
