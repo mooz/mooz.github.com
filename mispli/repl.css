@@ -29,6 +29,7 @@ h1 {
     text-align    : center;
     font-size     : 200%;
     text-shadow   : 0 0 0.5em #b1b1b1;
+    color         : #111;
 }
 
 .head-accent {
@@ -40,6 +41,10 @@ h1 {
     color      : #849eaa;
 }
 
+/* ============================================================
+   REPL Body
+   ============================================================ */
+
 #main-repl, #main-repl-input {
     font-family      : Monaco, Consolas, "Bitstream Vera Sans Mono", monospace;
     color            : #ddd;
@@ -48,7 +53,10 @@ h1 {
 }
 
 #main-repl {
-    padding : 10px;
+    -webkit-border-radius : 3px;
+    -moz-border-radius    : 3px;
+    border-radius         : 3px;
+    padding               : 10px;
 }
 
 #main-repl-input-row {
@@ -56,11 +64,50 @@ h1 {
 }
 
 #main-repl-input {
+    -webkit-border-radius : 3px;
+    -moz-border-radius    : 3px;
+    border-radius         : 3px;
     background-color : #303030;
-    border           : 1px solid #6f6f6f;
+    border           : 0px solid #6f6f6f;
     width            : 95%;
     padding          : 4px;
 }
+
+/* ============================================================
+   REPL Helper
+   ============================================================ */
+
+#main-repl-helper-area {
+    margin-top    : 20px;
+    margin-bottom : 10;
+}
+
+#main-repl-helpers {
+    margin  : 0;
+    padding : 0;
+}
+
+#main-repl-helpers li {
+    font-size             : 95%;
+    cursor                : pointer;
+    display               : inline;
+    margin                : 2px;
+    padding               : 4px;
+    -webkit-border-radius : 3px;
+    -moz-border-radius    : 3px;
+    border-radius         : 3px;
+    background-color      : #341e59;
+    border                : 1px solid #6f6f6f;
+    width                 : 95%;
+}
+
+#main-repl-helpers li:hover {
+    background-color : #250954;
+}
+
+/* ============================================================
+   Messages
+   ============================================================ */
 
 .repl-input {
     color: #888;
