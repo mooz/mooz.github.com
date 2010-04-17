@@ -246,7 +246,8 @@
          var ul = $("main-repl-snippets");
 
          [["Fibonatti", "(defun fib (n) (cond ((= n 0) 0) ((= n 1) 1) ((= n 2) 1) (t (+ (fib (1- n)) (fib (- n 2)))))) (fib 10)"],
-          ["FizzBuzz", '(mapcar (lambda (x) (cond ((= (% x 15) 0) "FizzBuzz") ((= (% x 5) 0) "Buzz") ((= (% x 3) 0) "Fizz") (t x))) (iota 100 1))']
+          ["FizzBuzz", '(mapcar (lambda (x) (cond ((= (% x 15) 0) "FizzBuzz") ((= (% x 5) 0) "Buzz") ((= (% x 3) 0) "Fizz") (t x))) (iota 100 1))'],
+          ["Lexical-Closure-Test", "(defun gen-counter (n) (lambda (&optional d) (setq n (+ n (or d 1))))) (setq counter (gen-counter 10)) (funcall counter) (funcall counter 10) (funcall counter 40) (funcall counter -20)"]
          ].forEach(function (row) {
                        ul.appendChild(createSnippet(row[0], row[1]));
                    });
