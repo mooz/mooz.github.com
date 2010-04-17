@@ -2,7 +2,7 @@ html {
 }
 
 body {
-    background-color : #FFFFFF;
+    background-color : #f9f9f9;
     font-family      : 'Trebuchet MS', Arial, Helvetica, sans-serif;
     font-size        : 80%;
     height           : 100%;
@@ -63,6 +63,10 @@ h1 {
     width : 100%;
 }
 
+#main-repl-input-row:before, .repl-input:before {
+    content : "> "
+}
+
 #main-repl-input {
     -webkit-border-radius : 3px;
     -moz-border-radius    : 3px;
@@ -82,32 +86,51 @@ h1 {
     margin-bottom : 10;
 }
 
-#main-repl-helpers {
+#main-repl-helpers, #main-repl-snippets {
     margin  : 0;
     padding : 0;
 }
 
-#main-repl-helpers li {
+#main-repl-helpers li, #main-repl-snippets li {
     font-size             : 95%;
     cursor                : pointer;
-    display               : inline;
+    display               : inline-block;
     margin                : 2px;
     padding               : 4px;
     -webkit-border-radius : 3px;
     -moz-border-radius    : 3px;
     border-radius         : 3px;
-    background-color      : #341e59;
     border                : 1px solid #6f6f6f;
-    width                 : 95%;
+}
+
+#main-repl-helpers li {
+    background-color : #341e59;
 }
 
 #main-repl-helpers li:hover {
     background-color : #250954;
 }
 
+#main-repl-snippets li {
+    background-color : #1e5934;
+}
+
+#main-repl-snippets li:hover {
+    background-color : #095425;
+}
+
+
 /* ============================================================
    Messages
    ============================================================ */
+
+#main-repl-result-area pre {
+    white-space : -moz-pre-wrap;
+    white-space : -pre-wrap;
+    white-space : -o-pre-wrap;
+    white-space : pre-wrap;
+    word-wrap   : break-word;
+}
 
 .repl-input {
     color: #888;

@@ -13,12 +13,16 @@ const REPL_ERROR  = "repl-error";
 var replHistory = [null];
 var histIndex   = 0;
 
+var replInputOriginalBG;
+var replInputWargingBG = "#580015";
+
 function $(id) { return document.getElementById(id); }
 
 function inputBoxKeyHandler(ev) {
     if (ev.keyCode === 14 || ev.keyCode === 13)
     {
         replEval(ev.target);
+        return;
     }
     else if (ev.keyCode === 38 || ev.keyCode === 40)
     {
@@ -31,6 +35,13 @@ function inputBoxKeyHandler(ev) {
     {
         replHistory[0] = null;
     }
+
+    var input = ev.target;
+
+    if (!input.value || syntaxChecker(input.value))
+        input.style.backgroundColor = replInputOriginalBG;
+    else
+        input.style.backgroundColor = replInputWargingBG;
 }
 
 function trailHistory(back) {
@@ -77,11 +88,23 @@ function dir2(obj) {
     alert(buf.join(""));
 }
 
+var evalLispStep = (
+    function () {
+        var p = new Parser();
+
+        return function (str) {
+            var parsed = p.parse(str, true);
+            var evaled = parsed.map(function (lst) { evalDepth = 0; return Eval(lst); });
+
+            return [parsed, evaled];
+        };
+    })();
+
 function replEval(input) {
     var scrollFrom = window.scrollY;
     var inputCode  = input.value;
 
-    echo("> " + inputCode, REPL_INPUT);
+    echo(inputCode, REPL_INPUT);
 
     if (inputCode[0] === "\\")
     {
@@ -137,7 +160,7 @@ function replEval(input) {
             if (x.stack)
                 echo("js error ::\n" + x + "\n" + x.stack, "repl-error", REPL_ERROR);
             else
-                echo("error :: " + x, "repl-error", REPL_ERROR);
+                echo(x, "repl-error", REPL_ERROR);
         }
     }
 
@@ -148,13 +171,12 @@ function replEval(input) {
     input.value = "";
 
     window.scrollTo(window.scrollX, scrollFrom);
-
     smoothScrollY(scrollFrom, window.scrollMaxY);
 }
 
 function echo(text, className) {
     var resultArea = $("main-repl-result-area");
-    var textElem   = document.createElement("p");
+    var textElem   = document.createElement("pre");
     textElem.setAttribute("class", className);
     setText(textElem, text);
 
@@ -182,6 +204,10 @@ function smoothScrollY(from, to) {
         }, 20);
 }
 
+// ============================================================ //
+// Helper
+// ============================================================ //
+
 function createHelper(text, command) {
     var li = document.createElement("li");
     li.setAttribute("class", "main-repl-helper");
@@ -190,6 +216,7 @@ function createHelper(text, command) {
         var input = $("main-repl-input");
         input.value = command;
         replEval(input);
+        input.focus();
     };
     return li;
 }
@@ -208,9 +235,36 @@ function setUpHelperArea() {
               });
 }
 
+// ============================================================ //
+// Snippets
+// ============================================================ //
+
+function createSnippet(text, command) {
+    var li = document.createElement("li");
+    li.setAttribute("class", "main-repl-snippet");
+    setText(li, text);
+    li.onclick = function () {
+        var input = $("main-repl-input");
+        input.value = command;
+        input.focus();
+    };
+    return li;
+}
+
+function setUpSnippetsArea() {
+    var ul = $("main-repl-snippets");
+
+    [["Fibonatti", "(defun fib (n) (cond ((= n 0) 0) ((= n 1) 1) ((= n 2) 1) (t (+ (fib (1- n)) (fib (- n 2)))))) (fib 10)"],
+     ["FizzBuzz", '(mapcar (lambda (x) (cond ((= (% x 15) 0) "FizzBuzz") ((= (% x 5) 0) "Buzz") ((= (% x 3) 0) "Fizz") (t x))) (iota 100 1))']
+    ].forEach(function (row) {
+                  ul.appendChild(createSnippet(row[0], row[1]));
+              });
+}
+
 window.onload = function () {
     var input = $("main-repl-input");
-    input.addEventListener("keypress", inputBoxKeyHandler, false);
+    replInputOriginalBG = input.style.backgroundColor;
+    input.addEventListener("keyup", inputBoxKeyHandler, false);
 
     print("MiSPLi 0.1.3");
     print("Input Lisp code and press `Enter' key.");
@@ -218,4 +272,5 @@ window.onload = function () {
     print("Type \\? to see available REPL commands.");
 
     setUpHelperArea();
+    setUpSnippetsArea();
 };
