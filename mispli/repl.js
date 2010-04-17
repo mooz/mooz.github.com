@@ -99,17 +99,17 @@
                  "m" : ["Show macros", function () { for (var k in Mispli.macros) print(k); }],
                  "s" : ["Show special forms", function () { for (var k in Mispli.specials) print(k); }],
                  "f" : ["Show global functions", function () {
-                            for (var k in Mispli.genv)
+                            for (var k in Mispli.globalEnv)
                             {
-                                var sym = Mispli.genv[k];
+                                var sym = Mispli.globalEnv[k];
                                 if (Mispli.hasSymbolType(sym, Mispli.SYM_FUNCTION))
                                     print(sym.name + "\t" + Mispli.sexpToStr(Mispli.getSymbolValue(sym, Mispli.SYM_FUNCTION)));
                             }
                         }],
                  "v" : ["Show global variables", function () {
-                            for (var k in Mispli.genv)
+                            for (var k in Mispli.globalEnv)
                             {
-                                var sym = Mispli.genv[k];
+                                var sym = Mispli.globalEnv[k];
                                 if (Mispli.hasSymbolType(sym, Mispli.SYM_VARIABLE))
                                     print(sym.name + "\t" + tos.sexpToStr(Mispli.getSymbolValue(sym, Mispli.SYM_VARIABLE)));
                             }
