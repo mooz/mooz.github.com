@@ -100,6 +100,8 @@ var evalLispStep = (
         };
     })();
 
+function getScrollMaxY() { return window.scrollMaxY || document.documentElement.scrollHeight - document.documentElement.clientHeight; }
+
 function replEval(input) {
     var scrollFrom = window.scrollY;
     var inputCode  = input.value;
@@ -171,7 +173,7 @@ function replEval(input) {
     input.value = "";
 
     window.scrollTo(window.scrollX, scrollFrom);
-    smoothScrollY(scrollFrom, window.scrollMaxY);
+    smoothScrollY(scrollFrom, getScrollMaxY());
 }
 
 function echo(text, className) {
@@ -198,7 +200,10 @@ function smoothScrollY(from, to) {
     replScrollTimer = window.setInterval(
         function () {
             var progress = Math.min(1, (Date.now() - startTime) / duration);
-            window.scrollTo(window.scrollX, (progress === 1) ? to : from + (delta * progress));
+            var x = window.scrollX;
+            var y = (progress === 1) ? to : from + (delta * progress);
+
+            window.scrollTo(x, y);
             if (progress === 1)
                 window.clearInterval(replScrollTimer);
         }, 20);
