@@ -15,14 +15,24 @@
      var histIndex   = 0;
 
      var replInputOriginalBG;
-     var replInputWargingBG = "#580015";
+     var replInputWargingBG  = "#580015";
+     var replInputDisabledBG = "#111111";
+
+     var replEachInputWaitTime;
+
+     const WAIT_TIME_DEMO = 400;
+     const WAIT_TIME_USER = 250;
+
+     var replEnabled = true;
 
      function $(id) { return document.getElementById(id); }
 
      function inputBoxKeyHandler(ev) {
          if (ev.keyCode === 14 || ev.keyCode === 13)
          {
+             replEachInputWaitTime = WAIT_TIME_USER;
              replEval(ev.target);
+
              return;
          }
          else if (ev.keyCode === 38 || ev.keyCode === 40)
@@ -79,6 +89,15 @@
          echo(txt, REPL_OUTPUT);
      };
 
+     function safeScrollToY(y) {
+         if (y > 0)
+         {
+             // if (typeof console !== "undefined")
+             //     console.log(y);
+             window.scrollTo(window.scrollX, y);
+         }
+     }
+
      function getScrollMaxY() { return window.scrollMaxY || document.documentElement.scrollHeight - document.documentElement.clientHeight; }
 
      function replInsertInputsAndResults(inputCode, blocks) {
@@ -86,23 +105,68 @@
 
          function gradPrinter (i) {
              if (i >= blocks.length)
-                 return;
+                 return enableInput();
 
              var savedY = window.scrollY;
 
-             echo(Mispli.sexpToStr(blocks[i]), REPL_INPUT);
-             echo(Mispli.sexpToStr(Mispli.evalBlock(blocks[i])), REPL_RESULT);
+             try
+             {
+                 echo(Mispli.sexpToStr(blocks[i]), REPL_INPUT);
+                 echo(Mispli.sexpToStr(Mispli.evalBlock(blocks[i])), REPL_RESULT);
+             }
+             catch (x)
+             {
+                 handleMispliError(x);
+                 return;
+             };
 
              smoothScrollY(savedY, getScrollMaxY(), function () {
-                               window.setTimeout(function () { gradPrinter(i + 1); }, 250);
+                               window.setTimeout(function () { gradPrinter(i + 1); }, replEachInputWaitTime);
                            });
          }
 
-         gradPrinter(0);
+         if (!blocks.length)
+         {
+             var savedY = window.scrollY;
+             echo("", REPL_INPUT);
+             smoothScrollY(savedY, getScrollMaxY(), enableInput);
+         }
+         else
+             gradPrinter(0);
+     }
+
+     function handleMispliError(x) {
+         var savedY = window.scrollY;
+
+         if (x.stack)
+             echo("js error:\n" + x + "\n" + x.stack, "repl-error", REPL_ERROR);
+         else
+             echo(x, "repl-error", REPL_ERROR);
+
+         smoothScrollY(savedY, getScrollMaxY());
+
+         enableInput();
+     }
+
+     function enableInput() {
+         replEnabled = true;
+         var input = $("main-repl-input");
+         input.style.backgroundColor = replInputOriginalBG;
+     }
+
+     function disableInput() {
+         replEnabled = false;
+         var input = $("main-repl-input");
+         input.style.backgroundColor = replInputDisabledBG;
      }
 
      function replEval(input) {
          var inputCode  = input.value;
+
+         if (!replEnabled)
+             return;
+
+         disableInput();
 
          if (inputCode[0] === "\\")
          {
@@ -151,26 +215,12 @@
              (commands[inputCode[1]] || { "1" : unknown })[1](inputCode);
 
              var savedY = window.scrollY;
-             smoothScrollY(savedY, getScrollMaxY());
+             smoothScrollY(savedY, getScrollMaxY(), enableInput);
          }
          else
          {
-             try
-             {
-                 var blocks  = Mispli.parse(inputCode, true);
-                 replInsertInputsAndResults(inputCode, blocks);
-             }
-             catch (x)
-             {
-                 var savedY = window.scrollY;
-
-                 if (x.stack)
-                     echo("js error:\n" + x + "\n" + x.stack, "repl-error", REPL_ERROR);
-                 else
-                     echo(x, "repl-error", REPL_ERROR);
-
-                 smoothScrollY(savedY, getScrollMaxY());
-             }
+             var blocks = Mispli.parse(inputCode, true);
+             replInsertInputsAndResults(inputCode, blocks);
          }
 
          if (inputCode)
@@ -183,9 +233,12 @@
      function echo(text, className) {
          var resultArea = $("main-repl-result-area");
          var textElem   = document.createElement("pre");
+
          textElem.setAttribute("class", className);
          setText(textElem, text);
 
+         // if (window.scrollY === getScrollMaxY())
+         //     safeScrollToY(getScrollMaxY() - 1);
          resultArea.appendChild(textElem);
      };
 
@@ -193,20 +246,14 @@
 
      // http://piro.sakura.ne.jp/latest/blosxom/mozilla/xul/2009-04-08_tween.htm
      function smoothScrollY(from, to, callback) {
-         if (window.scrollY !== from)
-             window.scrollTo(from, window.scrollX);
-
          var delta = to - from;
 
-         if (delta < 20)
-         {
-             window.scrollTo(to, window.scrollX);
-             if (typeof callback === "function")
-                 callback();
-             return;
-         }
+         if (!delta)
+             return typeof callback === "function" ? callback() : null;
 
-         var duration  = Math.sqrt(delta / 50) * 200;
+         var duration = Math.max(delta * 0.5, 200);
+         if (typeof console !== "undefined")
+             console.log(delta);
          var startTime = +new Date();
 
          if (replScrollTimer)
@@ -215,10 +262,9 @@
          replScrollTimer = window.setInterval(
              function () {
                  var progress = Math.min(1, (+new Date() - startTime) / duration);
-                 var x = window.scrollX;
                  var y = (progress === 1) ? to : from + (delta * progress);
 
-                 window.scrollTo(x, y);
+                 safeScrollToY(y);
 
                  if (progress === 1)
                  {
@@ -231,19 +277,27 @@
      }
 
      // ============================================================ //
-     // Helper
+     // Helper / Snippets
      // ============================================================ //
 
-     function createHelper(text, command) {
+     function execute(command) {
+         if (!replEnabled)
+             return;
+
+         var input = $("main-repl-input");
+         input.value = command;
+         replEachInputWaitTime = WAIT_TIME_DEMO;
+         replEval(input);
+         input.focus();
+     }
+
+     function createButton(text, className, callback) {
          var li = document.createElement("li");
-         li.setAttribute("class", "main-repl-helper");
+
+         li.setAttribute("class", className);
          setText(li, text);
-         li.onclick = function () {
-             var input = $("main-repl-input");
-             input.value = command;
-             replEval(input);
-             input.focus();
-         };
+         li.onclick = callback;
+
          return li;
      }
 
@@ -257,25 +311,8 @@
           ["Global Functions", "\\f"],
           ["Global Variables", "\\v"]
          ].forEach(function (row) {
-                       ul.appendChild(createHelper(row[0], row[1]));
+                       ul.appendChild(createButton(row[0], "main-repl-helper", function () { execute(row[1]); }));
                    });
-     }
-
-     // ============================================================ //
-     // Snippets
-     // ============================================================ //
-
-     function createSnippet(text, command) {
-         var li = document.createElement("li");
-         li.setAttribute("class", "main-repl-snippet");
-         setText(li, text);
-         li.onclick = function () {
-             var input = $("main-repl-input");
-             input.value = command;
-             replEval(input);
-             input.focus();
-         };
-         return li;
      }
 
      function setUpSnippetsArea() {
@@ -283,12 +320,13 @@
 
          [["Fibonatti", "(defun fib (n) (cond ((= n 0) 0) ((= n 1) 1) (t (+ (fib (- n 1)) (fib (- n 2)))))) (fib 3) (fib 5) (fib 10)"],
           ["FizzBuzz", '(mapc \'print (mapcar (lambda (x) (cond ((= (% x 15) 0) "FizzBuzz") ((= (% x 5) 0) "Buzz") ((= (% x 3) 0) "Fizz") (t x))) (iota 100 1)))'],
-          ["Lexical-Closure", "(defun gen-counter (n) (lambda (&optional d) (setq n (+ n (or d 1))))) (setq counter (gen-counter 10)) (funcall counter) (funcall counter) (funcall counter 7) (funcall counter 1000) (funcall counter -81)"],
+          ["Lexical-Closure", "(defun gen-counter (n) (lambda (&optional d) (setq n (+ n (or d 1))))) (setq counter (gen-counter 10)) (funcall counter) (funcall counter 4) (funcall counter 1000) (funcall counter -200)"],
           ["Lexical-Closure2", "(defun cc () (let ((a 10)) (lambda () (lambda () (print a))))) (funcall (funcall (cc)))"],
           ["Tak (very slow)", "(defun tak (x y z) (if (<= x y) y (tak (tak (1- x) y z) (tak (1- y) z x) (tak (1- z) x y)))) (time (tak 8 4 0))"],
-          ["Macro Expansion", '(let ((expanded (macroexpand (quote (when (null nil) (print "It works!")))))) (print expanded) (eval expanded))']
+          ["Macro Expansion", '(let ((expanded (macroexpand (quote (when (null nil) (print "It works!")))))) (print expanded) (eval expanded))'],
+          ["Special (Dynamic) Variable", '(defun foo () (* x x)) (defun bar (x) (declare (special x)) (foo)) (bar 10)']
          ].forEach(function (row) {
-                       ul.appendChild(createSnippet(row[0], row[1]));
+                       ul.appendChild(createButton(row[0], "main-repl-snippet", function () { execute(row[1]); }));
                    });
      }
 
