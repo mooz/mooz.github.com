@@ -57,7 +57,7 @@ h1 {
     -moz-border-radius    : 3px;
     -o-border-radius      : 3px;
     border-radius         : 3px;
-    padding               : 10px;
+    padding               : 10px 15px;
 }
 
 #main-repl-input-row {
@@ -138,6 +138,7 @@ h1 {
 .repl-input {
     color: #888;
     border-bottom: 1px solid #333333;
+    padding-bottom : 3px;
 }
 
 .repl-result {
