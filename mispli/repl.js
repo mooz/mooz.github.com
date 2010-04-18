@@ -94,7 +94,7 @@
              echo(Mispli.sexpToStr(Mispli.evalBlock(blocks[i])), REPL_RESULT);
 
              smoothScrollY(savedY, getScrollMaxY(), function () {
-                               window.setTimeout(function () { gradPrinter(i + 1); }, 500);
+                               window.setTimeout(function () { gradPrinter(i + 1); }, 250);
                            });
          }
 
@@ -128,7 +128,7 @@
                             {
                                 var sym = Mispli.globalEnv[k];
                                 if (Mispli.hasSymbolType(sym, Mispli.SYM_VARIABLE))
-                                    Mispli.print(sym.name + "\t" + tos.sexpToStr(Mispli.getSymbolValue(sym, Mispli.SYM_VARIABLE)));
+                                    Mispli.print(sym.name + "\t" + Mispli.sexpToStr(Mispli.getSymbolValue(sym, Mispli.SYM_VARIABLE)));
                             }
                         }],
                  "j" : ["Evaluate JavaScript Code", function (command) {
@@ -162,10 +162,14 @@
              }
              catch (x)
              {
+                 var savedY = window.scrollY;
+
                  if (x.stack)
                      echo("js error:\n" + x + "\n" + x.stack, "repl-error", REPL_ERROR);
                  else
                      echo(x, "repl-error", REPL_ERROR);
+
+                 smoothScrollY(savedY, getScrollMaxY());
              }
          }
 
@@ -223,7 +227,7 @@
                      if (typeof callback === "function")
                          callback();
                  }
-             }, 16);
+             }, 32);
      }
 
      // ============================================================ //
@@ -277,10 +281,12 @@
      function setUpSnippetsArea() {
          var ul = $("main-repl-snippets");
 
-         [["Fibonatti", "(defun fib (n) (cond ((= n 0) 0) ((= n 1) 1) ((= n 2) 1) (t (+ (fib (1- n)) (fib (- n 2)))))) (fib 3) (fib 5) (fib 10)"],
+         [["Fibonatti", "(defun fib (n) (cond ((= n 0) 0) ((= n 1) 1) (t (+ (fib (- n 1)) (fib (- n 2)))))) (fib 3) (fib 5) (fib 10)"],
           ["FizzBuzz", '(mapc \'print (mapcar (lambda (x) (cond ((= (% x 15) 0) "FizzBuzz") ((= (% x 5) 0) "Buzz") ((= (% x 3) 0) "Fizz") (t x))) (iota 100 1)))'],
-          ["Lexical-Closure-Test", "(defun gen-counter (n) (lambda (&optional d) (setq n (+ n (or d 1))))) (setq counter (gen-counter 10)) (funcall counter) (funcall counter 10) (funcall counter 40) (funcall counter -20)"],
-          ["Tak (very slow)", "(defun tak (x y z) (if (<= x y) y (tak (tak (1- x) y z) (tak (1- y) z x) (tak (1- z) x y)))) (time (tak 8 4 0))"]
+          ["Lexical-Closure", "(defun gen-counter (n) (lambda (&optional d) (setq n (+ n (or d 1))))) (setq counter (gen-counter 10)) (funcall counter) (funcall counter) (funcall counter 7) (funcall counter 1000) (funcall counter -81)"],
+          ["Lexical-Closure2", "(defun cc () (let ((a 10)) (lambda () (lambda () (print a))))) (funcall (funcall (cc)))"],
+          ["Tak (very slow)", "(defun tak (x y z) (if (<= x y) y (tak (tak (1- x) y z) (tak (1- y) z x) (tak (1- z) x y)))) (time (tak 8 4 0))"],
+          ["Macro Expansion", '(let ((expanded (macroexpand (quote (when (null nil) (print "It works!")))))) (print expanded) (eval expanded))']
          ].forEach(function (row) {
                        ul.appendChild(createSnippet(row[0], row[1]));
                    });

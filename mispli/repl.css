@@ -137,6 +137,7 @@ h1 {
 
 .repl-input {
     color: #888;
+    border-bottom: 1px solid #333333;
 }
 
 .repl-result {
