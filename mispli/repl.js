@@ -219,8 +219,15 @@
          }
          else
          {
-             var blocks = Mispli.parse(inputCode, true);
-             replInsertInputsAndResults(inputCode, blocks);
+             try {
+                 var blocks = Mispli.parse(inputCode, true);
+                 replInsertInputsAndResults(inputCode, blocks);
+             } catch (x) {
+                 var savedY = window.scrollY;
+                 echo(inputCode, REPL_INPUT);
+                 echo(x, REPL_ERROR);
+                 smoothScrollY(savedY, getScrollMaxY(), enableInput);
+             }
          }
 
          if (inputCode)
