@@ -326,6 +326,7 @@
          var ul = $("main-repl-snippets");
 
          [["Fibonatti", "(defun fib (n) (cond ((= n 0) 0) ((= n 1) 1) (t (+ (fib (- n 1)) (fib (- n 2)))))) (fib 3) (fib 5) (fib 10)"],
+          ["Fibonatti (memoized)", "(let ((memo (quote nil))) (defun mfib (n) (cond ((= n 0) 0) ((= n 1) 1) (t (or (cdr (assoc n memo)) (cdar (setq memo (cons (cons n (+ (mfib (- n 1)) (mfib (- n 2)))) memo)))))))) (mfib 10) (mfib 30) (mfib 80)"],
           ["FizzBuzz", '(mapc \'print (mapcar (lambda (x) (cond ((= (% x 15) 0) "FizzBuzz") ((= (% x 5) 0) "Buzz") ((= (% x 3) 0) "Fizz") (t x))) (iota 100 1)))'],
           ["Lexical-Closure", "(defun gen-counter (n) (lambda (&optional d) (setq n (+ n (or d 1))))) (setq counter (gen-counter 10)) (funcall counter) (funcall counter 4) (funcall counter 1000) (funcall counter -200)"],
           ["Lexical-Closure2", "(defun cc () (let ((a 10)) (lambda () (lambda () (print a))))) (funcall (funcall (cc)))"],
