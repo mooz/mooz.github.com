@@ -15,9 +15,9 @@
 
     <body>
         <div id="container">
-            <p id="langage">english / <a href="index-ja.html">japanese</a></p>
+            <p id="langage"><a href="index.html">english</a> / japanese</p>
 
-            <h1>mooz deceives you</h1>
+            <h1 title="mooz は君を欺く">mooz deceives you</h1>
 
             <p class="subtitle syntax">(eval mooz) <span class="syntax-comment">; =&gt nil</span></p>
 
@@ -27,7 +27,7 @@
 		    <dt>Name(s)</dt>
                     <dd><span class="accent">mooz</span>, stillpedant</dd>
 		    <dt>Email</dt>
-                    <dd>stillpedant <span class="comment">_at_</span> gmail.com</dd>
+                    <dd>stillpedant <span class="comment">_at_</span> gmail.com (<span class="comment">_at_ を @ に置き換えてください</span>)</dd>
 		    <dt>Activity</dt>
                     <dd>
                         <ul>
@@ -52,7 +52,7 @@
                     <dt>Programming</dt>
                     <dd>
                         <ul>
-                            <li>JavaScript <span class="comment">(Especially JavaScript 1.8)</span></li>
+                            <li>JavaScript <span class="comment">(特に JavaScript 1.8)</span></li>
                             <li>C</li>
                             <li>Emacs Lisp</li>
                             <li><span class="comment">C++</span></li>
@@ -63,11 +63,11 @@
                     <dt>Interested in</dt>
                     <dd>
                         <ul>
-                            <li>Programming Language</li>
-                            <li>Distributed systems</li>
-                            <li>User interface</li>
-                            <li>Natural language processing</li>
-                            <li>Machine learning</li>
+                            <li>プログラミング言語</li>
+                            <li>分散システム</li>
+                            <li>ユーザインタフェース</li>
+                            <li>自然言語処理</li>
+                            <li>機械学習</li>
                         </ul>
                     </dd>
 		</dl>
@@ -77,7 +77,7 @@
                 <h2>Products</h2>
 
                 <div id="product-mozila-addon">
-                    <h3>Add-ons for Mozilla apps</h3>
+                    <h3>Firefox / Thunderbird 拡張機能</h3>
 
 	            <div class="product">
                         <h4>KeySnail</h4>
@@ -85,9 +85,9 @@
                             <img src="image/keysnail_screenshot.png" alt="keysnail screenshot" />
                         </a>
 	                <p>
-                            KeySnail is an add-on for Mozilla Firefox and Thunderbird which allows you to customize their keybindings.
-                            Initially KeySnail is developed to be the replacement of keyconfig and Firemacs.
-                            Now, KeySnail has grown up dramatically and states that <span class="accent">KeySnail is the Vimperator for Emacs users</span>.
+                            KeySnail は Firefox や Thunderbird のキーバインドをカスタマイズする拡張機能です.
+                            Vimperator に匹敵する拡張性を備えつつ, GUI による設定などのユーザフレンドリーなインタフェースが使用可能となっています.
+                            作者の趣味により, Emacs ユーザが喜びそうな機能を数多く実装.
                         </p>
 	            </div>
 
@@ -97,13 +97,14 @@
                             <img src="image/clipple_screenshot.png" alt="clipple screenshot" />
                         </a>
 	                <p>
-                            Clipple is the simple clipboard manager for Mozilla Firefox which allows you to store multiple texts to the extended clipboard.
+                            Clipple は Firefox 用のシンプルなクリップボードマネージャです.
+                            ユーザがコピーしたテキストを, 後から貼り付けられるように拡張クリップボードに保持しておきます.
                         </p>
 	            </div>
                 </div>
 
                 <div id="product-js-experiment">
-                    <h3>JavaScript Experiments</h3>
+                    <h3>JavaScript</h3>
 
 	            <div class="product">
                         <h4>MiSPLi</h4>
@@ -111,8 +112,8 @@
                             <img src="image/mispli_screenshot.png" alt="mispli screenshot" />
                         </a>
 	                <p>
-                            MiSPLi is the Lisp implementation and REPL written in JavaScript.
-                            It has static-scoping, lexical-closure, macro, basic special forms, basic functions and so forth.
+                            MiSPLi は JavaScript で書かれた Lisp の処理系とその REPL です.
+                            静的スコープ, レキシカルクロージャ, マクロ, 基本的な関数やスペシャルフォームといった一通りの機能を備えています.
                         </p>
 	            </div>
 
@@ -122,7 +123,7 @@
                             <img src="image/chaotic_canvas_screenshot.png" alt="mispli screenshot" />
                         </a>
 	                <p>
-                            C.H.A.O.T.I.C C.A.N.V.A.S is the chaos fractal generator written in JavaScript which uses HTML canvas.
+                            C.H.A.O.T.I.C C.A.N.V.A.S は JavaScript と HTML Canvas を使用したカオスフラクタル生成器です.
                         </p>
 	            </div>
                 </div>
@@ -136,8 +137,7 @@
                             <img src="image/js2_screenshot.png" alt="js2-mode.el screenshot" />
                         </a>
 	                <p>
-                            An improved JavaScript mode for GNU Emacs.
-                            Forked from <a href="http://code.google.com/p/js2-mode/">http://code.google.com/p/js2-mode/</a>.
+                            <a href="http://code.google.com/p/js2-mode/">js2-mode.el</a> にいくつかの機能追加とバグ修正を行った独自版です.
                         </p>
 	            </div>
 
@@ -147,7 +147,7 @@
                             <img src="image/jsdoc_screenshot.png" alt="js-doc.el screenshot" />
                         </a>
 	                <p>
-                            js-doc.el helps you to treat JsDoc style comment in Emacs.
+                            js-doc.el は, Emacs で JsDoc 形式のコメントを扱いやすくさせてくれる elisp です.
                         </p>
 	            </div>
                 </div>
@@ -161,7 +161,7 @@
                             <img src="image/youkeyboardjunkey_screenshot.png" alt="you keyboard junkey screenshot" />
                         </a>
 	                <p>
-                            You keyboard junky add keyboard shortcuts to controller of YouTube.
+                            You keyboard junky をインストールすることで, YouTube のプレイヤーををキーボードから操作することが可能となります.
                         </p>
 	            </div>
                 </div>
