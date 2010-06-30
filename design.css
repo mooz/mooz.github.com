@@ -2,42 +2,179 @@ html {
 }
 
 body {
-    background-color : #FFFFFF;
-    font-family      : 'Trebuchet MS', Arial, Helvetica, sans-serif;
-    font-size        : 100%;
-    height           : 100%;
+    background-color      : #c791b9;
+    font-family           : 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size             : 100%;
+    height                : 100%;
+    background-image      : url("./image/eye.png");
+    background-repeat     : no-repeat;
+    background-position   : right bottom;
+    background-attachment : fixed;
+    margin                : 0px;
+    padding               : 0px;
 }
 
-.container {
-}
-
-h1 {
-    text-align    : center;
-    font-size     : 800%;
-    margin-top    : 15%;
-}
-
-#head-mooz {
-    color : #007fff;
-}
-
-#head-on {
-    color : #ff007f;
-}
-
-#head-github {
-    color : #7fff00;
-}
+/* ======================================================================
+   href
+   ====================================================================== */
 
 a {
-    text-decoration : none;
-}
-
-a, a:link, a:visited {
-    text-shadow     : 0 0 1.0em #b1b1b1;
+    color : #ac002b;
 }
 
 a:hover, a:active {
-    text-decoration : none;
-    text-shadow     : 0 0 1.05em #7d7d7d;
+    text-shadow : 0 0 1.05em #a5a5a5;
+}
+
+/* ======================================================================
+   Container
+   ====================================================================== */
+
+#container {
+    color                              : #1a1a1a;
+    background-color                   : white;
+    max-width                          : 950px;
+    height                             : 100%;
+    margin                             : 20px 0px;
+    padding                            : 10px;
+    -webkit-border-top-right-radius    : 10px;
+    -webkit-border-bottom-right-radius : 10px;
+    -moz-border-radius-topright        : 10px;
+    -moz-border-radius-bottomright     : 10px;
+    border-top-right-radius            : 10px;
+    border-bottom-right-radius         : 10px;
+}
+
+/* ======================================================================
+   h1. Title
+   ====================================================================== */
+
+h1 {
+    font-family    : "Gill Sans", Helvetica, Arial, sans-serif;
+    font-weight    : 400;
+    letter-spacing : 1px;
+    line-height    : 20px;
+    margin         : 30px 0;
+    text-transform : uppercase;
+    text-align     : center;
+    font-size      : 300%;
+}
+
+/* ======================================================================
+   h2.
+   ====================================================================== */
+
+h2 {
+    font-size          : 150%;
+    padding            : 1px 0.5em;
+    font-family        : "Century Gothic", "Trebuchet MS", sans-serif;
+    border-bottom      : 1px solid #0E0E10;
+    padding            : 3px 10px;
+    font-weight        : bold;
+    font-size          : 120%;
+}
+
+/* ======================================================================
+   Subtitle
+   ====================================================================== */
+
+.subtitle {
+    text-align : center;
+    font-size  : 110%;
+}
+
+/* ======================================================================
+   Syntax
+   ====================================================================== */
+
+.syntax {
+    font-family : Monaco, Consolas, "Bitstream Vera Sans Mono", monospace;
+}
+
+.syntax-comment {
+    color : #4a4a4a;
+}
+
+/* ======================================================================
+   Products
+   ====================================================================== */
+
+#about-products h3 {
+    color       : #3a3a3a;
+    margin      : 5px 4px 13px 4px;
+    font-size   : 100%;
+}
+
+#about-products > div {
+    border-left  : 3px solid #c791b9;
+    padding      : 3px 10px;
+    margin       : 20px 5px;
+}
+
+.product {
+    border-left  : 3px solid #9c5288;
+    padding-left : 10px;
+    margin       : 14px 0px;
+}
+
+.product > a > img {
+    border : none;
+}
+
+.product h4 {
+    font-family : "Gill Sans", Helvetica, Arial, sans-serif;
+    margin      : 10px 4px;
+    font-size   : 140%;
+}
+
+.product p {
+    width       : 500px;
+    font-size   : 90%;
+}
+
+/* ======================================================================
+   Vio
+   ====================================================================== */
+
+dl {
+    margin  : 0 0;
+    padding : 10px 5px;
+}
+
+dl dt {
+    color       : #3a3a3a;
+    padding     : 5px 0;
+    font-weight : bold;
+    text-indent : 1em;
+    line-height : 120%;
+}
+
+dl dd {
+    margin      : 0;
+    padding     : 6px 0 6px 4em;
+    line-height : 120%;
+}
+
+dl dd ul {
+    margin       : 0;
+    padding-left : 0;
+}
+
+dl dd li {
+    list-style-position : outside;
+    list-style-type     : square;
+    margin              : 4px 0;
+}
+
+
+/* ======================================================================
+   General
+   ====================================================================== */
+
+.accent {
+    font-weight : bold;
+}
+
+.comment {
+    color : #656565;
 }
