@@ -68,6 +68,7 @@ h2 {
     font-size          : 150%;
     padding            : 1px 0.5em;
     font-family        : "Century Gothic", "Trebuchet MS", sans-serif;
+    font-variant       : small-caps;
     border-bottom      : 1px solid #0E0E10;
     padding            : 3px 10px;
     font-weight        : bold;
