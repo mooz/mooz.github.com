@@ -161,7 +161,7 @@ dl dd ul {
 }
 
 dl dd li {
-    list-style-position : outside;
+    list-style-position : inside;
     list-style-type     : square;
     margin              : 4px 0;
 }
@@ -191,3 +191,24 @@ dl dd li {
 #langage a {
     text-decoration : none;
 }
+
+/* ======================================================================
+   Icons
+   ====================================================================== */
+
+.exlinks a {
+    padding-left        : 20px;
+    background-repeat   : no-repeat;
+    background-position : left center;
+}
+
+.exlinks li {
+    margin              : 8px 0;
+    list-style-type     : none;
+    list-style-position : outside;
+}
+
+.hatena      { background-image : url('icons/hatena16.ico'); }
+.twitter     { background-image : url('icons/twitter16.ico'); }
+.github      { background-image : url('icons/github16.png'); }
+.userscripts { background-image : url('icons/userscripts16.png'); }
