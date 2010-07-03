@@ -33,10 +33,10 @@ a:hover, a:active {
 #container {
     color                              : #1a1a1a;
     background-color                   : white;
-    max-width                          : 950px;
+    max-width                          : 900px;
     height                             : 100%;
     margin                             : 20px 0px;
-    padding                            : 10px;
+    padding                            : 15px;
     -webkit-border-top-right-radius    : 10px;
     -webkit-border-bottom-right-radius : 10px;
     -moz-border-radius-topright        : 10px;
