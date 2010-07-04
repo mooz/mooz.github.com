@@ -124,7 +124,7 @@ h2 {
 
 .product h4 {
     font-family : "Gill Sans", Helvetica, Arial, sans-serif;
-    margin      : 10px 4px;
+    margin      : 10px 0 5px 4px;
     font-size   : 140%;
 }
 
@@ -197,10 +197,22 @@ dl dd li {
    Icons
    ====================================================================== */
 
-.exlinks a {
+.product-link a, .exlinks a {
     padding-left        : 20px;
     background-repeat   : no-repeat;
     background-position : left center;
+}
+
+.product-link {
+    margin : 2px 0 1em 5px;
+}
+
+.product-link a {
+    background-image : url('icons/chain.png');
+}
+
+.product-link a:hover {
+    background-image : url('icons/chain-arrow.png');
 }
 
 .exlinks li {
@@ -213,3 +225,15 @@ dl dd li {
 .twitter     { background-image : url('icons/twitter16.ico'); }
 .github      { background-image : url('icons/github16.png'); }
 .userscripts { background-image : url('icons/userscripts16.png'); }
+
+
+/* ======================================================================
+   Copyrihgts
+   ====================================================================== */
+
+.copyright {
+    font-size  : 80%;
+    color      : #505050;
+    margin     : 3px 0px;
+    text-align : right;
+}
