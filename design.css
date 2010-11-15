@@ -100,6 +100,17 @@ h2 {
    Products
    ====================================================================== */
 
+#products-menu {
+    list-style-position : inside;
+    list-style-type     : square;
+    margin              : 5px 0px;
+    padding             : 0 16px;
+}
+
+#products-menu li {
+    margin : 7px 0;
+}
+
 #about-products h3 {
     color       : #3a3a3a;
     margin      : 5px 4px 13px 4px;
