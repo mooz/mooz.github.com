@@ -83,11 +83,37 @@
                 <h2>Products</h2>
 
                 <ul id="products-menu">
+                    <li><a href="#product-cli">CLI</a></li>
                     <li><a href="#product-mozila-addon">Firefox / Thunderbird 拡張機能</a></li>
                     <li><a href="#product-js-experiment">JavaScript</a></li>
                     <li><a href="#product-elisp">Emacs Lisp</a></li>
                     <li><a href="#product-greasemonkey">Greasemonkey Script</a></li>
                 </ul>
+
+                <div id="product-cli">
+                    <h3>CLI</h3>
+
+	            <div class="product">
+                        <h4>percol</h4>
+                        <p class="product-link"><a href="https://github.com/mooz/percol/">https://github.com/mooz/percol/</a></p>
+	                <p>percol は UNIX のパイプに新風を吹き込むコマンドラインツールです．percol を使うことで，</p>
+                        <ol>
+                            <li>入力を行単位で分割し</li>
+                            <li>インタラクティブに正規表現マッチングをかけて絞り込みを行ない</li>
+                            <li>選択した行を標準出力へ吐き出す</li>
+                        </ol>
+                        <p>ということを簡単に行なうことが可能となります．</p>
+                        <p>percol はコマンドライン上で軽快に動作し，高い拡張性を持ち，また日本語の扱いも問題なく行うことができます．</p>
+	            </div>
+
+	            <div class="product">
+                        <h4>rios</h4>
+                        <p class="product-link"><a href="https://github.com/mooz/rios/">https://github.com/mooz/rios/</a></p>
+                        <p>rios はコマンドラインアプリケーションの開発者用に作成された Ruby 用のライブラリです．</p>
+	                <p>rios はコマンドラインとユーザの間でやりとりされる全ての文字的コミュニケーションを仲介します．開発者は，それらの情報を記録し，ときには改変することができます．これにより，TUI (Text-based User Interface) アプリケーションに対し，その入力をエミュレートすることや，その出力を文字列として受け取ることなどが可能となります．</p>
+                        <p>TUI アプリケーションのユニットテストや，柔軟な expect コマンドとしての利用など，rios の応用例は様々です．</p>
+	            </div>
+                </div>
 
                 <div id="product-mozila-addon">
                     <h3>Firefox / Thunderbird 拡張機能</h3>
@@ -101,7 +127,7 @@
 	                <p>
                             KeySnail は Firefox や Thunderbird のキーバインドをカスタマイズする拡張機能です.
                             Vimperator に匹敵する拡張性を備えつつ, GUI による設定などのユーザフレンドリーなインタフェースが使用可能となっています.
-                            作者の趣味により, Emacs ユーザが喜びそうな機能を数多く実装.
+                            作者の趣味により, Emacs ユーザが喜びそうな機能を数多く実装しました.
                         </p>
 	            </div>
 
@@ -173,15 +199,13 @@
 	            <div class="product">
                         <h4>shadow.el</h4>
                         <p class="product-link"><a href="https://github.com/mooz/shadow.el/">https://github.com/mooz/shadow.el/</a></p>
-	                <p>
-                            Shadow.el は Emacs に <a href="https://github.com/ujihisa/shadow.vim/">Shadow.vim</a> と同様の機能 + α を追加する elisp です．この elisp を導入することで，
-                            <ul>
-                                <li>ファイルを保存するたびに</li>
-                                <li>指定されたコマンドを実行し</li>
-                                <li>実行結果を保存する</li>
-                            </ul>
-                            という一連の作業を行なうことが可能となります．
-                        </p>
+	                <p>Shadow.el は Emacs に <a href="https://github.com/ujihisa/shadow.vim/">Shadow.vim</a> と同様の機能 + α を追加する elisp です．この elisp を導入することで，</p>
+                        <ul>
+                            <li>ファイルを保存するたびに</li>
+                            <li>指定されたコマンドを実行し</li>
+                            <li>実行結果を保存する</li>
+                        </ul>
+                        <p>という一連の作業を行なうことが可能となります．</p>
 	            </div>
 
 	            <div class="product">
