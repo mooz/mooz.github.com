@@ -14,6 +14,11 @@ body {
     padding               : 0px;
 }
 
+@font-face {
+    font-family: "title";
+    src: url(CaviarDreams.ttf);
+}
+
 /* ======================================================================
    href
    ====================================================================== */
@@ -50,7 +55,7 @@ a:hover, a:active {
    ====================================================================== */
 
 h1 {
-    font-family    : "Gill Sans", Helvetica, Arial, sans-serif;
+    font-family    : "title", "Gill Sans", Helvetica, Arial, sans-serif;
     font-weight    : 400;
     letter-spacing : 1px;
     line-height    : 20px;
@@ -127,6 +132,7 @@ h2 {
     border-left  : 3px solid #9c5288;
     padding-left : 10px;
     margin       : 14px 0px;
+    font-size   : 90%;
 }
 
 .product > a > img {
@@ -140,8 +146,8 @@ h2 {
 }
 
 .product p {
-    width       : 500px;
-    font-size   : 90%;
+    max-width   : 80%;
+    min-width   : 500px;
 }
 
 /* ======================================================================
