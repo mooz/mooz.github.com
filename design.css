@@ -50,6 +50,10 @@ a:hover, a:active {
     border-bottom-right-radius         : 10px;
 }
 
+#container p {
+    margin: 8px 0;
+}
+
 /* ======================================================================
    h1. Title
    ====================================================================== */
@@ -99,6 +103,14 @@ h2 {
 
 .syntax-comment {
     color : #4a4a4a;
+}
+
+/* ======================================================================
+   Donation
+   ====================================================================== */
+
+.block-content {
+    padding : 0 16px;
 }
 
 /* ======================================================================
@@ -238,6 +250,7 @@ dl dd li {
     list-style-position : outside;
 }
 
+.blogspot    { background-image : url('icons/blogspot.ico'); background-size: 16px 16px; }
 .hatena      { background-image : url('icons/hatena16.ico'); }
 .twitter     { background-image : url('icons/twitter16.ico'); }
 .github      { background-image : url('icons/github16.png'); }
