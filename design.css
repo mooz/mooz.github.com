@@ -4,7 +4,7 @@ html {
 body {
     background-color      : #c791b9;
     font-family           : 'Trebuchet MS', Arial, Helvetica, sans-serif;
-    font-size             : 100%;
+    font-size             : 120%;
     height                : 100%;
     background-image      : url("./image/eye-p.png");
     background-repeat     : no-repeat;
@@ -38,7 +38,7 @@ a:hover, a:active {
 #container {
     color                              : #1a1a1a;
     background-color                   : white;
-    max-width                          : 900px;
+    max-width                          : 70%;
     height                             : 100%;
     margin                             : 20px 0px;
     padding                            : 15px;
@@ -51,7 +51,7 @@ a:hover, a:active {
 }
 
 #container p {
-    margin: 8px 0;
+    margin: 1em 0;
 }
 
 /* ======================================================================
@@ -144,7 +144,7 @@ h2 {
     border-left  : 3px solid #9c5288;
     padding-left : 10px;
     margin       : 14px 0px;
-    font-size   : 90%;
+    /* font-size   : 90%; */
 }
 
 .product > a > img {
