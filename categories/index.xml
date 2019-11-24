@@ -5,7 +5,7 @@
     <link>https://mooz.github.io/categories/</link>
       <atom:link href="https://mooz.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 24 Nov 2019 11:58:03 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 24 Nov 2019 07:40:01 +0000</lastBuildDate>
     <image>
       <url>https://mooz.github.io/img/icon-192.png</url>
       <title>Categories</title>
@@ -15,48 +15,8 @@
     <item>
       <title>Emacs</title>
       <link>https://mooz.github.io/categories/emacs/</link>
-      <pubDate>Sun, 24 Nov 2019 11:58:03 +0000</pubDate>
+      <pubDate>Sun, 24 Nov 2019 07:40:01 +0000</pubDate>
       <guid>https://mooz.github.io/categories/emacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JavaScript</title>
-      <link>https://mooz.github.io/categories/javascript/</link>
-      <pubDate>Sun, 24 Nov 2019 11:58:03 +0000</pubDate>
-      <guid>https://mooz.github.io/categories/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://mooz.github.io/categories/python/</link>
-      <pubDate>Sun, 24 Nov 2019 07:40:18 +0000</pubDate>
-      <guid>https://mooz.github.io/categories/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terminal</title>
-      <link>https://mooz.github.io/categories/terminal/</link>
-      <pubDate>Sun, 24 Nov 2019 07:40:18 +0000</pubDate>
-      <guid>https://mooz.github.io/categories/terminal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Firefox</title>
-      <link>https://mooz.github.io/categories/firefox/</link>
-      <pubDate>Sun, 24 Nov 2019 07:40:14 +0000</pubDate>
-      <guid>https://mooz.github.io/categories/firefox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://mooz.github.io/categories/linux/</link>
-      <pubDate>Sun, 24 Nov 2019 07:40:05 +0000</pubDate>
-      <guid>https://mooz.github.io/categories/linux/</guid>
       <description></description>
     </item>
     
@@ -65,6 +25,46 @@
       <link>https://mooz.github.io/categories/ios/</link>
       <pubDate>Sun, 24 Nov 2019 07:40:01 +0000</pubDate>
       <guid>https://mooz.github.io/categories/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://mooz.github.io/categories/linux/</link>
+      <pubDate>Sat, 23 Nov 2019 07:40:05 +0000</pubDate>
+      <guid>https://mooz.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://mooz.github.io/categories/python/</link>
+      <pubDate>Sat, 23 Nov 2019 07:40:05 +0000</pubDate>
+      <guid>https://mooz.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>https://mooz.github.io/categories/terminal/</link>
+      <pubDate>Thu, 21 Nov 2019 07:40:18 +0000</pubDate>
+      <guid>https://mooz.github.io/categories/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firefox</title>
+      <link>https://mooz.github.io/categories/firefox/</link>
+      <pubDate>Wed, 20 Nov 2019 07:40:14 +0000</pubDate>
+      <guid>https://mooz.github.io/categories/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://mooz.github.io/categories/javascript/</link>
+      <pubDate>Tue, 19 Nov 2019 11:44:43 +0000</pubDate>
+      <guid>https://mooz.github.io/categories/javascript/</guid>
       <description></description>
     </item>
     
