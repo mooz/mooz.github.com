@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Masafumi Oyamada</title>
+    <link>https://mooz.github.io/project/</link>
+      <atom:link href="https://mooz.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 24 Nov 2019 11:58:03 +0000</lastBuildDate>
+    <image>
+      <url>https://mooz.github.io/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>https://mooz.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>org-js</title>
+      <link>https://mooz.github.io/project/org-js/</link>
+      <pubDate>Sun, 24 Nov 2019 11:58:03 +0000</pubDate>
+      <guid>https://mooz.github.io/project/org-js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chaotic Canvas</title>
+      <link>https://mooz.github.io/project/cc/</link>
+      <pubDate>Sun, 24 Nov 2019 11:44:56 +0000</pubDate>
+      <guid>https://mooz.github.io/project/cc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zlc.el</title>
+      <link>https://mooz.github.io/project/zlc/</link>
+      <pubDate>Sun, 24 Nov 2019 11:44:51 +0000</pubDate>
+      <guid>https://mooz.github.io/project/zlc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiSPLi</title>
+      <link>https://mooz.github.io/project/mispli/</link>
+      <pubDate>Sun, 24 Nov 2019 11:44:43 +0000</pubDate>
+      <guid>https://mooz.github.io/project/mispli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>percol</title>
+      <link>https://mooz.github.io/project/percol/</link>
+      <pubDate>Sun, 24 Nov 2019 07:40:18 +0000</pubDate>
+      <guid>https://mooz.github.io/project/percol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KeySnail</title>
+      <link>https://mooz.github.io/project/keysnail/</link>
+      <pubDate>Sun, 24 Nov 2019 07:40:14 +0000</pubDate>
+      <guid>https://mooz.github.io/project/keysnail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xKeySnail</title>
+      <link>https://mooz.github.io/project/xkeysnail/</link>
+      <pubDate>Sun, 24 Nov 2019 07:40:05 +0000</pubDate>
+      <guid>https://mooz.github.io/project/xkeysnail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iKeySnail</title>
+      <link>https://mooz.github.io/project/ikeysnail/</link>
+      <pubDate>Sun, 24 Nov 2019 07:40:01 +0000</pubDate>
+      <guid>https://mooz.github.io/project/ikeysnail/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

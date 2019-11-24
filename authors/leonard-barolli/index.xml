@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leonard Barolli | Masafumi Oyamada</title>
+    <link>https://mooz.github.io/authors/leonard-barolli/</link>
+      <atom:link href="https://mooz.github.io/authors/leonard-barolli/index.xml" rel="self" type="application/rss+xml" />
+    <description>Leonard Barolli</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mooz.github.io/img/icon-192.png</url>
+      <title>Leonard Barolli</title>
+      <link>https://mooz.github.io/authors/leonard-barolli/</link>
+    </image>
+    
+    <item>
+      <title>2011 International Conference on P2P, Parallel, Grid, Cloud and Internet Computing, 3PGCIC 2011, Barcelona, Catalonia, Spain, October 26-28, 2011</title>
+      <link>https://mooz.github.io/publication/dblp-conf-3-pgcic-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/dblp-conf-3-pgcic-2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

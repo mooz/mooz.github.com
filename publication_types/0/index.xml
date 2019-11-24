@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | Masafumi Oyamada</title>
+    <link>https://mooz.github.io/publication_types/0/</link>
+      <atom:link href="https://mooz.github.io/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mooz.github.io/img/icon-192.png</url>
+      <title>0</title>
+      <link>https://mooz.github.io/publication_types/0/</link>
+    </image>
+    
+    <item>
+      <title>The Thirty-Third AAAI Conference on Artificial Intelligence, AAAI 2019, The Thirty-First Innovative Applications of Artificial Intelligence Conference, IAAI 2019, The Ninth AAAI Symposium on Educational Advances in Artificial Intelligence, EAAI 2019, Honolulu, Hawaii, USA, January 27 - February 1, 2019</title>
+      <link>https://mooz.github.io/publication/dblp-confaaai-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/dblp-confaaai-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IEEE International Conference on Big Data, Big Data 2018, Seattle, WA, USA, December 10-13, 2018</title>
+      <link>https://mooz.github.io/publication/dblp-confbigdataconf-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/dblp-confbigdataconf-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2017 IEEE International Conference on Data Mining, ICDM 2017, New Orleans, LA, USA, November 18-21, 2017</title>
+      <link>https://mooz.github.io/publication/dblp-conficdm-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/dblp-conficdm-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advances in Knowledge Discovery and Data Mining - 21st Pacific-Asia Conference, PAKDD 2017, Jeju, South Korea, May 23-26, 2017, Proceedings, Part I</title>
+      <link>https://mooz.github.io/publication/dblp-confpakdd-2017-1/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/dblp-confpakdd-2017-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Technologies and Applications - 16th Asia-Pacific Web Conference, APWeb 2014, Changsha, China, September 5-7, 2014. Proceedings</title>
+      <link>https://mooz.github.io/publication/dblp-confapweb-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/dblp-confapweb-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 28th Annual ACM Symposium on Applied Computing, SAC &#39;13, Coimbra, Portugal, March 18-22, 2013</title>
+      <link>https://mooz.github.io/publication/dblp-confsac-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/dblp-confsac-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2011 International Conference on P2P, Parallel, Grid, Cloud and Internet Computing, 3PGCIC 2011, Barcelona, Catalonia, Spain, October 26-28, 2011</title>
+      <link>https://mooz.github.io/publication/dblp-conf-3-pgcic-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/dblp-conf-3-pgcic-2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

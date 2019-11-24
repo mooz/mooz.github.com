@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>George Karypis | Masafumi Oyamada</title>
+    <link>https://mooz.github.io/authors/george-karypis/</link>
+      <atom:link href="https://mooz.github.io/authors/george-karypis/index.xml" rel="self" type="application/rss+xml" />
+    <description>George Karypis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mooz.github.io/img/icon-192.png</url>
+      <title>George Karypis</title>
+      <link>https://mooz.github.io/authors/george-karypis/</link>
+    </image>
+    
+    <item>
+      <title>2017 IEEE International Conference on Data Mining, ICDM 2017, New Orleans, LA, USA, November 18-21, 2017</title>
+      <link>https://mooz.github.io/publication/dblp-conficdm-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/dblp-conficdm-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
