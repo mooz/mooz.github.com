@@ -28,10 +28,8 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="A recent trend in data stream processing shows the use of advanced continuous queries (CQs) that reference non-streaming resources such as relational data in databases and machine learning models. Since non-streaming resources could be shared among multiple systems, resources may be updated by the systems during the CQ execution. As a consequence, CQs may reference resources inconsistently, and lead to a wide range of problems from inappropriate results to fatal system failures.">
 
-  
-  <link rel="alternate" hreflang="ja" href="https://mooz.github.io/ja/publication/sac2013-transactional-stream/">
   
   <link rel="alternate" hreflang="en-us" href="https://mooz.github.io/publication/sac2013-transactional-stream/">
 
@@ -109,16 +107,15 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Masafumi Oyamada">
   <meta property="og:url" content="https://mooz.github.io/publication/sac2013-transactional-stream/">
   <meta property="og:title" content="Continuous Query Processing with Concurrency Control: Reading Updatable Resources Consistently | Masafumi Oyamada">
-  <meta property="og:description" content=""><meta property="og:image" content="https://mooz.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://mooz.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="A recent trend in data stream processing shows the use of advanced continuous queries (CQs) that reference non-streaming resources such as relational data in databases and machine learning models. Since non-streaming resources could be shared among multiple systems, resources may be updated by the systems during the CQ execution. As a consequence, CQs may reference resources inconsistently, and lead to a wide range of problems from inappropriate results to fatal system failures."><meta property="og:image" content="https://mooz.github.io/publication/sac2013-transactional-stream/featured.png">
+  <meta property="twitter:image" content="https://mooz.github.io/publication/sac2013-transactional-stream/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-11-24T07:22:01&#43;00:00">
@@ -151,6 +148,10 @@
   },
   "headline": "Continuous Query Processing with Concurrency Control: Reading Updatable Resources Consistently",
   
+  "image": [
+    "https://mooz.github.io/publication/sac2013-transactional-stream/featured.png"
+  ],
+  
   "datePublished": "2019-11-24T07:22:01Z",
   "dateModified": "2013-01-01T00:00:00Z",
   
@@ -167,7 +168,7 @@
       "url": "https://mooz.github.io/img/icon-512.png"
     }
   },
-  "description": ""
+  "description": "A recent trend in data stream processing shows the use of advanced continuous queries (CQs) that reference non-streaming resources such as relational data in databases and machine learning models. Since non-streaming resources could be shared among multiple systems, resources may be updated by the systems during the CQ execution. As a consequence, CQs may reference resources inconsistently, and lead to a wide range of problems from inappropriate results to fatal system failures."
 }
 </script>
 
@@ -380,22 +381,6 @@
       
 
       
-      <li class="nav-item dropdown i18n-dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">English</span>
-        </a>
-        <div class="dropdown-menu">
-          <div class="dropdown-item i18n-active font-weight-bold">
-            <span>English</span>
-          </div>
-          
-          <a class="dropdown-item" href="/ja/publication/sac2013-transactional-stream/">
-            <span>日本語</span>
-          </a>
-          
-        </div>
-      </li>
-      
 
     </ul>
 
@@ -418,18 +403,24 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
-  
+
+
 <div class="article-container pt-3">
   <h1>Continuous Query Processing with Concurrency Control: Reading Updatable Resources Consistently</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -473,7 +464,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -538,7 +529,14 @@
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 627px; max-height: 715px;">
+  <div style="position: relative">
+    <img src="/publication/sac2013-transactional-stream/featured.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -574,7 +572,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">SAC 2013</div>
+          <div class="col-12 col-md-9">ACM SAC 2013</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -584,7 +582,23 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"></div>
+    <div class="article-style"><p>A recent trend in data stream processing shows the use of advanced continuous
+queries (CQs) that reference non-streaming resources such as relational data in
+databases and machine learning models. Since non-streaming resources could be
+shared among multiple systems, resources may be updated by the systems during
+the CQ execution. As a consequence, CQs may reference resources inconsistently,
+and lead to a wide range of problems from inappropriate results to fatal system
+failures. We address this inconsistency problem by introducing the concept of
+transaction processing onto data stream processing. We introduce CQ-derived
+transaction, a concept that derives read-only transactions from CQs, and
+illustrate that the inconsistency problem is solved by ensuring serializability
+of derived transactions and resource updating transactions. To ensure
+serializability, we propose three CQ-processing strategies based on concurrency
+control techniques: two-phase lock strategy, snapshot strategy, and optimistic
+strategy. Experimental study shows our CQ-processing strategies guarantee proper
+results, and their performances are comparable to the performance of
+conventional strategy that could produce improper results.</p>
+</div>
 
     
 
