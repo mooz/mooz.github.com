@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Katsufumi Tomobe | Masafumi Oyamada</title>
+    <link>https://mooz.github.io/authors/katsufumi-tomobe/</link>
+      <atom:link href="https://mooz.github.io/authors/katsufumi-tomobe/index.xml" rel="self" type="application/rss+xml" />
+    <description>Katsufumi Tomobe</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Link Prediction for Isolated Nodes in Heterogeneous Network by Topic-Based Co-clustering</title>
+      <link>https://mooz.github.io/publication/pakdd2017-topic-bi-clustering/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/pakdd2017-topic-bi-clustering/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

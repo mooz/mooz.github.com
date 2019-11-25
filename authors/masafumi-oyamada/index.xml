@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Masafumi Oyamada</title>
+    <link>https://mooz.github.io/authors/masafumi-oyamada/</link>
+      <atom:link href="https://mooz.github.io/authors/masafumi-oyamada/index.xml" rel="self" type="application/rss+xml" />
+    <description>Masafumi Oyamada</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Learning from Unsure Responses</title>
+      <link>https://mooz.github.io/publication/aaai2020-unsure-loss/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/aaai2020-unsure-loss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extracting Feature Engineering Knowledge from Data Science Notebooks</title>
+      <link>https://mooz.github.io/publication/bigdata2019-script-analysis/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/bigdata2019-script-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iKeySnail</title>
+      <link>https://mooz.github.io/project/ikeysnail/</link>
+      <pubDate>Sun, 24 Nov 2019 07:40:01 +0000</pubDate>
+      <guid>https://mooz.github.io/project/ikeysnail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xKeySnail</title>
+      <link>https://mooz.github.io/project/xkeysnail/</link>
+      <pubDate>Sat, 23 Nov 2019 07:40:05 +0000</pubDate>
+      <guid>https://mooz.github.io/project/xkeysnail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>percol</title>
+      <link>https://mooz.github.io/project/percol/</link>
+      <pubDate>Thu, 21 Nov 2019 07:40:18 +0000</pubDate>
+      <guid>https://mooz.github.io/project/percol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KeySnail</title>
+      <link>https://mooz.github.io/project/keysnail/</link>
+      <pubDate>Wed, 20 Nov 2019 07:40:14 +0000</pubDate>
+      <guid>https://mooz.github.io/project/keysnail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiSPLi</title>
+      <link>https://mooz.github.io/project/mispli/</link>
+      <pubDate>Tue, 19 Nov 2019 11:44:43 +0000</pubDate>
+      <guid>https://mooz.github.io/project/mispli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>org-js</title>
+      <link>https://mooz.github.io/project/org-js/</link>
+      <pubDate>Mon, 18 Nov 2019 11:58:03 +0000</pubDate>
+      <guid>https://mooz.github.io/project/org-js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zlc.el</title>
+      <link>https://mooz.github.io/project/zlc/</link>
+      <pubDate>Sun, 17 Nov 2019 11:44:51 +0000</pubDate>
+      <guid>https://mooz.github.io/project/zlc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chaotic Canvas</title>
+      <link>https://mooz.github.io/project/cc/</link>
+      <pubDate>Sat, 16 Nov 2019 11:44:56 +0000</pubDate>
+      <guid>https://mooz.github.io/project/cc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meimei: An Efficient Probabilistic Approach for Semantically Annotating Tables</title>
+      <link>https://mooz.github.io/publication/aaai2019-meimei/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/aaai2019-meimei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Feature Engineering with Adaptive Partial Aggregation Tree</title>
+      <link>https://mooz.github.io/publication/bigdata2018-apa-tree/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/bigdata2018-apa-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compressed Vector Set: A Fast and Space-Efficient Data Mining Framework</title>
+      <link>https://mooz.github.io/publication/jip2018-compressed-machine-learning/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/jip2018-compressed-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Relational Mixture of Experts: Explainable Demographics Prediction with Behavioral Data</title>
+      <link>https://mooz.github.io/publication/icdm2017-relational-mixture-of-experts/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/icdm2017-relational-mixture-of-experts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Link Prediction for Isolated Nodes in Heterogeneous Network by Topic-Based Co-clustering</title>
+      <link>https://mooz.github.io/publication/pakdd2017-topic-bi-clustering/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/pakdd2017-topic-bi-clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MOARLE: Matrix Operation Accelerator Based on Run-Length Encoding</title>
+      <link>https://mooz.github.io/publication/apweb2014-moarle/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/apweb2014-moarle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Stream Processing with Concurrency Control</title>
+      <link>https://mooz.github.io/publication/acr2013-transactional-stream/</link>
+      <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/acr2013-transactional-stream/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continuous Query Processing with Concurrency Control: Reading Updatable Resources Consistently</title>
+      <link>https://mooz.github.io/publication/sac2013-transactional-stream/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/sac2013-transactional-stream/</guid>
+      <description>&lt;p&gt;A recent trend in data stream processing shows the use of advanced continuous
+queries (CQs) that reference non-streaming resources such as relational data in
+databases and machine learning models. Since non-streaming resources could be
+shared among multiple systems, resources may be updated by the systems during
+the CQ execution. As a consequence, CQs may reference resources inconsistently,
+and lead to a wide range of problems from inappropriate results to fatal system
+failures. We address this inconsistency problem by introducing the concept of
+transaction processing onto data stream processing. We introduce CQ-derived
+transaction, a concept that derives read-only transactions from CQs, and
+illustrate that the inconsistency problem is solved by ensuring serializability
+of derived transactions and resource updating transactions. To ensure
+serializability, we propose three CQ-processing strategies based on concurrency
+control techniques: two-phase lock strategy, snapshot strategy, and optimistic
+strategy. Experimental study shows our CQ-processing strategies guarantee proper
+results, and their performances are comparable to the performance of
+conventional strategy that could produce improper results.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient Invocation of Transaction Sequences Triggered by Data Streams</title>
+      <link>https://mooz.github.io/publication/3pgcic2011-sequential-transaction/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/3pgcic2011-sequential-transaction/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
