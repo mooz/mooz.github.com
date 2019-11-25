@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux | Masafumi Oyamada (小山田 昌史)</title>
+    <title>Linux | Masafumi Oyamada</title>
     <link>https://mooz.github.io/ja/categories/linux/</link>
       <atom:link href="https://mooz.github.io/ja/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <description>Linux</description>
