@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux | Masafumi Oyamada (小山田 昌史)</title>
+    <link>https://mooz.github.io/ja/categories/linux/</link>
+      <atom:link href="https://mooz.github.io/ja/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <description>Linux</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Sat, 23 Nov 2019 07:40:05 +0000</lastBuildDate>
+    <image>
+      <url>https://mooz.github.io/img/icon-192.png</url>
+      <title>Linux</title>
+      <link>https://mooz.github.io/ja/categories/linux/</link>
+    </image>
+    
+    <item>
+      <title>xKeySnail</title>
+      <link>https://mooz.github.io/ja/project/xkeysnail/</link>
+      <pubDate>Sat, 23 Nov 2019 07:40:05 +0000</pubDate>
+      <guid>https://mooz.github.io/ja/project/xkeysnail/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

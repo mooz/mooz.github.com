@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript | Masafumi Oyamada (小山田 昌史)</title>
+    <link>https://mooz.github.io/ja/categories/javascript/</link>
+      <atom:link href="https://mooz.github.io/ja/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <description>JavaScript</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Tue, 19 Nov 2019 11:44:43 +0000</lastBuildDate>
+    <image>
+      <url>https://mooz.github.io/img/icon-192.png</url>
+      <title>JavaScript</title>
+      <link>https://mooz.github.io/ja/categories/javascript/</link>
+    </image>
+    
+    <item>
+      <title>MiSPLi</title>
+      <link>https://mooz.github.io/ja/project/mispli/</link>
+      <pubDate>Tue, 19 Nov 2019 11:44:43 +0000</pubDate>
+      <guid>https://mooz.github.io/ja/project/mispli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>org-js</title>
+      <link>https://mooz.github.io/ja/project/org-js/</link>
+      <pubDate>Mon, 18 Nov 2019 11:58:03 +0000</pubDate>
+      <guid>https://mooz.github.io/ja/project/org-js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chaotic Canvas</title>
+      <link>https://mooz.github.io/ja/project/cc/</link>
+      <pubDate>Sat, 16 Nov 2019 11:44:56 +0000</pubDate>
+      <guid>https://mooz.github.io/ja/project/cc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

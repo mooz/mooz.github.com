@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shinji Ito | Masafumi Oyamada (小山田 昌史)</title>
+    <link>https://mooz.github.io/ja/authors/shinji-ito/</link>
+      <atom:link href="https://mooz.github.io/ja/authors/shinji-ito/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shinji Ito</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mooz.github.io/img/icon-192.png</url>
+      <title>Shinji Ito</title>
+      <link>https://mooz.github.io/ja/authors/shinji-ito/</link>
+    </image>
+    
+    <item>
+      <title>Compressed Vector Set: A Fast and Space-Efficient Data Mining Framework</title>
+      <link>https://mooz.github.io/ja/publication/jip2018-compressed-machine-learning/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/ja/publication/jip2018-compressed-machine-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
