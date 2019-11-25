@@ -63,21 +63,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/authors/masafumi-oyamada/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/authors/masafumi-oyamada/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/authors/masafumi-oyamada/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -89,6 +74,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/authors/masafumi-oyamada/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/masafumi-oyamada/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/masafumi-oyamada/"
                 />
   </url>
   
@@ -168,21 +168,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/tags/emacs/</loc>
-    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/tags/emacs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/tags/emacs/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/categories/emacs/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -194,6 +179,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/categories/emacs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/tags/emacs/</loc>
+    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/tags/emacs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/tags/emacs/"
                 />
   </url>
   
@@ -393,21 +393,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/tags/firefox/</loc>
-    <lastmod>2019-11-20T07:40:14+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/tags/firefox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/tags/firefox/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/categories/firefox/</loc>
     <lastmod>2019-11-20T07:40:14+00:00</lastmod>
     <xhtml:link
@@ -419,6 +404,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/categories/firefox/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/tags/firefox/</loc>
+    <lastmod>2019-11-20T07:40:14+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/tags/firefox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/tags/firefox/"
                 />
   </url>
   
@@ -438,21 +438,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/javascript/</loc>
-    <lastmod>2019-11-19T11:44:43+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/javascript/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/javascript/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/tags/javascript/</loc>
     <lastmod>2019-11-19T11:44:43+00:00</lastmod>
     <xhtml:link
@@ -464,6 +449,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/tags/javascript/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/categories/javascript/</loc>
+    <lastmod>2019-11-19T11:44:43+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/categories/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/categories/javascript/"
                 />
   </url>
   
