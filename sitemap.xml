@@ -58,12 +58,12 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/emacs/</loc>
+    <loc>https://mooz.github.io/tags/emacs/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mooz.github.io/tags/emacs/</loc>
+    <loc>https://mooz.github.io/categories/emacs/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
   </url>
   
@@ -73,12 +73,12 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/tags/ios/</loc>
+    <loc>https://mooz.github.io/categories/ios/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/ios/</loc>
+    <loc>https://mooz.github.io/tags/ios/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
   </url>
   
@@ -123,22 +123,22 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/terminal/</loc>
-    <lastmod>2019-11-21T07:40:18+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/tags/terminal/</loc>
     <lastmod>2019-11-21T07:40:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/firefox/</loc>
-    <lastmod>2019-11-20T07:40:14+00:00</lastmod>
+    <loc>https://mooz.github.io/categories/terminal/</loc>
+    <lastmod>2019-11-21T07:40:18+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mooz.github.io/tags/firefox/</loc>
+    <lastmod>2019-11-20T07:40:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/categories/firefox/</loc>
     <lastmod>2019-11-20T07:40:14+00:00</lastmod>
   </url>
   
@@ -148,12 +148,12 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/javascript/</loc>
+    <loc>https://mooz.github.io/tags/javascript/</loc>
     <lastmod>2019-11-19T11:44:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mooz.github.io/tags/javascript/</loc>
+    <loc>https://mooz.github.io/categories/javascript/</loc>
     <lastmod>2019-11-19T11:44:43+00:00</lastmod>
   </url>
   
