@@ -93,6 +93,42 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9403056-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-9403056-4', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -275,6 +311,35 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/ja/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ja/#hiring"><span>Project</span></a>
         </li>
 
         
@@ -500,6 +565,41 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  <a class="btn btn-outline-primary my-1" href="https://github.com/mooz/emacs-zlc/" target="_blank" rel="noopener">プロジェクトのサイトへ</a>
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
 </div>
 
@@ -666,6 +766,17 @@
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>関連項目</h3>
+    <ul>
+      
+      <li><a href="/ja/project/js-doc/">js-doc.el</a></li>
+      
+      <li><a href="/ja/project/lemon-mode/">lemon-mode.el</a></li>
+      
+    </ul>
+  </div>
   
 
 

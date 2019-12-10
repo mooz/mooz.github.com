@@ -93,6 +93,42 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9403056-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-9403056-4', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -254,6 +290,35 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/ja/#hiring"><span>Project</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/ja/#projects"><span>Software</span></a>
         </li>
 
@@ -386,57 +451,6 @@
 </div>
 
 
-
-<div class="universal-wrapper">
-  
-
-  <ul>
-    
-    
-      
-      <li><a href="https://mooz.github.io/ja/authors/kunihiro-takeoka/">Kunihiro Takeoka</a></li>
-    
-      
-      <li><a href="https://mooz.github.io/ja/authors/masafumi-oyamada/">Masafumi Oyamada</a></li>
-    
-      
-      <li><a href="https://mooz.github.io/ja/authors/yuyang-dong/">Yuyang Dong</a></li>
-    
-      
-      <li><a href="https://mooz.github.io/ja/authors/shinji-nakadai/">Shinji Nakadai</a></li>
-    
-      
-      <li><a href="https://mooz.github.io/ja/authors/takeshi-okadome/">Takeshi Okadome</a></li>
-    
-      
-      <li><a href="https://mooz.github.io/ja/authors/hiroyuki-kitagawa/">Hiroyuki Kitagawa</a></li>
-    
-      
-      <li><a href="https://mooz.github.io/ja/authors/jianquan-liu/">Jianquan Liu</a></li>
-    
-      
-      <li><a href="https://mooz.github.io/ja/authors/kazuyo-narita/">Kazuyo Narita</a></li>
-    
-      
-      <li><a href="https://mooz.github.io/ja/authors/shinji-ito/">Shinji Ito</a></li>
-    
-      
-      <li><a href="https://mooz.github.io/ja/authors/takuya-araki/">Takuya Araki</a></li>
-    
-  </ul>
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
-    
-    
-    <li class="page-item"><a class="page-link" href="/ja/authors/page/2/">&raquo;</a></li>
-    
-  </ul>
-</nav>
-
-
-</div>
 
       
 

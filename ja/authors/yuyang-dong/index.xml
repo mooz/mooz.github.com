@@ -6,12 +6,6 @@
       <atom:link href="https://mooz.github.io/ja/authors/yuyang-dong/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuyang Dong</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://mooz.github.io/img/icon-192.png</url>
-      <title>Yuyang Dong</title>
-      <link>https://mooz.github.io/ja/authors/yuyang-dong/</link>
-    </image>
-    
     <item>
       <title>Learning from Unsure Responses</title>
       <link>https://mooz.github.io/ja/publication/aaai2020-unsure-loss/</link>

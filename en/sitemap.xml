@@ -63,21 +63,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/authors/masafumi-oyamada/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -89,6 +74,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/authors/masafumi-oyamada/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/"
                 />
   </url>
   
@@ -213,21 +213,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/tags/ios/</loc>
-    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/tags/ios/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/tags/ios/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/categories/ios/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -239,6 +224,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/categories/ios/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/tags/ios/</loc>
+    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/tags/ios/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/tags/ios/"
                 />
   </url>
   
@@ -363,21 +363,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/terminal/</loc>
-    <lastmod>2019-11-21T07:40:18+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/terminal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/terminal/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/tags/terminal/</loc>
     <lastmod>2019-11-21T07:40:18+00:00</lastmod>
     <xhtml:link
@@ -389,6 +374,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/tags/terminal/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/categories/terminal/</loc>
+    <lastmod>2019-11-21T07:40:18+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/categories/terminal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/categories/terminal/"
                 />
   </url>
   
@@ -438,21 +438,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/tags/javascript/</loc>
-    <lastmod>2019-11-19T11:44:43+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/tags/javascript/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/tags/javascript/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/categories/javascript/</loc>
     <lastmod>2019-11-19T11:44:43+00:00</lastmod>
     <xhtml:link
@@ -464,6 +449,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/categories/javascript/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/tags/javascript/</loc>
+    <lastmod>2019-11-19T11:44:43+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/tags/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/tags/javascript/"
                 />
   </url>
   
@@ -524,6 +524,36 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/project/cc/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/project/js-doc/</loc>
+    <lastmod>2019-11-10T10:36:26+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/project/js-doc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/project/js-doc/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/project/lemon-mode/</loc>
+    <lastmod>2019-11-06T10:34:37+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/project/lemon-mode/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/project/lemon-mode/"
                 />
   </url>
   
@@ -810,6 +840,11 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/3pgcic2011-sequential-transaction/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/authors/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

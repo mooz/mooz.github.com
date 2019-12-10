@@ -6,12 +6,6 @@
       <atom:link href="https://mooz.github.io/ja/authors/takuya-araki/index.xml" rel="self" type="application/rss+xml" />
     <description>Takuya Araki</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://mooz.github.io/img/icon-192.png</url>
-      <title>Takuya Araki</title>
-      <link>https://mooz.github.io/ja/authors/takuya-araki/</link>
-    </image>
-    
     <item>
       <title>Compressed Vector Set: A Fast and Space-Efficient Data Mining Framework</title>
       <link>https://mooz.github.io/ja/publication/jip2018-compressed-machine-learning/</link>

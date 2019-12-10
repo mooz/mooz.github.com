@@ -76,5 +76,21 @@
       <description></description>
     </item>
     
+    <item>
+      <title>js-doc.el</title>
+      <link>https://mooz.github.io/project/js-doc/</link>
+      <pubDate>Sun, 10 Nov 2019 10:36:26 +0000</pubDate>
+      <guid>https://mooz.github.io/project/js-doc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lemon-mode.el</title>
+      <link>https://mooz.github.io/project/lemon-mode/</link>
+      <pubDate>Wed, 06 Nov 2019 10:34:37 +0000</pubDate>
+      <guid>https://mooz.github.io/project/lemon-mode/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

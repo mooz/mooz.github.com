@@ -6,11 +6,5 @@
       <atom:link href="https://mooz.github.io/ja/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Masafumi Oyamada</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language>
-    <image>
-      <url>https://mooz.github.io/img/icon-192.png</url>
-      <title>Masafumi Oyamada</title>
-      <link>https://mooz.github.io/ja/authors/admin/</link>
-    </image>
-    
   </channel>
 </rss>

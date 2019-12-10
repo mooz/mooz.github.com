@@ -6,12 +6,6 @@
       <atom:link href="https://mooz.github.io/ja/authors/shinji-nakadai/index.xml" rel="self" type="application/rss+xml" />
     <description>Shinji Nakadai</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://mooz.github.io/img/icon-192.png</url>
-      <title>Shinji Nakadai</title>
-      <link>https://mooz.github.io/ja/authors/shinji-nakadai/</link>
-    </image>
-    
     <item>
       <title>Meimei: An Efficient Probabilistic Approach for Semantically Annotating Tables</title>
       <link>https://mooz.github.io/ja/publication/aaai2019-meimei/</link>
