@@ -63,21 +63,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/authors/masafumi-oyamada/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/authors/masafumi-oyamada/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/authors/masafumi-oyamada/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -89,6 +74,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/authors/masafumi-oyamada/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/masafumi-oyamada/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/masafumi-oyamada/"
                 />
   </url>
   
@@ -134,36 +134,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/authors/yuyang-dong/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://mooz.github.io/project/hogehoge/</loc>
-    <lastmod>2019-12-16T06:44:14+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/project/hogehoge/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/project/hogehoge/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://mooz.github.io/project/</loc>
-    <lastmod>2019-12-16T06:44:14+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/project/"
                 />
   </url>
   
@@ -243,6 +213,21 @@
   </url>
   
   <url>
+    <loc>https://mooz.github.io/categories/ios/</loc>
+    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/categories/ios/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/categories/ios/"
+                />
+  </url>
+  
+  <url>
     <loc>https://mooz.github.io/tags/ios/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -258,17 +243,17 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/ios/</loc>
+    <loc>https://mooz.github.io/project/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://mooz.github.io/ja/categories/ios/"
+                href="https://mooz.github.io/ja/project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mooz.github.io/categories/ios/"
+                href="https://mooz.github.io/project/"
                 />
   </url>
   
