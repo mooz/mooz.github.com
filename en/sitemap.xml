@@ -138,6 +138,36 @@
   </url>
   
   <url>
+    <loc>https://mooz.github.io/project/hogehoge/</loc>
+    <lastmod>2019-12-16T06:44:14+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/project/hogehoge/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/project/hogehoge/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/project/</loc>
+    <lastmod>2019-12-16T06:44:14+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/project/"
+                />
+  </url>
+  
+  <url>
     <loc>https://mooz.github.io/publication/bigdata2019-script-analysis/</loc>
     <lastmod>2019-12-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -168,21 +198,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/emacs/</loc>
-    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/emacs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/emacs/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/tags/emacs/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -194,6 +209,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/tags/emacs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/categories/emacs/</loc>
+    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/categories/emacs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/categories/emacs/"
                 />
   </url>
   
@@ -213,21 +243,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/ios/</loc>
-    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/ios/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/ios/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/tags/ios/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -243,17 +258,17 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/project/</loc>
+    <loc>https://mooz.github.io/categories/ios/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://mooz.github.io/ja/project/"
+                href="https://mooz.github.io/ja/categories/ios/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mooz.github.io/project/"
+                href="https://mooz.github.io/categories/ios/"
                 />
   </url>
   
@@ -273,21 +288,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/linux/</loc>
-    <lastmod>2019-11-23T07:40:05+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/linux/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/tags/linux/</loc>
     <lastmod>2019-11-23T07:40:05+00:00</lastmod>
     <xhtml:link
@@ -299,6 +299,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/tags/linux/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/categories/linux/</loc>
+    <lastmod>2019-11-23T07:40:05+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/categories/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/categories/linux/"
                 />
   </url>
   
@@ -438,21 +453,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/categories/javascript/</loc>
-    <lastmod>2019-11-19T11:44:43+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/javascript/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/javascript/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/tags/javascript/</loc>
     <lastmod>2019-11-19T11:44:43+00:00</lastmod>
     <xhtml:link
@@ -464,6 +464,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/tags/javascript/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/categories/javascript/</loc>
+    <lastmod>2019-11-19T11:44:43+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/categories/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/categories/javascript/"
                 />
   </url>
   

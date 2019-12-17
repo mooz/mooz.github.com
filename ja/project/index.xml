@@ -5,12 +5,20 @@
     <link>https://mooz.github.io/ja/project/</link>
       <atom:link href="https://mooz.github.io/ja/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Sun, 24 Nov 2019 07:40:01 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Mon, 16 Dec 2019 06:44:14 +0000</lastBuildDate>
     <image>
       <url>https://mooz.github.io/img/icon-192.png</url>
       <title>Projects</title>
       <link>https://mooz.github.io/ja/project/</link>
     </image>
+    
+    <item>
+      <title>Hogehoge</title>
+      <link>https://mooz.github.io/ja/project/hogehoge/</link>
+      <pubDate>Mon, 16 Dec 2019 06:44:14 +0000</pubDate>
+      <guid>https://mooz.github.io/ja/project/hogehoge/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>iKeySnail</title>
