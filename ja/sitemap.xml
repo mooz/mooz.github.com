@@ -168,21 +168,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/ja/tags/emacs/</loc>
-    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/tags/emacs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/tags/emacs/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/ja/categories/emacs/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -194,6 +179,21 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/categories/emacs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/tags/emacs/</loc>
+    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/tags/emacs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/tags/emacs/"
                 />
   </url>
   
@@ -213,21 +213,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/ja/categories/ios/</loc>
-    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/ios/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/ios/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/ja/tags/ios/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -239,6 +224,21 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/tags/ios/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/categories/ios/</loc>
+    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/categories/ios/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/categories/ios/"
                 />
   </url>
   
@@ -273,21 +273,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/ja/categories/linux/</loc>
-    <lastmod>2019-11-23T07:40:05+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/linux/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/ja/tags/linux/</loc>
     <lastmod>2019-11-23T07:40:05+00:00</lastmod>
     <xhtml:link
@@ -303,17 +288,17 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/ja/tags/python/</loc>
+    <loc>https://mooz.github.io/ja/categories/linux/</loc>
     <lastmod>2019-11-23T07:40:05+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://mooz.github.io/tags/python/"
+                href="https://mooz.github.io/categories/linux/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://mooz.github.io/ja/tags/python/"
+                href="https://mooz.github.io/ja/categories/linux/"
                 />
   </url>
   
@@ -329,6 +314,21 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/categories/python/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/tags/python/</loc>
+    <lastmod>2019-11-23T07:40:05+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/tags/python/"
                 />
   </url>
   
@@ -438,21 +438,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/ja/categories/javascript/</loc>
-    <lastmod>2019-11-19T11:44:43+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/javascript/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/javascript/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/ja/tags/javascript/</loc>
     <lastmod>2019-11-19T11:44:43+00:00</lastmod>
     <xhtml:link
@@ -464,6 +449,21 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/tags/javascript/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/categories/javascript/</loc>
+    <lastmod>2019-11-19T11:44:43+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/categories/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/categories/javascript/"
                 />
   </url>
   
