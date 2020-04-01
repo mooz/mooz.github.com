@@ -63,21 +63,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/ja/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/ja/authors/masafumi-oyamada/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -89,6 +74,21 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/authors/masafumi-oyamada/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/"
                 />
   </url>
   
@@ -168,21 +168,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/ja/categories/emacs/</loc>
-    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/emacs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/emacs/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/ja/tags/emacs/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -194,6 +179,21 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/tags/emacs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/categories/emacs/</loc>
+    <lastmod>2019-11-24T07:40:01+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/categories/emacs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/categories/emacs/"
                 />
   </url>
   
@@ -303,21 +303,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/ja/categories/python/</loc>
-    <lastmod>2019-11-23T07:40:05+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/python/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/ja/tags/python/</loc>
     <lastmod>2019-11-23T07:40:05+00:00</lastmod>
     <xhtml:link
@@ -329,6 +314,21 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/tags/python/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/categories/python/</loc>
+    <lastmod>2019-11-23T07:40:05+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/categories/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/categories/python/"
                 />
   </url>
   
@@ -363,21 +363,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/ja/categories/terminal/</loc>
-    <lastmod>2019-11-21T07:40:18+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/categories/terminal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/categories/terminal/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/ja/tags/terminal/</loc>
     <lastmod>2019-11-21T07:40:18+00:00</lastmod>
     <xhtml:link
@@ -389,6 +374,21 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/tags/terminal/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/categories/terminal/</loc>
+    <lastmod>2019-11-21T07:40:18+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/categories/terminal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/categories/terminal/"
                 />
   </url>
   

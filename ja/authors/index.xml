@@ -6,112 +6,11 @@
       <atom:link href="https://mooz.github.io/ja/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <item>
-      <title>Kunihiro Takeoka</title>
-      <link>https://mooz.github.io/ja/authors/kunihiro-takeoka/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/kunihiro-takeoka/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Masafumi Oyamada</title>
-      <link>https://mooz.github.io/ja/authors/masafumi-oyamada/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/masafumi-oyamada/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yuyang Dong</title>
-      <link>https://mooz.github.io/ja/authors/yuyang-dong/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/yuyang-dong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shinji Nakadai</title>
-      <link>https://mooz.github.io/ja/authors/shinji-nakadai/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/shinji-nakadai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Takeshi Okadome</title>
-      <link>https://mooz.github.io/ja/authors/takeshi-okadome/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/takeshi-okadome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hiroyuki Kitagawa</title>
-      <link>https://mooz.github.io/ja/authors/hiroyuki-kitagawa/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/hiroyuki-kitagawa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jianquan Liu</title>
-      <link>https://mooz.github.io/ja/authors/jianquan-liu/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/jianquan-liu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kazuyo Narita</title>
-      <link>https://mooz.github.io/ja/authors/kazuyo-narita/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/kazuyo-narita/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shinji Ito</title>
-      <link>https://mooz.github.io/ja/authors/shinji-ito/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/shinji-ito/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Takuya Araki</title>
-      <link>https://mooz.github.io/ja/authors/takuya-araki/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/takuya-araki/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Katsufumi Tomobe</title>
-      <link>https://mooz.github.io/ja/authors/katsufumi-tomobe/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/katsufumi-tomobe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hideyuki Kawashima</title>
-      <link>https://mooz.github.io/ja/authors/hideyuki-kawashima/</link>
-      <pubDate>Sat, 01 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/hideyuki-kawashima/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://mooz.github.io/ja/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mooz.github.io/ja/authors/admin/</guid>
-      <description>&lt;p&gt;「誰もがデータから価値を引き出せる世界」に向けて、
-&lt;i class=&#34;fas fa-database&#34;&gt;&lt;/i&gt; データベース技術 (DB) と
-&lt;i class=&#34;fas fa-brain&#34;&gt;&lt;/i&gt; 機械学習技術 (ML) との境目で研究に取り組んでいます。ときどき怠惰なプログラマです。&lt;/p&gt;
-</description>
-    </item>
+    <image>
+      <url>https://mooz.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://mooz.github.io/ja/authors/</link>
+    </image>
     
   </channel>
 </rss>
