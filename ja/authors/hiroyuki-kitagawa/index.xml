@@ -5,13 +5,40 @@
     <link>https://mooz.github.io/ja/authors/hiroyuki-kitagawa/</link>
       <atom:link href="https://mooz.github.io/ja/authors/hiroyuki-kitagawa/index.xml" rel="self" type="application/rss+xml" />
     <description>Hiroyuki Kitagawa</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mooz.github.io/images/icon_hud76b0b5cb03cbdbd01ad5fbc1aeef883_89416_512x512_fill_linear_center_2.png</url>
+      <title>Hiroyuki Kitagawa</title>
+      <link>https://mooz.github.io/ja/authors/hiroyuki-kitagawa/</link>
+    </image>
+    
+    <item>
+      <title>Continuous Top-k Spatial-Keyword Search on Dynamic Objects</title>
+      <link>https://mooz.github.io/ja/publication/journals-vldb-yuyang-xcytoh-20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/ja/publication/journals-vldb-yuyang-xcytoh-20/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Compressed Vector Set: A Fast and Space-Efficient Data Mining Framework</title>
       <link>https://mooz.github.io/ja/publication/jip2018-compressed-machine-learning/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://mooz.github.io/ja/publication/jip2018-compressed-machine-learning/</guid>
-      <description></description>
+      <description>&lt;p&gt;In this paper, we present CVS (Compressed Vector Set), a fast and
+space-efficient data mining framework that efficiently handles both sparse and
+dense datasets. CVS holds a set of vectors in a compressed format and conducts
+primitive vector operations, such as lp-norm and dot product, without
+decompression. By combining these primitive operations, CVS accelerates
+prominent data mining or machine learning algorithms including k-nearest
+neighbor algorithm, stochastic gradient descent algorithm on logistic
+regression, and kernel methods. In contrast to the commonly used sparse
+matrix/vector representation, which is not effective for dense datasets, CVS
+efficiently handles sparse datasets and dense datasets in a unified manner. Our
+experimental results demonstrate that CVS can process both dense datasets and
+sparse datasets faster than conventional sparse vector representation with
+smaller memory usage.&lt;/p&gt;
+</description>
     </item>
     
     <item>

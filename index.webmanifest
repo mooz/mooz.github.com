@@ -2,14 +2,14 @@
   "name": "Masafumi Oyamada",
   "short_name": "Masafumi Oyamada",
   "lang": "en-us",
-  "theme_color": "#0f4680",
-  "background_color": "#0f4680",
+  "theme_color": "#3f51b5",
+  "background_color": "#3f51b5",
   "icons": [{
-    "src": "../img/icon-192.png",
+    "src": "/images/icon_hud76b0b5cb03cbdbd01ad5fbc1aeef883_89416_192x192_fill_linear_center_2.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {
-    "src": "../img/icon-512.png",
+    "src": "/images/icon_hud76b0b5cb03cbdbd01ad5fbc1aeef883_89416_512x512_fill_linear_center_2.png",
     "sizes": "512x512",
     "type": "image/png"
      }],

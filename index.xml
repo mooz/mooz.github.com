@@ -7,17 +7,40 @@
     <description>Masafumi Oyamada</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://mooz.github.io/img/icon-192.png</url>
+      <url>https://mooz.github.io/images/icon_hud76b0b5cb03cbdbd01ad5fbc1aeef883_89416_512x512_fill_linear_center_2.png</url>
       <title>Masafumi Oyamada</title>
       <link>https://mooz.github.io/</link>
     </image>
+    
+    <item>
+      <title>Continuous Top-k Spatial-Keyword Search on Dynamic Objects</title>
+      <link>https://mooz.github.io/publication/journals-vldb-yuyang-xcytoh-20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/publication/journals-vldb-yuyang-xcytoh-20/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning from Unsure Responses</title>
       <link>https://mooz.github.io/publication/aaai2020-unsure-loss/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://mooz.github.io/publication/aaai2020-unsure-loss/</guid>
-      <description></description>
+      <description>&lt;p&gt;Many annotation systems provide to add an unsure option in the labels, because
+the annotators have different expertise, and they may not have enough confidence
+to choose a label for some assigned instances. However, all the existing
+approaches only learn the labels with a clear class name and ignore the unsure
+responses. Due to the unsure response also account for a proportion of the
+dataset (e.g., about 10-30% in real datasets), existing approaches lead to high
+costs such as paying more money or taking more time to collect enough size of
+labeled data. Therefore, it is a significant issue to make use of these unsure.&lt;/p&gt;
+&lt;p&gt;In this paper, we make the unsure responses contribute to training classifiers.
+We found a property that the instances corresponding to the unsure responses
+always appear close to the decision boundary of classification. We design a loss
+function called unsure loss based on this property. We extend the conventional
+methods for classification and learning from crowds with this unsure loss.
+Experimental results on realworld and synthetic data demonstrate the performance
+of our method and its superiority over baseline methods.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -25,7 +48,26 @@
       <link>https://mooz.github.io/publication/bigdata2019-script-analysis/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://mooz.github.io/publication/bigdata2019-script-analysis/</guid>
-      <description></description>
+      <description>&lt;p&gt;Designing good features for machine learning models, which is called
+feature-engineering, is one of the most important tasks in data analysis.
+Well-designed features, which capture the characteristics of data, improve the
+predictive performance and explainability of the model. Since good features
+generally reflect the deep knowledge on business domains of the data and the
+analysis task, feature engineering is considered as one of the most difficult
+phases in data analysis.&lt;/p&gt;
+&lt;p&gt;Nowadays, AutoML is trying to automate the data science process by producing
+good features by autonomous algorithms such as feature-synthesis and
+feature-selection. While AutoML is making success in some extent, it cannot
+reproduce all the features crafted by expert data scientists in reality because
+of its huge search space.&lt;/p&gt;
+&lt;p&gt;In this paper, we take different approach for assisting feature engineering
+process: transfer expert data scientists knowledge as much as possible. Proposed
+approach extracts frequently used feature engineering operations from source
+codes or notebooks by pattern discovery. Since naive textual pattern discovery
+performs poor for the source code, our approach converts source codes into
+abstract syntax trees and discovers important feature engineering operations as
+subgraphs by performing frequent subgraph mining.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -113,7 +155,30 @@
       <link>https://mooz.github.io/publication/aaai2019-meimei/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://mooz.github.io/publication/aaai2019-meimei/</guid>
-      <description></description>
+      <description>&lt;p&gt;Given a large amount of table data, how can we find the tables that contain the
+contents we want? A naive search fails when the column names are ambiguous, such
+as if columns containing stock price information are named “Close” in one table
+and named “P” in another table.&lt;/p&gt;
+&lt;p&gt;One way of dealing with this problem that has been gaining attention is the
+semantic annotation of table data columns by using canonical knowledge. While
+previous studies successfully dealt with this problem for specific types of
+table data such as web tables, it still remains for various other types of table
+data: (1) most approaches do not handle table data with numerical values, and
+(2) their predictive performance is not satisfactory.&lt;/p&gt;
+&lt;p&gt;This paper presents a novel approach for table data annotation that combines a
+latent probabilistic model with multilabel classifiers. It features three
+advantages over previous approaches due to using highly predictive multi-label
+classifiers in the probabilistic computation of semantic annotation. (1) It is
+more versatile due to using multi-label classifiers in the probabilistic model,
+which enables various types of data such as numerical values to be supported.
+(2) It is more accurate due to the multi-label classifiers and probabilistic
+model working together to improve predictive performance. (3) It is more
+efficient due to potential functions based on multi-label classifiers reducing
+the computational cost for annotation.&lt;/p&gt;
+&lt;p&gt;Extensive experiments demonstrated the superiority of the proposed approach over
+state-of-the-art approaches for semantic annotation of real data (183
+human-annotated tables obtained from the UCI Machine Learning Repository).&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -121,7 +186,23 @@
       <link>https://mooz.github.io/publication/bigdata2018-apa-tree/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://mooz.github.io/publication/bigdata2018-apa-tree/</guid>
-      <description></description>
+      <description>&lt;p&gt;Range aggregation query is a fundamental operation in the feature engineering
+phase of the machine learning tasks, which computes statistics, such as the
+maximum and the standard deviation of a subset of records. Since the
+feature-engineering process is a trial-and-error process, data analysts
+repeatedly conduct tons of the range aggregation queries by changing the range
+conditions, which results in a heavy workload. To accelerate such repetitive
+range aggregation queries, we propose Adaptive Partial Aggregation Tree
+(APA-tree), which drastically reduces the amount of I/Os that happen in
+executing the range aggregation queries. The APA-tree partitions the data into
+several groups, executes range aggregations on each subgroups to obtain partial
+results, and caches the results in an imbalanced binary-tree. The APA-tree
+executes subsequent queries by reusing the cached partial query results as much
+as possible on the basis of the divide-and-conquer characteristic of the range
+aggregations. Experimental results confirm that APA-tree outperforms
+conventional partial aggregation methods regarding the amount of I/Os,
+especially in a skewed workload.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -129,7 +210,20 @@
       <link>https://mooz.github.io/publication/jip2018-compressed-machine-learning/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://mooz.github.io/publication/jip2018-compressed-machine-learning/</guid>
-      <description></description>
+      <description>&lt;p&gt;In this paper, we present CVS (Compressed Vector Set), a fast and
+space-efficient data mining framework that efficiently handles both sparse and
+dense datasets. CVS holds a set of vectors in a compressed format and conducts
+primitive vector operations, such as lp-norm and dot product, without
+decompression. By combining these primitive operations, CVS accelerates
+prominent data mining or machine learning algorithms including k-nearest
+neighbor algorithm, stochastic gradient descent algorithm on logistic
+regression, and kernel methods. In contrast to the commonly used sparse
+matrix/vector representation, which is not effective for dense datasets, CVS
+efficiently handles sparse datasets and dense datasets in a unified manner. Our
+experimental results demonstrate that CVS can process both dense datasets and
+sparse datasets faster than conventional sparse vector representation with
+smaller memory usage.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -137,7 +231,31 @@
       <link>https://mooz.github.io/publication/icdm2017-relational-mixture-of-experts/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://mooz.github.io/publication/icdm2017-relational-mixture-of-experts/</guid>
-      <description></description>
+      <description>&lt;p&gt;Given a collection of basic customer demographics (e.g., age and gender) and
+their behavioral data (e.g., item purchase histories), how can we predict
+sensitive demographics (e.g., income and occupation) that not every customer
+makes available? This demographics prediction problem is modeled as a
+classification task in which a customer&amp;rsquo;s sensitive demographic y is predicted
+from his feature vector x.&lt;/p&gt;
+&lt;p&gt;So far, two lines of work have tried to produce a &amp;ldquo;good&amp;rdquo; feature vector x from
+the customer&amp;rsquo;s behavioral data: (1) application-specific feature engineering
+using behavioral data and (2) representation learning (such as singular value
+decomposition or neuralembedding) on behavioral data. Although these approaches
+successfully improve the predictive performance, (1) designing a good feature
+requires domain experts to make a great effort and (2) features obtained from
+representation learning are hard to interpret.&lt;/p&gt;
+&lt;p&gt;To overcome these problems, we present a Relational Infinite Support Vector
+Machine (R-iSVM), a mixture-of-experts model that can leverage behavioral data.
+Instead of augmenting the feature vectors of customers, R-iSVM uses behavioral
+data to find out behaviorally similar customerclusters and constructs a local
+prediction model at each customer cluster. In doing so, R-iSVM successfully
+improves the predictive performance withoutrequiring application-specific
+feature designing and hard-to-interpret representations.&lt;/p&gt;
+&lt;p&gt;Experimental results on three real-world datasets demonstrate the predictive
+performance and interpretability of R-iSVM. Furthermore, R-iSVM can co-exist
+with previous demographics prediction methods to further improve their
+predictive performance.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -145,7 +263,21 @@
       <link>https://mooz.github.io/publication/pakdd2017-topic-bi-clustering/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://mooz.github.io/publication/pakdd2017-topic-bi-clustering/</guid>
-      <description></description>
+      <description>&lt;p&gt;This paper presents a new probabilistic generative model (PGM) that predicts
+links for isolated nodes in a heterogeneous network using textual data. In
+conventional PGMs, a link between two nodes is predicted on the basis of the
+nodes’ other existing links. This method makes it difficult to predict links for
+isolated nodes, which happens when new items are recommended. In this study, we
+first naturally expand the relational topic model (RTM) to a heterogeneous
+network (Hetero-RTM). However, this simple extension degrades performance in a
+link prediction for existing nodes. We present a new model called the Grouped
+Hetero-RTM that has both latent topics and latent clusterings. Through intensive
+experiments that simulate real recommendation problems, the Grouped Hetero-RTM
+outperforms baseline methods at predicting links for isolated nodes. This model,
+furthermore, performs as effectively as the stochastic block model in the link
+prediction for existing nodes. We also find that the Grouped Hetero-RTM is
+effective for various textual data such as item reviews and movie descriptions.&lt;/p&gt;
+</description>
     </item>
     
     <item>

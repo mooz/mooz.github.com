@@ -18,6 +18,21 @@
   </url>
   
   <url>
+    <loc>https://mooz.github.io/ja/publication_types/2/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/publication_types/2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/publication_types/2/"
+                />
+  </url>
+  
+  <url>
     <loc>https://mooz.github.io/ja/authors/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -29,6 +44,81 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/authors/chuan-xiao/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/chuan-xiao/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/chuan-xiao/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/publication/journals-vldb-yuyang-xcytoh-20/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/publication/journals-vldb-yuyang-xcytoh-20/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/publication/journals-vldb-yuyang-xcytoh-20/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/authors/hanxiong-chen/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/hanxiong-chen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/hanxiong-chen/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/authors/hiroyuki-kitagawa/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/hiroyuki-kitagawa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/hiroyuki-kitagawa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mooz.github.io/ja/authors/jefferey-xu-yu/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/jefferey-xu-yu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/jefferey-xu-yu/"
                 />
   </url>
   
@@ -603,21 +693,6 @@
   </url>
   
   <url>
-    <loc>https://mooz.github.io/ja/publication_types/2/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/publication_types/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/publication_types/2/"
-                />
-  </url>
-  
-  <url>
     <loc>https://mooz.github.io/ja/publication/bigdata2018-apa-tree/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -644,21 +719,6 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/publication/jip2018-compressed-machine-learning/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://mooz.github.io/ja/authors/hiroyuki-kitagawa/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/authors/hiroyuki-kitagawa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/authors/hiroyuki-kitagawa/"
                 />
   </url>
   
