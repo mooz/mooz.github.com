@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://mooz.github.io/publication_types/1/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
@@ -15,9 +14,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication_types/1/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication_types/2/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -30,9 +27,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication_types/2/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -45,9 +40,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/chuan-xiao/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -60,9 +53,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/chuan-xiao/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/journals-vldb-yuyang-xcytoh-20/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -75,9 +66,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/journals-vldb-yuyang-xcytoh-20/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/hanxiong-chen/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -90,9 +79,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/hanxiong-chen/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/hiroyuki-kitagawa/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -105,9 +92,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/hiroyuki-kitagawa/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/jefferey-xu-yu/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -120,9 +105,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/jefferey-xu-yu/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/kunihiro-takeoka/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -135,9 +118,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/kunihiro-takeoka/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/aaai2020-unsure-loss/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -150,9 +131,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/aaai2020-unsure-loss/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/masafumi-oyamada/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -165,9 +144,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/masafumi-oyamada/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -180,9 +157,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication_types/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -195,9 +170,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication_types/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -210,9 +183,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/yuyang-dong/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -225,9 +196,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/yuyang-dong/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/bigdata2019-script-analysis/</loc>
     <lastmod>2019-12-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -240,9 +209,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/bigdata2019-script-analysis/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/categories/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -255,9 +222,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/tags/emacs/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -270,9 +235,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/tags/emacs/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/categories/emacs/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -285,9 +248,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/categories/emacs/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/project/ikeysnail/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -300,9 +261,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/project/ikeysnail/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/tags/ios/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -315,9 +274,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/tags/ios/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/categories/ios/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -330,9 +287,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/categories/ios/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/project/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -345,9 +300,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/project/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/tags/</loc>
     <lastmod>2019-11-24T07:40:01+00:00</lastmod>
     <xhtml:link
@@ -360,9 +313,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/tags/linux/</loc>
     <lastmod>2019-11-23T07:40:05+00:00</lastmod>
     <xhtml:link
@@ -375,9 +326,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/tags/linux/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/categories/linux/</loc>
     <lastmod>2019-11-23T07:40:05+00:00</lastmod>
     <xhtml:link
@@ -390,9 +339,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/categories/linux/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/tags/python/</loc>
     <lastmod>2019-11-23T07:40:05+00:00</lastmod>
     <xhtml:link
@@ -405,9 +352,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/tags/python/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/categories/python/</loc>
     <lastmod>2019-11-23T07:40:05+00:00</lastmod>
     <xhtml:link
@@ -420,9 +365,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/categories/python/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/project/xkeysnail/</loc>
     <lastmod>2019-11-23T07:40:05+00:00</lastmod>
     <xhtml:link
@@ -435,9 +378,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/project/xkeysnail/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/project/percol/</loc>
     <lastmod>2019-11-21T07:40:18+00:00</lastmod>
     <xhtml:link
@@ -450,9 +391,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/project/percol/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/tags/terminal/</loc>
     <lastmod>2019-11-21T07:40:18+00:00</lastmod>
     <xhtml:link
@@ -465,9 +404,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/tags/terminal/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/categories/terminal/</loc>
     <lastmod>2019-11-21T07:40:18+00:00</lastmod>
     <xhtml:link
@@ -480,9 +417,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/categories/terminal/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/tags/firefox/</loc>
     <lastmod>2019-11-20T07:40:14+00:00</lastmod>
     <xhtml:link
@@ -495,9 +430,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/tags/firefox/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/categories/firefox/</loc>
     <lastmod>2019-11-20T07:40:14+00:00</lastmod>
     <xhtml:link
@@ -510,9 +443,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/categories/firefox/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/project/keysnail/</loc>
     <lastmod>2019-11-20T07:40:14+00:00</lastmod>
     <xhtml:link
@@ -525,9 +456,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/project/keysnail/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/tags/javascript/</loc>
     <lastmod>2019-11-19T11:44:43+00:00</lastmod>
     <xhtml:link
@@ -540,9 +469,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/tags/javascript/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/categories/javascript/</loc>
     <lastmod>2019-11-19T11:44:43+00:00</lastmod>
     <xhtml:link
@@ -555,9 +482,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/categories/javascript/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/project/mispli/</loc>
     <lastmod>2019-11-19T11:44:43+00:00</lastmod>
     <xhtml:link
@@ -570,9 +495,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/project/mispli/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/project/org-js/</loc>
     <lastmod>2019-11-18T11:58:03+00:00</lastmod>
     <xhtml:link
@@ -585,9 +508,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/project/org-js/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/project/zlc/</loc>
     <lastmod>2019-11-17T11:44:51+00:00</lastmod>
     <xhtml:link
@@ -600,9 +521,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/project/zlc/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/project/cc/</loc>
     <lastmod>2019-11-16T11:44:56+00:00</lastmod>
     <xhtml:link
@@ -615,9 +534,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/project/cc/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/project/js-doc/</loc>
     <lastmod>2019-11-10T10:36:26+00:00</lastmod>
     <xhtml:link
@@ -630,9 +547,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/project/js-doc/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/project/lemon-mode/</loc>
     <lastmod>2019-11-06T10:34:37+00:00</lastmod>
     <xhtml:link
@@ -645,9 +560,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/project/lemon-mode/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/aaai2019-meimei/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -660,9 +573,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/aaai2019-meimei/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/shinji-nakadai/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -675,9 +586,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/shinji-nakadai/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/takeshi-okadome/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -690,9 +599,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/takeshi-okadome/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/bigdata2018-apa-tree/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -705,9 +612,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/bigdata2018-apa-tree/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/jip2018-compressed-machine-learning/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -720,9 +625,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/jip2018-compressed-machine-learning/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/jianquan-liu/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -735,9 +638,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/jianquan-liu/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/kazuyo-narita/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -750,9 +651,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/kazuyo-narita/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/shinji-ito/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -765,9 +664,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/shinji-ito/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/takuya-araki/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -780,9 +677,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/takuya-araki/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/icdm2017-relational-mixture-of-experts/</loc>
     <lastmod>2017-11-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -795,9 +690,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/icdm2017-relational-mixture-of-experts/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/katsufumi-tomobe/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -810,9 +703,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/katsufumi-tomobe/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/pakdd2017-topic-bi-clustering/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -825,9 +716,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/pakdd2017-topic-bi-clustering/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/apweb2014-moarle/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -840,9 +729,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/apweb2014-moarle/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/acr2013-transactional-stream/</loc>
     <lastmod>2013-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -855,9 +742,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/acr2013-transactional-stream/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/hideyuki-kawashima/</loc>
     <lastmod>2013-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -870,9 +755,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/hideyuki-kawashima/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/sac2013-transactional-stream/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -885,9 +768,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/sac2013-transactional-stream/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/publication/3pgcic2011-sequential-transaction/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -900,14 +781,10 @@
                 hreflang="en"
                 href="https://mooz.github.io/publication/3pgcic2011-sequential-transaction/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/authors/admin/</loc>
     <xhtml:link
                 rel="alternate"
@@ -919,9 +796,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/authors/admin/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/post/</loc>
     <xhtml:link
                 rel="alternate"
@@ -933,9 +808,7 @@
                 hreflang="en"
                 href="https://mooz.github.io/post/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mooz.github.io/talk/</loc>
     <xhtml:link
                 rel="alternate"
@@ -948,5 +821,4 @@
                 href="https://mooz.github.io/talk/"
                 />
   </url>
-  
 </urlset>
