@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mooz.github.io/publication_types/1/</loc>
-    <lastmod>2021-03-15T23:36:31+00:00</lastmod>
+    <lastmod>2021-08-27T11:41:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://mooz.github.io/authors/</loc>
-    <lastmod>2021-03-15T23:36:31+00:00</lastmod>
+    <lastmod>2021-08-27T11:41:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -42,7 +42,7 @@
                 />
   </url><url>
     <loc>https://mooz.github.io/authors/masafumi-oyamada/</loc>
-    <lastmod>2021-03-15T23:36:31+00:00</lastmod>
+    <lastmod>2021-08-27T11:41:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -55,7 +55,7 @@
                 />
   </url><url>
     <loc>https://mooz.github.io/</loc>
-    <lastmod>2021-03-15T23:36:31+00:00</lastmod>
+    <lastmod>2021-08-27T11:41:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -68,7 +68,7 @@
                 />
   </url><url>
     <loc>https://mooz.github.io/publication_types/</loc>
-    <lastmod>2021-03-15T23:36:31+00:00</lastmod>
+    <lastmod>2021-08-27T11:41:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -81,7 +81,7 @@
                 />
   </url><url>
     <loc>https://mooz.github.io/publication/</loc>
-    <lastmod>2021-03-15T23:36:31+00:00</lastmod>
+    <lastmod>2021-08-27T11:41:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -133,7 +133,7 @@
                 />
   </url><url>
     <loc>https://mooz.github.io/authors/kunihiro-takeoka/</loc>
-    <lastmod>2021-02-24T07:25:55+00:00</lastmod>
+    <lastmod>2021-08-27T11:41:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -156,6 +156,32 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/authors/yuyang-dong/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/authors/kosuke-akimoto/</loc>
+    <lastmod>2021-08-27T11:41:21+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/kosuke-akimoto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/kosuke-akimoto/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/publication/emnlp2021-taxonomy-enrichment/</loc>
+    <lastmod>2021-08-27T11:41:21+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/publication/emnlp2021-taxonomy-enrichment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/publication/emnlp2021-taxonomy-enrichment/"
                 />
   </url><url>
     <loc>https://mooz.github.io/authors/masafumi-enomoto/</loc>
