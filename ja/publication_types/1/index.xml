@@ -5,12 +5,20 @@
     <link>https://mooz.github.io/ja/publication_types/1/</link>
       <atom:link href="https://mooz.github.io/ja/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Sat, 28 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ja</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mooz.github.io/images/icon_hud76b0b5cb03cbdbd01ad5fbc1aeef883_89416_512x512_fill_linear_center_2.png</url>
       <title>1</title>
       <link>https://mooz.github.io/ja/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Table Enrichment System for Machine Learning (Demo)</title>
+      <link>https://mooz.github.io/ja/publication/dblp-conferencessigirym-22/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://mooz.github.io/ja/publication/dblp-conferencessigirym-22/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Low-resource Taxonomy Enrichment with Pretrained Language Models</title>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mooz.github.io/ja/publication_types/1/</loc>
-    <lastmod>2021-08-27T22:59:53+00:00</lastmod>
+    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://mooz.github.io/ja/authors/</loc>
-    <lastmod>2021-08-27T22:59:53+00:00</lastmod>
+    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -26,6 +26,84 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/authors/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/ja/authors/masafumi-oyamada/</loc>
+    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/masafumi-oyamada/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/masafumi-oyamada/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/ja/</loc>
+    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/ja/publication_types/</loc>
+    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/publication_types/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/ja/publication/</loc>
+    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/publication/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/ja/publication/dblp-conferencessigirym-22/</loc>
+    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/publication/dblp-conferencessigirym-22/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/publication/dblp-conferencessigirym-22/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/ja/authors/yuyang-dong/</loc>
+    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/yuyang-dong/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/yuyang-dong/"
                 />
   </url><url>
     <loc>https://mooz.github.io/ja/authors/kosuke-akimoto/</loc>
@@ -67,58 +145,6 @@
                 href="https://mooz.github.io/ja/publication/emnlp2021-taxonomy-enrichment/"
                 />
   </url><url>
-    <loc>https://mooz.github.io/ja/authors/masafumi-oyamada/</loc>
-    <lastmod>2021-08-27T22:59:53+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/authors/masafumi-oyamada/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/authors/masafumi-oyamada/"
-                />
-  </url><url>
-    <loc>https://mooz.github.io/ja/</loc>
-    <lastmod>2021-08-27T22:59:53+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/"
-                />
-  </url><url>
-    <loc>https://mooz.github.io/ja/publication_types/</loc>
-    <lastmod>2021-08-27T22:59:53+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/publication_types/"
-                />
-  </url><url>
-    <loc>https://mooz.github.io/ja/publication/</loc>
-    <lastmod>2021-08-27T22:59:53+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/publication/"
-                />
-  </url><url>
     <loc>https://mooz.github.io/ja/publication/sfdi2021-entity-matching-string-transformation/</loc>
     <lastmod>2021-08-27T22:59:53+00:00</lastmod>
     <xhtml:link
@@ -156,19 +182,6 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://mooz.github.io/ja/authors/takeshi-okadome/"
-                />
-  </url><url>
-    <loc>https://mooz.github.io/ja/authors/yuyang-dong/</loc>
-    <lastmod>2021-08-27T22:59:53+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/authors/yuyang-dong/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/authors/yuyang-dong/"
                 />
   </url><url>
     <loc>https://mooz.github.io/ja/authors/genki-kusano/</loc>
