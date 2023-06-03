@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mooz.github.io/publication_types/1/</loc>
-    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <lastmod>2023-06-03T06:21:37+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://mooz.github.io/authors/</loc>
-    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <lastmod>2023-06-03T06:21:37+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -28,8 +28,73 @@
                 href="https://mooz.github.io/authors/"
                 />
   </url><url>
+    <loc>https://mooz.github.io/authors/chuan-xiao/</loc>
+    <lastmod>2023-06-03T06:21:37+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/chuan-xiao/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/chuan-xiao/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/publication/ecom2023-atp/</loc>
+    <lastmod>2023-06-03T06:21:28+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/publication/ecom2023-atp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/publication/ecom2023-atp/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/publication/vldb23-deepjoin/</loc>
+    <lastmod>2023-06-03T06:21:37+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/publication/vldb23-deepjoin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/publication/vldb23-deepjoin/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/authors/genki-kusano/</loc>
+    <lastmod>2023-06-03T06:21:28+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/genki-kusano/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/genki-kusano/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/authors/masafumi-enomoto/</loc>
+    <lastmod>2023-06-03T06:21:37+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/masafumi-enomoto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/masafumi-enomoto/"
+                />
+  </url><url>
     <loc>https://mooz.github.io/authors/masafumi-oyamada/</loc>
-    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <lastmod>2023-06-03T06:21:37+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -42,7 +107,7 @@
                 />
   </url><url>
     <loc>https://mooz.github.io/</loc>
-    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <lastmod>2023-06-03T06:21:37+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -55,7 +120,7 @@
                 />
   </url><url>
     <loc>https://mooz.github.io/publication_types/</loc>
-    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <lastmod>2023-06-03T06:21:37+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -68,7 +133,7 @@
                 />
   </url><url>
     <loc>https://mooz.github.io/publication/</loc>
-    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
+    <lastmod>2023-06-03T06:21:37+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -78,6 +143,58 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/publication/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/publication/pakdd2023-qamatcher/</loc>
+    <lastmod>2023-06-03T06:21:20+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/publication/pakdd2023-qamatcher/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/publication/pakdd2023-qamatcher/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/authors/shogo-hayashi/</loc>
+    <lastmod>2023-06-03T06:21:20+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/shogo-hayashi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/shogo-hayashi/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/authors/takuma-nozawa/</loc>
+    <lastmod>2023-06-03T06:21:37+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/takuma-nozawa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/takuma-nozawa/"
+                />
+  </url><url>
+    <loc>https://mooz.github.io/authors/yuyang-dong/</loc>
+    <lastmod>2023-06-03T06:21:37+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mooz.github.io/ja/authors/yuyang-dong/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mooz.github.io/authors/yuyang-dong/"
                 />
   </url><url>
     <loc>https://mooz.github.io/publication/dblp-conferencessigirym-22/</loc>
@@ -91,19 +208,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/publication/dblp-conferencessigirym-22/"
-                />
-  </url><url>
-    <loc>https://mooz.github.io/authors/yuyang-dong/</loc>
-    <lastmod>2022-04-02T03:55:03+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/authors/yuyang-dong/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/authors/yuyang-dong/"
                 />
   </url><url>
     <loc>https://mooz.github.io/authors/kosuke-akimoto/</loc>
@@ -184,19 +288,6 @@
                 href="https://mooz.github.io/authors/takeshi-okadome/"
                 />
   </url><url>
-    <loc>https://mooz.github.io/authors/genki-kusano/</loc>
-    <lastmod>2021-03-15T23:36:31+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/authors/genki-kusano/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/authors/genki-kusano/"
-                />
-  </url><url>
     <loc>https://mooz.github.io/publication/icwsm2021-uil/</loc>
     <lastmod>2021-03-15T23:36:31+00:00</lastmod>
     <xhtml:link
@@ -210,19 +301,6 @@
                 href="https://mooz.github.io/publication/icwsm2021-uil/"
                 />
   </url><url>
-    <loc>https://mooz.github.io/authors/chuan-xiao/</loc>
-    <lastmod>2021-02-24T07:25:49+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/authors/chuan-xiao/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/authors/chuan-xiao/"
-                />
-  </url><url>
     <loc>https://mooz.github.io/publication/icde2021-pexeso/</loc>
     <lastmod>2021-02-24T07:25:49+00:00</lastmod>
     <xhtml:link
@@ -234,19 +312,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mooz.github.io/publication/icde2021-pexeso/"
-                />
-  </url><url>
-    <loc>https://mooz.github.io/authors/masafumi-enomoto/</loc>
-    <lastmod>2021-02-24T07:25:55+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mooz.github.io/ja/authors/masafumi-enomoto/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mooz.github.io/authors/masafumi-enomoto/"
                 />
   </url><url>
     <loc>https://mooz.github.io/publication/pakdd2021-prototype/</loc>
