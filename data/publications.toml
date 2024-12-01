@@ -1,0 +1,295 @@
+[[publications]]
+title = "Can Large Language Models Invent Algorithms to Improve Themselves?"
+authors = [ "Yoichi Ishibashi", "Taro Yano", "Masafumi Oyamada",]
+year = 2024
+venue = "CoRR"
+type = "conference"
+doi = "10.48550/arXiv.2410.15639"
+
+[[publications]]
+title = "Optimizing Low-Resource Language Model Training: Comprehensive Analysis of Multi-Epoch, Multi-Lingual, and Two-Stage Approaches."
+authors = [ "Kosuke Akimoto", "Masafumi Oyamada",]
+year = 2024
+venue = "CoRR"
+type = "conference"
+doi = "10.48550/arXiv.2410.12325"
+
+[[publications]]
+title = "Jellyfish: Instruction-Tuning Local Large Language Models for Data Preprocessing."
+authors = [ "Haochen Zhang", "Yuyang Dong", "Chuan Xiao", "Masafumi Oyamada",]
+year = 2024
+venue = "EMNLP"
+type = "conference"
+pages = "8754-8782"
+url = "https://dblp.org/rec/conf/emnlp/ZhangD0O24.html"
+
+[[publications]]
+title = "On the Use of Large Language Models for Table Tasks."
+authors = [ "Yuyang Dong", "Masafumi Oyamada", "Chuan Xiao", "Haochen Zhang",]
+year = 2024
+venue = "CIKM"
+type = "conference"
+pages = "5518-5521"
+doi = "10.1145/3627673.3679100"
+
+[[publications]]
+title = "Relevance, Diversity, and Exclusivity: Designing Keyword-augmentation Strategy for Zero-shot Classifiers."
+authors = [ "Taro Yano", "Kunihiro Takeoka", "Masafumi Oyamada",]
+year = 2024
+venue = "*SEM@NAACL"
+type = "conference"
+pages = "106-119"
+doi = "10.18653/v1/2024.starsem-1.9"
+
+[[publications]]
+title = "Large Language Models as Data Preprocessors."
+authors = [ "Haochen Zhang", "Yuyang Dong", "Chuan Xiao", "Masafumi Oyamada",]
+year = 2024
+venue = "VLDB Workshops"
+type = "workshop"
+url = "https://vldb.org/workshops/2024/proceedings/TaDA/TaDA.11.pdf"
+
+[[publications]]
+title = "Context Quality Matters in Training Fusion-in-Decoder for Extractive Open-Domain Question Answering."
+authors = [ "Kosuke Akimoto", "Kunihiro Takeoka", "Masafumi Oyamada",]
+year = 2024
+venue = "CoRR"
+type = "conference"
+doi = "10.48550/arXiv.2403.14197"
+
+[[publications]]
+title = "LightPAL: Lightweight Passage Retrieval for Open Domain Multi-Document Summarization."
+authors = [ "Masafumi Enomoto", "Kunihiro Takeoka", "Kosuke Akimoto", "Kiril Gashteovski", "Masafumi Oyamada",]
+year = 2024
+venue = "CoRR"
+type = "conference"
+doi = "10.48550/arXiv.2406.12494"
+
+[[publications]]
+title = "DeepJoin: Joinable Table Discovery with Pre-trained Language Models."
+authors = [ "Yuyang Dong", "Chuan Xiao", "Takuma Nozawa", "Masafumi Enomoto", "Masafumi Oyamada",]
+year = 2023
+venue = "Proc. VLDB Endow."
+type = "journal"
+pages = "2458-2470"
+doi = "10.14778/3603581.3603587"
+
+[[publications]]
+title = "Towards Large Language Model Organization: A Case Study on Abstractive Summarization."
+authors = [ "Krisztián Boros", "Masafumi Oyamada",]
+year = 2023
+venue = "IEEE Big Data"
+type = "conference"
+pages = "6109-6112"
+doi = "10.1109/BigData59044.2023.10386199"
+
+[[publications]]
+title = "Cross-Domain User Similarity without Overlapping Attributes via Optimal Transport Theory."
+authors = [ "Genki Kusano", "Masafumi Oyamada",]
+year = 2023
+venue = "eCom@SIGIR"
+type = "conference"
+url = "https://ceur-ws.org/Vol-3589/paper_4.pdf"
+
+[[publications]]
+title = "Context Quality Matters in Training Fusion-in-Decoder for Extractive Open-Domain Question Answering."
+authors = [ "Kosuke Akimoto", "Kunihiro Takeoka", "Masafumi Oyamada",]
+year = 2023
+venue = "EMNLP (Findings)"
+type = "conference"
+pages = "11711-11729"
+doi = "10.18653/v1/2023.findings-emnlp.784"
+
+[[publications]]
+title = "QA-Matcher: Unsupervised Entity Matching Using a Question Answering Model."
+authors = [ "Shogo Hayashi", "Yuyang Dong", "Masafumi Oyamada",]
+year = 2023
+venue = "PAKDD (4)"
+type = "conference"
+pages = "174-185"
+doi = "10.1007/978-3-031-33383-5_14"
+
+[[publications]]
+title = "Large Language Models as Data Preprocessors."
+authors = [ "Haochen Zhang", "Yuyang Dong", "Chuan Xiao", "Masafumi Oyamada",]
+year = 2023
+venue = "CoRR"
+type = "conference"
+doi = "10.48550/arXiv.2308.16361"
+
+[[publications]]
+title = "Jellyfish: A Large Language Model for Data Preprocessing."
+authors = [ "Haochen Zhang", "Yuyang Dong", "Chuan Xiao", "Masafumi Oyamada",]
+year = 2023
+venue = "CoRR"
+type = "conference"
+doi = "10.48550/arXiv.2312.01678"
+
+[[publications]]
+title = "Table Enrichment System for Machine Learning."
+authors = [ "Yuyang Dong", "Masafumi Oyamada",]
+year = 2022
+venue = "SIGIR"
+type = "conference"
+pages = "3267-3271"
+doi = "10.1145/3477495.3531678"
+
+[[publications]]
+title = "Table Enrichment System for Machine Learning."
+authors = [ "Yuyang Dong", "Masafumi Oyamada",]
+year = 2022
+venue = "CoRR"
+type = "conference"
+doi = "10.48550/arXiv.2204.08235"
+
+[[publications]]
+title = "DeepJoin: Joinable Table Discovery with Pre-trained Language Models."
+authors = [ "Yuyang Dong", "Chuan Xiao", "Takuma Nozawa", "Masafumi Enomoto", "Masafumi Oyamada",]
+year = 2022
+venue = "CoRR"
+type = "conference"
+doi = "10.48550/arXiv.2212.07588"
+
+[[publications]]
+title = "Continuous top-k spatial-keyword search on dynamic objects."
+authors = [ "Yuyang Dong", "Chuan Xiao", "Hanxiong Chen", "Jeffrey Xu Yu", "Kunihiro Takeoka", "Masafumi Oyamada", "Hiroyuki Kitagawa",]
+year = 2021
+venue = "VLDB J."
+type = "journal"
+pages = "141-161"
+doi = "10.1007/s00778-020-00627-4"
+
+[[publications]]
+title = "Low-resource Taxonomy Enrichment with Pretrained Language Models."
+authors = [ "Kunihiro Takeoka", "Kosuke Akimoto", "Masafumi Oyamada",]
+year = 2021
+venue = "EMNLP (1)"
+type = "conference"
+pages = "2747-2758"
+doi = "10.18653/v1/2021.emnlp-main.217"
+
+[[publications]]
+title = "Efficient Joinable Table Discovery in Data Lakes: A High-Dimensional Similarity-Based Approach."
+authors = [ "Yuyang Dong", "Kunihiro Takeoka", "Chuan Xiao", "Masafumi Oyamada",]
+year = 2021
+venue = "ICDE"
+type = "conference"
+pages = "456-467"
+doi = "10.1109/ICDE51399.2021.00046"
+
+[[publications]]
+title = "User Identity Linkage for Different Behavioral Patterns across Domains."
+authors = [ "Genki Kusano", "Masafumi Oyamada",]
+year = 2021
+venue = "ICWSM"
+type = "conference"
+pages = "351-360"
+url = "https://dblp.org/rec/conf/icwsm/KusanoO21.html"
+
+[[publications]]
+title = "Quality Control for Hierarchical Classification with Incomplete Annotations."
+authors = [ "Masafumi Enomoto", "Kunihiro Takeoka", "Yuyang Dong", "Masafumi Oyamada", "Takeshi Okadome",]
+year = 2021
+venue = "PAKDD (3)"
+type = "conference"
+pages = "219-230"
+doi = "10.1007/978-3-030-75768-7_18"
+
+[[publications]]
+title = "Learning with Unsure Responses."
+authors = [ "Kunihiro Takeoka", "Yuyang Dong", "Masafumi Oyamada",]
+year = 2020
+venue = "AAAI"
+type = "conference"
+pages = "230-237"
+doi = "10.1609/aaai.v34i01.5355"
+
+[[publications]]
+title = "Efficient Joinable Table Discovery in Data Lakes: A High-Dimensional Similarity-Based Approach."
+authors = [ "Yuyang Dong", "Kunihiro Takeoka", "Chuan Xiao", "Masafumi Oyamada",]
+year = 2020
+venue = "CoRR"
+type = "conference"
+url = "https://dblp.org/rec/journals/corr/abs-2010-13273.html"
+
+[[publications]]
+title = "Meimei: An Efficient Probabilistic Approach for Semantically Annotating Tables."
+authors = [ "Kunihiro Takeoka", "Masafumi Oyamada", "Shinji Nakadai", "Takeshi Okadome",]
+year = 2019
+venue = "AAAI"
+type = "conference"
+pages = "281-288"
+doi = "10.1609/aaai.v33i01.3301281"
+
+[[publications]]
+title = "Extracting Feature Engineering Knowledge from Data Science Notebooks."
+authors = [ "Masafumi Oyamada",]
+year = 2019
+venue = "IEEE BigData"
+type = "conference"
+pages = "6172-6173"
+doi = "10.1109/BigData47090.2019.9006522"
+
+[[publications]]
+title = "Compressed Vector Set: A Fast and Space-Efficient Data Mining Framework."
+authors = [ "Masafumi Oyamada", "Jianquan Liu", "Shinji Ito", "Kazuyo Narita", "Takuya Araki", "Hiroyuki Kitagawa",]
+year = 2018
+venue = "J. Inf. Process."
+type = "journal"
+pages = "416-426"
+doi = "10.2197/ipsjjip.26.416"
+
+[[publications]]
+title = "Accelerating Feature Engineering with Adaptive Partial Aggregation Tree."
+authors = [ "Masafumi Oyamada",]
+year = 2018
+venue = "IEEE BigData"
+type = "conference"
+pages = "5417-5419"
+doi = "10.1109/BigData.2018.8622192"
+
+[[publications]]
+title = "Relational Mixture of Experts: Explainable Demographics Prediction with Behavioral Data."
+authors = [ "Masafumi Oyamada", "Shinji Nakadai",]
+year = 2017
+venue = "ICDM"
+type = "conference"
+pages = "357-366"
+doi = "10.1109/ICDM.2017.45"
+
+[[publications]]
+title = "Link Prediction for Isolated Nodes in Heterogeneous Network by Topic-Based Co-clustering."
+authors = [ "Katsufumi Tomobe", "Masafumi Oyamada", "Shinji Nakadai",]
+year = 2017
+venue = "PAKDD (1)"
+type = "conference"
+pages = "147-159"
+doi = "10.1007/978-3-319-57454-7_12"
+
+[[publications]]
+title = "MOARLE: Matrix Operation Accelerator Based on Run-Length Encoding."
+authors = [ "Masafumi Oyamada", "Jianquan Liu", "Kazuyo Narita", "Takuya Araki",]
+year = 2014
+venue = "APWeb"
+type = "conference"
+pages = "425-436"
+doi = "10.1007/978-3-319-11116-2_37"
+
+[[publications]]
+title = "Continuous query processing with concurrency control: reading updatable resources consistently."
+authors = [ "Masafumi Oyamada", "Hideyuki Kawashima", "Hiroyuki Kitagawa",]
+year = 2013
+venue = "SAC"
+type = "conference"
+pages = "788-794"
+doi = "10.1145/2480362.2480514"
+
+[[publications]]
+title = "Efficient Invocation of Transaction Sequences Triggered by Data Streams."
+authors = [ "Masafumi Oyamada", "Hideyuki Kawashima", "Hiroyuki Kitagawa",]
+year = 2011
+venue = "3PGCIC"
+type = "conference"
+pages = "332-337"
+doi = "10.1109/3PGCIC.2011.63"
+
