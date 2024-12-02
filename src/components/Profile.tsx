@@ -18,7 +18,10 @@ export default function Profile() {
             <h1 className="text-3xl font-bold mb-2">Masafumi Oyamada</h1>
             <h2 className="text-1xl mb-2">小山田 昌史</h2>
             <p className="text-gray-600 dark:text-gray-300">Chief Scientist</p>
-            <p className="text-gray-600 dark:text-gray-300">NEC Corporation</p>            
+            <p className="text-gray-600 dark:text-gray-300">NEC Corporation</p>
+            <p className="mt-4"><a href="https://scholar.google.com/citations?hl=en&user=sbmRXxwAAAAJ" className=" text-blue-600 dark:text-blue-400 hover:underline">Google Scholar</a></p>
+            <p className="mt-1"> <a href="https://github.com/mooz" className="mr-2 text-blue-600 dark:text-blue-400 hover:underline">GitHub</a></p>
+            <p className="mt-1"> <a href="https://x.com/stillpedant" className="mr-2 text-blue-600 dark:text-blue-400 hover:underline">X / Twitter</a></p>
           </div>
         </div>
         
@@ -30,18 +33,14 @@ export default function Profile() {
             </p>
             <p className=" text-gray-600 dark:text-gray-300">
             I am now a Chief Scientist at NEC Corporation, where I lead research initiatives in large language models, data preprocessing automation, and AI systems. Our recent work includes developing novel approaches for LLM self-improvement, optimizing low-resource language model training, and creating intelligent systems for data preprocessing and table understanding. We are particularly focused on making AI systems more efficient, autonomous, and capable of handling complex real-world tasks.
-            </p>            
+            </p>
           </div>
           
           <div>
             <h2 className="text-xl font-bold mb-3">Contact</h2>
             <ul className="space-y-2 text-gray-600 dark:text-gray-300">            
-            
               <li>
-                <a href="mailto:stillpedant@gmail.com" className="mr-2 text-blue-600 dark:text-blue-400 hover:underline">E-Mail</a>
-                <a href="https://github.com/mooz" className="mr-2 text-blue-600 dark:text-blue-400 hover:underline">GitHub</a>
-                <a href="https://scholar.google.com/citations?hl=en&user=sbmRXxwAAAAJ" className="mr-2 text-blue-600 dark:text-blue-400 hover:underline">Google Scholar</a>
-                
+              <a href="mailto:stillpedant@gmail.com" className="mr-2 text-blue-600 dark:text-blue-400 hover:underline">E-Mail</a>
               </li>              
               <li>
               <p className="text-gray-600 dark:text-gray-300">
