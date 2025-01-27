@@ -1,6 +1,15 @@
 [[publications]]
 title = "Can Large Language Models Invent Algorithms to Improve Themselves?"
 authors = [ "Yoichi Ishibashi", "Taro Yano", "Masafumi Oyamada",]
+year = 2025
+venue = "NAACL"
+type = "conference"
+pages = "aaa-bbb"
+url = "https://arxiv.org/abs/2410.15639"
+
+[[publications]]
+title = "Can Large Language Models Invent Algorithms to Improve Themselves?"
+authors = [ "Yoichi Ishibashi", "Taro Yano", "Masafumi Oyamada",]
 year = 2024
 venue = "CoRR"
 type = "conference"
