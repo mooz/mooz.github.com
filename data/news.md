@@ -1,4 +1,22 @@
 ---
+date: 2024-01-24
+title: Paper Accepted to NAACL 🤖
+type: publication
+---
+Our paper "Can Large Language Models Invent Algorithms to Improve Themselves?" has been accepted to NAACL 2025 main track!
+
+$$$
+
+---
+date: 2024-12-03
+title: KeyNote at ComSys 2024 🗣️
+type: talk
+---
+Presented on Self-Improving LLM, RAG, and Action Model at the <a href="https://sigos.ipsj.or.jp/event/comsys2024/#program">ComSys 2024</a> Conference.
+
+$$$
+
+---
 date: 2024-11-09
 title: Paper Accepted to IEEE Big Data 🤖
 type: publication
