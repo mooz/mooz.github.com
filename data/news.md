@@ -1,6 +1,6 @@
 ---
 date: 2025-01-24
-title: Paper Accepted to NAACL 🤖
+title: Paper Accepted to NAACL 2025 main track 🤖
 type: publication
 ---
 Our paper "Can Large Language Models Invent Algorithms to Improve Themselves?" has been accepted to NAACL 2025 main track!
@@ -18,7 +18,7 @@ $$$
 
 ---
 date: 2024-11-09
-title: Paper Accepted to IEEE Big Data 🤖
+title: Paper Accepted to IEEE Big Data 2024 🤖
 type: publication
 ---
 Our poster paper "Towards Automated Workflow Construction for AI Agents: A Preliminary Study" has been accepted to IEEE Big Data 2024.
@@ -27,7 +27,7 @@ $$$
 
 ---
 date: 2024-11-07
-title: Paper Accepted to EMNLP 🪼
+title: Paper Accepted to EMNLP 2024 main track 🪼
 type: publication
 ---
 Our paper "Jellyfish: Instruction-Tuning Local Large Language Models for Data Preprocessing" has been accepted to EMNLP 2024.
@@ -45,7 +45,7 @@ $$$
 
 ---
 date: 2024-10-28
-title: Talk at ACM MM 🎯
+title: Talk at ACM MM 2024 🎯
 type: talk
 ---
 Presented at ACM MM'24 on NEC's large language model development.
@@ -63,7 +63,7 @@ $$$
 
 ---
 date: 2024-07-06
-title: Tutorial Accepted to CIKM 📊
+title: Tutorial Accepted to CIKM 2024 📊
 type: publication
 ---
 Our tutorial "On the Use of Large Language Models for Table Tasks" has been accepted to CIKM 2024.
@@ -81,7 +81,7 @@ $$$
 
 ---
 date: 2024-01-05
-title: Paper Accepted to *SEM@NAACL 🎯
+title: Paper Accepted to *SEM@NAACL 2024 🎯
 type: publication
 ---
 Our paper "Relevance, Diversity, and Exclusivity: Designing Keyword-augmentation Strategy for Zero-shot Classifiers" has been accepted to *SEM@NAACL 2024.
@@ -90,7 +90,7 @@ $$$
 
 ---
 date: 2023-08-15
-title: Paper Accepted to VLDB 🔍
+title: Paper Accepted to VLDB 2023 🔍
 type: publication
 ---
 Our paper "DeepJoin: Joinable Table Discovery with Pre-trained Language Models" has been accepted to VLDB 2023.
@@ -99,7 +99,7 @@ $$$
 
 ---
 date: 2023-07-20
-title: Paper Accepted to IEEE Big Data 📚
+title: Paper Accepted to IEEE Big Data 2023 📚
 type: publication
 ---
 Our paper "Towards Large Language Model Organization: A Case Study on Abstractive Summarization" has been accepted to IEEE Big Data 2023.
@@ -108,7 +108,7 @@ $$$
 
 ---
 date: 2023-06-10
-title: Paper Accepted to EMNLP Findings 🔍
+title: Paper Accepted to EMNLP Findings 2023 🔍
 type: publication
 ---
 Our paper "Context Quality Matters in Training Fusion-in-Decoder for Extractive Open-Domain Question Answering" has been accepted to EMNLP Findings 2023.
@@ -117,7 +117,7 @@ $$$
 
 ---
 date: 2023-03-15
-title: Paper Accepted to PAKDD 🤝
+title: Paper Accepted to PAKDD 2023 🤝
 type: publication
 ---
 Our paper "QA-Matcher: Unsupervised Entity Matching Using a Question Answering Model" has been accepted to PAKDD 2023.
@@ -126,7 +126,7 @@ $$$
 
 ---
 date: 2022-04-20
-title: Paper Accepted to SIGIR 📊
+title: Paper Accepted to SIGIR 2022 📊
 type: publication
 ---
 Our paper "Table Enrichment System for Machine Learning" has been accepted to SIGIR 2022.
