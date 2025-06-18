@@ -14,13 +14,24 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name - Academic Profile",
-  description: "Academic profile and research portfolio showcasing publications, news, and achievements.",
-  keywords: ["research", "academic", "publications", "computer science"],
-  authors: [{ name: "Your Name" }],
+  title: "Masafumi Oyamada | Research Scientist",
+  description: "Research scientist based in Tokyo, Japan, passionate about maximizing human potential through machines and knowledge. Focused on agentic AI systems, automation, and language model advancement.",
+  keywords: [
+    "research scientist",
+    "machine learning",
+    "large language models",
+    "automation",
+    "computer science",
+    "agentic AI",
+    "AI systems",
+    "Tokyo",
+    "Japan",
+    "artificial intelligence"
+  ],
+  authors: [{ name: "Masafumi Oyamada (小山田 昌史)" }],
   openGraph: {
-    title: "Your Name - Academic Profile",
-    description: "Academic profile and research portfolio showcasing publications, news, and achievements.",
+    title: "Masafumi Oyamada | Research Scientist",
+    description: "Research scientist based in Tokyo, Japan, passionate about maximizing human potential through machines and knowledge. Focused on agentic AI systems, automation, and language model advancement.",
     type: "profile",
   },
 };

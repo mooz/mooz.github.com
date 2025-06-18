@@ -75,7 +75,7 @@ export function NewsList({ newsItems }: NewsListProps) {
   };
 
   return (
-    <div className="space-y-6 max-h-[300px] overflow-y-auto pr-4 border rounded-lg shadow-inner p-4 bg-gray-50 dark:bg-gray-900">
+    <div className="space-y-6 max-h-[450px] overflow-y-auto pr-4 border rounded-lg shadow-inner p-4 bg-gray-50 dark:bg-gray-900">
       {newsItems.map((item, index) => (
         <div key={index} className={`border-l-4 pl-4 ${getBorderStyle(item.type || 'event')}`}>
           <div className="flex items-start gap-4">
