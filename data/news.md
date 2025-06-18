@@ -1,4 +1,31 @@
 ---
+date: 2025-06-19
+title: Paper Accepted to ACL 2025 📝
+type: publication
+---
+Our paper "On Synthesizing Data for Context Attribution in Question Answering" has been accepted to ACL 2025.
+
+$$$
+
+---
+date: 2025-05-19
+title: Paper Accepted to SIGIR 2025 🔍
+type: publication
+---
+Our paper "LLM-based Query Expansion Fails for Unfamiliar and Ambiguous Queries" has been accepted to SIGIR 2025.
+
+$$$
+
+---
+date: 2025-05-11
+title: Paper Accepted to BioNLP2025 🏥
+type: publication
+---
+Our paper "Understanding the Impact of Confidence in Retrieval Augmented Generation: A Case Study in the Medical Domain" has been accepted to BioNLP2025 (Workshop colocated with ACL2025).
+
+$$$
+
+---
 date: 2024-11-07
 title: Paper Accepted to EMNLP
 type: publication
