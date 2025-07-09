@@ -1,4 +1,13 @@
 ---
+date: 2025-07-09
+title: Paper Accepted to COLM 2025 🦅
+type: publication
+---
+Our paper "Can a Crow Hatch a Falcon? Lineage Matters in Predicting Large Language Model Performance" has been accepted to COLM 2025.
+
+$$$
+
+---
 date: 2025-06-19
 title: Paper Accepted to ACL 2025 📝
 type: publication

@@ -1,4 +1,12 @@
 [[publications]]
+title = "Can a Crow Hatch a Falcon? Lineage Matters in Predicting Large Language Model Performance"
+authors = ["Takuya Tamura", "Taro Yano", "Masafumi Enomoto", "Masafumi Oyamada"]
+year = 2025
+venue = "COLM"
+type = "conference"
+doi = "10.48550/arXiv.2504.19811"
+
+[[publications]]
 title = "An Empirical Study of LLM-as-a-Judge: How Design Choices Impact Evaluation Reliability"
 authors = ["Yusuke Yamauchi", "Taro Yano", "Masafumi Oyamada"]
 year = 2025
@@ -39,14 +47,6 @@ type = "conference"
 doi = "10.48550/arXiv.2505.10182"
 
 [[publications]]
-title = "Can a Crow Hatch a Falcon? Lineage Matters in Predicting Large Language Model Performance"
-authors = ["Takuya Tamura", "Taro Yano", "Masafumi Enomoto", "Masafumi Oyamada"]
-year = 2025
-venue = "CoRR"
-type = "conference"
-doi = "10.48550/arXiv.2504.19811"
-
-[[publications]]
 title = "On Synthesizing Data for Context Attribution in Question Answering"
 authors = ["Gorjan Radevski", "Kiril Gashteovski", "Shahbaz Syed", "Christopher Malon", "Sebastien Nicolas", "Chia-Chien Hung", "Timo Sztyler", "Verena Heußer", "Wiem Ben Rim", "Masafumi Enomoto", "Kunihiro Takeoka", "Masafumi Oyamada", "Goran Glavaš", "Carolin Lawrence"]
 year = 2025
@@ -78,14 +78,6 @@ venue = "NAACL"
 type = "conference"
 pages = "aaa-bbb"
 url = "https://arxiv.org/abs/2410.15639"
-
-[[publications]]
-title = "Can Large Language Models Invent Algorithms to Improve Themselves?"
-authors = [ "Yoichi Ishibashi", "Taro Yano", "Masafumi Oyamada",]
-year = 2024
-venue = "CoRR"
-type = "conference"
-doi = "10.48550/arXiv.2410.15639"
 
 [[publications]]
 title = "Optimizing Low-Resource Language Model Training: Comprehensive Analysis of Multi-Epoch, Multi-Lingual, and Two-Stage Approaches."
