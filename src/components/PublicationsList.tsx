@@ -30,7 +30,6 @@ export function PublicationsList({ publications }: PublicationsListProps) {
           <option value="all">All Types</option>
           <option value="journal">Journal Papers</option>
           <option value="conference">Conference Papers</option>
-          <option value="workshop">Workshop Papers</option>
           <option value="preprint">Preprints</option>
         </select>
 
@@ -59,7 +58,13 @@ export function PublicationsList({ publications }: PublicationsListProps) {
               {pub.authors.join(', ')}
             </p>
             <div className="flex items-center gap-2">
-              <span className="px-2 py-1 rounded text-xs bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">
+              <span className={`px-2 py-1 rounded text-xs ${
+                pub.type === 'journal' 
+                  ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
+                  : pub.type === 'preprint'
+                  ? 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200'
+                  : 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200'
+              }`}>
                 {pub.venue}
               </span>
               <span className="text-sm text-gray-500 dark:text-gray-400">

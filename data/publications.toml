@@ -11,7 +11,7 @@ title = "An Empirical Study of LLM-as-a-Judge: How Design Choices Impact Evaluat
 authors = ["Yusuke Yamauchi", "Taro Yano", "Masafumi Oyamada"]
 year = 2025
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2506.13639"
 
 [[publications]]
@@ -19,7 +19,7 @@ title = "LaMDAgent: An Autonomous Framework for Post-Training Pipeline Optimizat
 authors = ["Taro Yano", "Yoichi Ishibashi", "Masafumi Oyamada"]
 year = 2025
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2505.21963"
 
 [[publications]]
@@ -27,7 +27,7 @@ title = "SCAN: Semantic Document Layout Analysis for Textual and Visual Retrieva
 authors = ["Yuyang Dong", "Nobuhiro Ueda", "Krisztián Boros", "Daiki Ito", "Takuya Sera", "Masafumi Oyamada"]
 year = 2025
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2505.14381"
 
 [[publications]]
@@ -43,7 +43,7 @@ title = "Mining Hidden Thoughts from Texts: Evaluating Continual Pretraining wit
 authors = ["Yoichi Ishibashi", "Taro Yano", "Masafumi Oyamada"]
 year = 2025
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2505.10182"
 
 [[publications]]
@@ -59,7 +59,7 @@ title = "DISC: Dynamic Decomposition Improves LLM Inference Scaling"
 authors = ["Jonathan Light", "Wei Cheng", "Benjamin Riviere", "Wu Yue", "Masafumi Oyamada", "Mengdi Wang", "Yisong Yue", "Santiago Paternain", "Haifeng Chen"]
 year = 2025
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2502.16706"
 
 [[publications]]
@@ -84,7 +84,7 @@ title = "Optimizing Low-Resource Language Model Training: Comprehensive Analysis
 authors = [ "Kosuke Akimoto", "Masafumi Oyamada",]
 year = 2024
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2410.12325"
 
 [[publications]]
@@ -119,7 +119,7 @@ title = "Large Language Models as Data Preprocessors."
 authors = [ "Haochen Zhang", "Yuyang Dong", "Chuan Xiao", "Masafumi Oyamada",]
 year = 2024
 venue = "VLDB Workshops"
-type = "workshop"
+type = "conference"
 url = "https://vldb.org/workshops/2024/proceedings/TaDA/TaDA.11.pdf"
 
 [[publications]]
@@ -127,7 +127,7 @@ title = "Context Quality Matters in Training Fusion-in-Decoder for Extractive Op
 authors = [ "Kosuke Akimoto", "Kunihiro Takeoka", "Masafumi Oyamada",]
 year = 2024
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2403.14197"
 
 [[publications]]
@@ -135,7 +135,7 @@ title = "LightPAL: Lightweight Passage Retrieval for Open Domain Multi-Document 
 authors = [ "Masafumi Enomoto", "Kunihiro Takeoka", "Kosuke Akimoto", "Kiril Gashteovski", "Masafumi Oyamada",]
 year = 2024
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2406.12494"
 
 [[publications]]
@@ -187,7 +187,7 @@ title = "Large Language Models as Data Preprocessors."
 authors = [ "Haochen Zhang", "Yuyang Dong", "Chuan Xiao", "Masafumi Oyamada",]
 year = 2023
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2308.16361"
 
 [[publications]]
@@ -195,7 +195,7 @@ title = "Jellyfish: A Large Language Model for Data Preprocessing."
 authors = [ "Haochen Zhang", "Yuyang Dong", "Chuan Xiao", "Masafumi Oyamada",]
 year = 2023
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2312.01678"
 
 [[publications]]
@@ -212,7 +212,7 @@ title = "Table Enrichment System for Machine Learning."
 authors = [ "Yuyang Dong", "Masafumi Oyamada",]
 year = 2022
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2204.08235"
 
 [[publications]]
@@ -220,7 +220,7 @@ title = "DeepJoin: Joinable Table Discovery with Pre-trained Language Models."
 authors = [ "Yuyang Dong", "Chuan Xiao", "Takuma Nozawa", "Masafumi Enomoto", "Masafumi Oyamada",]
 year = 2022
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 doi = "10.48550/arXiv.2212.07588"
 
 [[publications]]
@@ -282,7 +282,7 @@ title = "Efficient Joinable Table Discovery in Data Lakes: A High-Dimensional Si
 authors = [ "Yuyang Dong", "Kunihiro Takeoka", "Chuan Xiao", "Masafumi Oyamada",]
 year = 2020
 venue = "CoRR"
-type = "conference"
+type = "preprint"
 url = "https://dblp.org/rec/journals/corr/abs-2010-13273.html"
 
 [[publications]]

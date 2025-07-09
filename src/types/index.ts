@@ -1,4 +1,4 @@
-export type PublicationType = 'journal' | 'conference' | 'workshop' | 'preprint';
+export type PublicationType = 'journal' | 'conference' | 'preprint';
 export type NewsType = 'publication' | 'award' | 'talk' | 'event';
 
 export type Publication = {
