@@ -58,14 +58,14 @@ export function PublicationsList({ publications }: PublicationsListProps) {
               {pub.authors.join(', ')}
             </p>
             <div className="flex items-center gap-2">
-              <span className={`px-2 py-1 rounded text-xs ${
+              <span className={`px-3 py-1.5 rounded text-xs font-bold ${
                 pub.type === 'journal' 
-                  ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
+                  ? 'bg-green-700 text-white dark:bg-green-600 dark:text-white'
                   : pub.type === 'preprint'
-                  ? 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200'
-                  : 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200'
+                  ? 'bg-gray-600 text-white dark:bg-gray-500 dark:text-white'
+                  : 'bg-blue-700 text-white dark:bg-blue-600 dark:text-white'
               }`}>
-                {pub.venue}
+{pub.venue === 'CoRR' ? 'Preprint' : pub.venue}
               </span>
               <span className="text-sm text-gray-500 dark:text-gray-400">
                 ({pub.year})
