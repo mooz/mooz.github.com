@@ -18,10 +18,10 @@ $$$
 
 ---
 date: 2025-01-24
-title: Paper Accepted to NAACL 2025 main track 🤖
+title: Paper Accepted to NAACL 2024 main track 🤖
 type: publication
 ---
-Our paper "Can Large Language Models Invent Algorithms to Improve Themselves?" has been accepted to NAACL 2025 main track!
+Our paper "Can Large Language Models Invent Algorithms to Improve Themselves?" has been accepted to NAACL 2024 main track!
 
 $$$
 
