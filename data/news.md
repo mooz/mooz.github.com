@@ -1,4 +1,13 @@
 ---
+date: 2025-08-25
+title: Paper Accepted to EMNLP 2025 🤖
+type: publication
+---
+Our paper "LaMDAgent: An Autonomous Framework for Post-Training Pipeline Optimization via LLM Agents" has been accepted to EMNLP 2025.
+
+$$$
+
+---
 date: 2025-07-09
 title: Paper Accepted to COLM 2025 🦅
 type: publication

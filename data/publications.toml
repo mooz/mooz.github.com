@@ -18,8 +18,8 @@ doi = "10.48550/arXiv.2506.13639"
 title = "LaMDAgent: An Autonomous Framework for Post-Training Pipeline Optimization via LLM Agents"
 authors = ["Taro Yano", "Yoichi Ishibashi", "Masafumi Oyamada"]
 year = 2025
-venue = "CoRR"
-type = "preprint"
+venue = "EMNLP"
+type = "conference"
 doi = "10.48550/arXiv.2505.21963"
 
 [[publications]]
