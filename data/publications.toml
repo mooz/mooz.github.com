@@ -73,7 +73,7 @@ doi = "10.48550/arXiv.2412.20309"
 [[publications]]
 title = "Can Large Language Models Invent Algorithms to Improve Themselves?"
 authors = [ "Yoichi Ishibashi", "Taro Yano", "Masafumi Oyamada",]
-year = 2024
+year = 2025
 venue = "NAACL"
 type = "conference"
 pages = "aaa-bbb"

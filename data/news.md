@@ -1,4 +1,13 @@
 ---
+date: 2025-08-27
+title: NEC's cotomi Act Web Agent Beats Humans on WebArena Benchmark! 🤖
+type: news
+---
+NEC's cotomi Act achieved world-first success rate of 80.4% on WebArena benchmark, surpassing human performance (78.2%) in web browser automation tasks! <a href="https://jpn.nec.com/press/202508/20250827_02.html">Press Release</a>
+
+$$$
+
+---
 date: 2025-08-25
 title: Paper Accepted to EMNLP 2025 🤖
 type: publication
