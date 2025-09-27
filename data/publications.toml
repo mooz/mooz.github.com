@@ -63,6 +63,15 @@ type = "conference"
 doi = "10.48550/arXiv.2502.16706"
 
 [[publications]]
+title = "Best-of-∞ -- Asymptotic Performance of Test-Time Compute"
+authors = ["Junpei Komiyama", "Daisuke Oba", "Masafumi Oyamada"]
+year = 2025
+venue = "CoRR"
+type = "preprint"
+doi = "10.48550/arXiv.2509.21091"
+url = "https://arxiv.org/abs/2509.21091"
+
+[[publications]]
 title = "Understanding the Impact of Confidence in Retrieval Augmented Generation: A Case Study in the Medical Domain"
 authors = ["Shintaro Ozaki", "Yuta Kato", "Siyuan Feng", "Masayo Tomita", "Kazuki Hayashi", "Wataru Hashimoto", "Ryoma Obara", "Masafumi Oyamada", "Katsuhiko Hayashi", "Hidetaka Kamigaito", "Taro Watanabe"]
 year = 2024
