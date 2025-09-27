@@ -1,4 +1,13 @@
 ---
+date: 2025-09-27
+title: Paper Accepted to NeurIPS 2025 🧠
+type: publication
+---
+Our paper "DISC: Dynamic Decomposition Improves LLM Inference Scaling" has been accepted to NeurIPS 2025.
+
+$$$
+
+---
 date: 2025-08-27
 title: NEC's cotomi Act Web Agent Beats Humans on WebArena Benchmark! 🤖
 type: news
