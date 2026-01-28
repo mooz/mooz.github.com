@@ -1,6 +1,24 @@
 ---
+date: 2026-01-27
+title: Paper Accepted to ICLR 2026
+type: publication
+---
+Our paper "Best-of-∞ -- Asymptotic Performance of Test-Time Compute" has been accepted to ICLR 2026.
+
+$$$
+
+---
+date: 2026-01-03
+title: Paper Accepted to EACL 2026 (Findings)
+type: publication
+---
+Our paper "SCAN: Semantic Document Layout Analysis for Textual and Visual Retrieval-Augmented Generation" has been accepted to EACL 2026 (Findings).
+
+$$$
+
+---
 date: 2025-09-27
-title: Paper Accepted to NeurIPS 2025 🧠
+title: Paper Accepted to NeurIPS 2025
 type: publication
 ---
 Our paper "DISC: Dynamic Decomposition Improves LLM Inference Scaling" has been accepted to NeurIPS 2025.

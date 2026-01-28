@@ -24,10 +24,10 @@ doi = "10.48550/arXiv.2505.21963"
 
 [[publications]]
 title = "SCAN: Semantic Document Layout Analysis for Textual and Visual Retrieval-Augmented Generation"
-authors = ["Yuyang Dong", "Nobuhiro Ueda", "Krisztián Boros", "Daiki Ito", "Takuya Sera", "Masafumi Oyamada"]
-year = 2025
-venue = "CoRR"
-type = "preprint"
+authors = ["Nobuhiro Ueda", "Yuyang Dong", "Krisztián Boros", "Daiki Ito", "Takuya Sera", "Masafumi Oyamada"]
+year = 2026
+venue = "EACL (Findings)"
+type = "conference"
 doi = "10.48550/arXiv.2505.14381"
 
 [[publications]]
@@ -65,9 +65,9 @@ doi = "10.48550/arXiv.2502.16706"
 [[publications]]
 title = "Best-of-∞ -- Asymptotic Performance of Test-Time Compute"
 authors = ["Junpei Komiyama", "Daisuke Oba", "Masafumi Oyamada"]
-year = 2025
-venue = "CoRR"
-type = "preprint"
+year = 2026
+venue = "ICLR"
+type = "conference"
 doi = "10.48550/arXiv.2509.21091"
 url = "https://arxiv.org/abs/2509.21091"
 
