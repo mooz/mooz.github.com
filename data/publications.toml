@@ -1,4 +1,12 @@
 [[publications]]
+title = "Read More, Think More: Revisiting Observation Reduction for Web Agents"
+authors = ["Masafumi Enomoto", "Ryoma Obara", "Haochen Zhang", "Masafumi Oyamada"]
+year = 2026
+venue = "CoRR"
+type = "preprint"
+doi = "10.48550/arXiv.2604.01535"
+
+[[publications]]
 title = "Evaluating the Impact of Reviewer Guideline Design on LLM-Based Automated Peer Review"
 authors = ["Haowen Li", "Yoichi Ishibashi", "Masafumi Oyamada"]
 year = 2026
