@@ -1,4 +1,13 @@
 ---
+date: 2026-04-07
+title: Paper Accepted to ACL 2026 (Findings) 📋
+type: publication
+---
+Our paper "Evaluating the Impact of Reviewer Guideline Design on LLM-Based Automated Peer Review" has been accepted to ACL 2026 (Findings).
+
+$$$
+
+---
 date: 2026-01-27
 title: Paper Accepted to ICLR 2026
 type: publication
