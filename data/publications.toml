@@ -1,4 +1,11 @@
 [[publications]]
+title = "cotomi Act: Learning to Automate Work by Watching You"
+authors = ["Masafumi Oyamada", "Kunihiro Takeoka", "Kosuke Akimoto", "Ryoma Obara", "Masafumi Enomoto", "Haochen Zhang", "Daichi Haraguchi", "Takuya Tamura"]
+year = 2026
+venue = "ACM CAIS (Demos)"
+type = "conference"
+
+[[publications]]
 title = "Read More, Think More: Revisiting Observation Reduction for Web Agents"
 authors = ["Masafumi Enomoto", "Ryoma Obara", "Haochen Zhang", "Masafumi Oyamada"]
 year = 2026

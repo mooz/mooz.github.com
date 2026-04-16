@@ -1,4 +1,13 @@
 ---
+date: 2026-04-16
+title: Paper Accepted to ACM CAIS 2026 🤖
+type: publication
+---
+Our paper "cotomi Act: Learning to Automate Work by Watching You" has been accepted to ACM CAIS'26 (Demos).
+
+$$$
+
+---
 date: 2026-04-07
 title: Paper Accepted to ACL 2026 (Findings) 📋
 type: publication
