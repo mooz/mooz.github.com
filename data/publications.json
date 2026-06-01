@@ -1,0 +1,1326 @@
+{
+  "schemaVersion": 1,
+  "versionPolicy": "latest-per-paper",
+  "publications": [
+    {
+      "id": "2026-05-revisiting-observation-reduction-for-web-agents@2026-05-28",
+      "paperId": "2026-05-revisiting-observation-reduction-for-web-agents",
+      "versionDate": "2026-05-28",
+      "title": "Revisiting Observation Reduction for Web Agents: Comprehensive Evaluation with a Lightweight Framework",
+      "authors": [
+        "Masafumi Enomoto",
+        "Ryoma Obara",
+        "Haochen Zhang",
+        "Masafumi Oyamada"
+      ],
+      "year": 2026,
+      "venue": "CoRR",
+      "type": "preprint",
+      "tags": [
+        "Agents",
+        "Harness"
+      ],
+      "doi": "10.48550/arXiv.2605.29397",
+      "url": "https://arxiv.org/abs/2605.29397",
+      "abstract": "HTML observations in LLM-based web agents are extremely long, and while many reduction methods have been proposed, it remains unclear which methods reduce overall agent latency while maintaining performance. The main obstacle is the high cost of end-to-end evaluation: in our experiments, evaluating 11 methods across 32 configurations on 33 tasks of WorkArena L1 required 232.4 cumulative hours.\nTo address this, we propose a lightweight evaluation framework based on the Minimal Failure Set (MFS), the minimal set of HTML elements whose removal causes task failure. We define coverage as the fraction of instances in which a reduction method fully retains the MFS, which serves as a proxy metric that requires neither web access nor LLM inference. We validate that coverage strongly correlates with end-to-end success rate, with over 100x speedup in cumulative evaluation time on both benchmarks.\nUsing this framework, we find that extractive HTML reduction methods require either high computation cost or domain-specific optimization to reduce agent latency while maintaining performance. Building on this, we optimize a pruning program on MFS training data, achieving 2.2x faster per-step latency on WorkArena L1 while retaining 84% of the original success rate, and 3.1x faster on WebLinx while retaining 89%.",
+      "highlight": {
+        "kicker": "Fast Signals for Web-Agent Evaluation",
+        "summary": "End-to-end web-agent evaluation can take hundreds of hours. Minimal Failure Sets turn it into a lightweight coverage question: does a shortened HTML observation keep the elements that actually make the task succeed?",
+        "takeaways": [
+          "Coverage strongly tracks success rate on WorkArena L1 and WebLinx.",
+          "The proxy avoids live web access and LLM inference.",
+          "WorkArena L1 evaluation drops from 232.4 hours to 48.2 minutes."
+        ],
+        "imageCaption": "Coverage aligns closely with end-to-end success while requiring far less evaluation time.",
+        "image": "/publications/highlights/2026-05-revisiting-observation-reduction-for-web-agents/2026-05-28/000.jpg"
+      }
+    },
+    {
+      "id": "2026-05-effective-harness-engineering@2026-05-13",
+      "paperId": "2026-05-effective-harness-engineering",
+      "versionDate": "2026-05-13",
+      "title": "Effective Harness Engineering for Algorithm Discovery with Coding Agents",
+      "authors": [
+        "Yoichi Ishibashi",
+        "Taro Yano",
+        "Masafumi Oyamada"
+      ],
+      "year": 2026,
+      "venue": "AI4Science @ ICML",
+      "type": "conference",
+      "tags": [
+        "Agents",
+        "Harness",
+        "Open Endedness"
+      ],
+      "doi": "10.48550/arXiv.2605.15221",
+      "url": "https://arxiv.org/abs/2605.15221",
+      "abstract": "AlphaEvolve and FunSearch have demonstrated the potential of combining large language models (LLMs) with evolutionary search for automated algorithm discovery. However, discovery success is shaped not only by model capability but also significantly by the design of the execution infrastructure, i.e., the harness. This paper investigates effective harness design through three questions: under a fixed token budget, is it better to produce many algorithms with brief thought or fewer algorithms with deeper thought? How should the harness handle evaluation hacks, where generated programs exploit the scoring function? And how can agents that require full filesystem access execute safely in parallel? Using Vesper, an algorithm discovery framework that incorporates harness improvements addressing these questions, we evaluate on Circle Packing under the same token budget. Interestingly, generating fewer algorithms while thinking more deeply about each one achieved higher scores. That is, scaling the quality of each individual is more budget-efficient than scaling the number of evolutionary generations. Surprisingly, more capable models produced evaluation hacks at higher rates, making hack detection increasingly necessary as models scale.",
+      "highlight": {
+        "kicker": "Think Deeper, Generate Less",
+        "summary": "Under the same token budget, algorithm discovery improved more by spending tokens on stronger individual program edits than by generating more candidates. On Circle Packing, this suggests a quality-per-iteration bottleneck for evolutionary search with coding agents.",
+        "takeaways": [
+          "Vesper with gpt-5.2-codex reached about 2.636 on Circle Packing using 40M tokens.",
+          "Broader search produced many more candidates, but with less work per algorithm.",
+          "Higher tokens per algorithm aligned with stronger final scores in these runs."
+        ],
+        "imageCaption": "Runs that spend more tokens per algorithm cluster near higher Circle Packing scores.",
+        "image": "/publications/highlights/2026-05-effective-harness-engineering/2026-05-13/003.jpg"
+      }
+    },
+    {
+      "id": "2026-04-cotomi-act@2026-04-16",
+      "paperId": "2026-04-cotomi-act",
+      "versionDate": "2026-04-16",
+      "title": "cotomi Act: Learning to Automate Work by Watching You",
+      "authors": [
+        "Masafumi Oyamada",
+        "Kunihiro Takeoka",
+        "Kosuke Akimoto",
+        "Ryoma Obara",
+        "Masafumi Enomoto",
+        "Haochen Zhang",
+        "Daichi Haraguchi",
+        "Takuya Tamura"
+      ],
+      "year": 2026,
+      "venue": "ACM CAIS (Demos)",
+      "type": "conference",
+      "tags": [
+        "Agents",
+        "Harness"
+      ],
+      "doi": "10.48550/arXiv.2605.03231",
+      "url": "https://arxiv.org/abs/2605.03231",
+      "abstract": "What if a browser agent could learn your work simply by watching you do it? We present cotomi Act, a browser-based computer-using agent that combines reliable multi-step task execution with persistent organizational knowledge learned from user behavior. For execution, an agent scaffold with adaptive lazy observation, verbal-diff-based history compression, coarse-grained actions, and test-time scaling via best-of-N action selection achieves 80.4% on the 179-task WebArena human-evaluation subset, exceeding the reported 78.2% human baseline. For organizational knowledge, a behavior-to-knowledge pipeline passively observes the user's browsing and progressively abstracts it into artifacts (task boards, wiki) exposed through a shared workspace editable by both user and agent. A controlled proxy evaluation confirms that task success improves as behavior-derived knowledge accumulates. In our live demonstration, attendees interact with the system in a real browser, issuing tasks and observing end-to-end autonomous execution and shared knowledge management.",
+      "highlight": {
+        "kicker": "Agents That Learn the Workplace",
+        "summary": "Browser agents usually know the page but not the organization behind the task. cotomi Act turns ordinary browsing into shared memory: task boards, timelines, and wiki knowledge that the agent can consult as future work unfolds.",
+        "takeaways": [
+          "Passive behavior logs are distilled into editable organizational artifacts.",
+          "The user and agent read and write the same workspace.",
+          "Measured success improves as behavior-derived knowledge accumulates."
+        ],
+        "imageCaption": "Ordinary browsing is distilled into a shared knowledge workspace that both users and agents can use.",
+        "image": "/publications/highlights/2026-04-cotomi-act/2026-04-16/001.jpg"
+      }
+    },
+    {
+      "id": "2026-04-reviewer-guideline-design@2026-04-07",
+      "paperId": "2026-04-reviewer-guideline-design",
+      "versionDate": "2026-04-07",
+      "title": "Evaluating the Impact of Reviewer Guideline Design on LLM-Based Automated Peer Review",
+      "authors": [
+        "Haowen Li",
+        "Yoichi Ishibashi",
+        "Masafumi Oyamada"
+      ],
+      "year": 2026,
+      "venue": "ACL (Findings)",
+      "type": "conference",
+      "tags": [
+        "Evaluation"
+      ],
+      "abstract": "Peer review is an essential process in scientific research, yet the growing workload has made its automation increasingly necessary. In this study, we analyze how different types of reviewer guidelines, such as official conference guidelines and reviewer-imitating ones distilled from high-quality human reviews, affect automated peer review. Our experiments show that official conference guidelines produce review results most consistent with human judgments, suggesting that evaluation criteria refined through conference practice serve as effective guidance for automated reviewing as well. In contrast, reviewer-imitating guidelines, especially those enforcing strict rubric-style scoring, consistently degraded automated review performance, highlighting the importance of allowing subjective and holistic scoring.",
+      "highlight": {
+        "kicker": "Peer Review Is Not Just a Checklist",
+        "summary": "Automated reviewers aligned best with human judgments when guided by official conference criteria, not by prompts that imitate reviewer behavior. The result suggests that peer-review automation needs carefully designed evaluation standards, while overly rigid rubrics can push LLM scores away from human assessments.",
+        "takeaways": [
+          "Official guidelines produced the strongest score alignment across several model and conference settings.",
+          "Reviewer-imitating rubric prompts often increased error instead of reducing it."
+        ],
+        "imageCaption": "RMSE comparisons show that rubric-style reviewer-imitating guidelines often move LLM scores farther from human judgments.",
+        "image": "/publications/highlights/2026-04-reviewer-guideline-design/2026-04-07/001.jpg"
+      }
+    },
+    {
+      "id": "2026-04-read-more-think-more@2026-04-02",
+      "paperId": "2026-04-read-more-think-more",
+      "versionDate": "2026-04-02",
+      "title": "Read More, Think More: Revisiting Observation Reduction for Web Agents",
+      "authors": [
+        "Masafumi Enomoto",
+        "Ryoma Obara",
+        "Haochen Zhang",
+        "Masafumi Oyamada"
+      ],
+      "year": 2026,
+      "venue": "CoRR",
+      "type": "preprint",
+      "tags": [
+        "Agents",
+        "Harness"
+      ],
+      "doi": "10.48550/arXiv.2604.01535",
+      "abstract": "Web agents based on large language models (LLMs) rely on observations of web pages -- commonly represented as HTML -- as the basis for identifying available actions and planning subsequent steps. Prior work has treated the verbosity of HTML as an obstacle to performance and adopted observation reduction as a standard practice. We revisit this trend and demonstrate that the optimal observation representation depends on model capability and thinking token budget: (1) compact observations (accessibility trees) are preferable for lower-capability models, while detailed observations (HTML) are advantageous for higher-capability models; moreover, increasing thinking tokens further amplifies the benefit of HTML. (2) Our error analysis suggests that higher-capability models exploit layout information in HTML for better action grounding, while lower-capability models suffer from increased hallucination under longer inputs. We also find that incorporating observation history improves performance across most models and settings, and a diff-based representation offers a token-efficient alternative. Based on these findings, we suggest practical guidelines: adaptively select observation representations based on model capability and thinking token budget, and incorporate observation history using diff-based representations.",
+      "highlight": {
+        "kicker": "Observation Design Is Model-Dependent",
+        "summary": "Web-agent context is not just a compression problem. The best page representation changes with model capability and thinking budget, so observation pipelines should adapt to the agent rather than standardize on one reduced format.",
+        "takeaways": [
+          "Accessibility trees are compact and often better for lower-capability models.",
+          "HTML gives stronger models extra structure for grounding actions.",
+          "Observation history adds value, especially when represented compactly as diffs."
+        ],
+        "imageCaption": "Lower-capability web agents improve with compact observations, while stronger models benefit from richer page context and more thinking budget.",
+        "image": "/publications/highlights/2026-04-read-more-think-more/2026-04-02/000.jpg"
+      }
+    },
+    {
+      "id": "2026-01-best-of-test-time-compute@2026-01-27",
+      "paperId": "2026-01-best-of-test-time-compute",
+      "versionDate": "2026-01-27",
+      "title": "Best-of-∞ -- Asymptotic Performance of Test-Time Compute",
+      "authors": [
+        "Junpei Komiyama",
+        "Daisuke Oba",
+        "Masafumi Oyamada"
+      ],
+      "year": 2026,
+      "venue": "ICLR",
+      "type": "conference",
+      "tags": [
+        "Inference Scaling"
+      ],
+      "doi": "10.48550/arXiv.2509.21091",
+      "url": "https://arxiv.org/abs/2509.21091",
+      "abstract": "We study best-of-$N$ for large language models (LLMs) where the selection is based on majority voting. In particular, we analyze the limit $N \\to \\infty$, which we denote as best-of-infinity. While this approach achieves impressive performance in the limit, it requires an infinite test-time budget. To address this, we propose an adaptive generation scheme that selects $N$ based on answer agreement, thereby efficiently allocating inference-time computation. Beyond adaptivity, we extend the framework to weighted ensembles of multiple LLMs, showing that such mixtures can outperform any individual model. The optimal ensemble weighting is formulated and efficiently computed as a mixed-integer linear program. Extensive experiments demonstrate the effectiveness of our approach.",
+      "highlight": {
+        "kicker": "A Ceiling for Majority-Vote Sampling",
+        "summary": "More generations can improve LLM answers, but majority voting has a limit. Best-of-infinity studies the N → ∞ regime to separate the accuracy a model could reach with unlimited sampling from the finite compute needed to get close.",
+        "takeaways": [
+          "Analyzes best-of-N majority voting in the large-sample limit.",
+          "Shows why gains from extra generations taper toward an asymptote.",
+          "Frames test-time scaling as a question of marginal value."
+        ],
+        "imageCaption": "Accuracy improves with more generations but flattens near the asymptotic majority-vote limit.",
+        "image": "/publications/highlights/2026-01-best-of-test-time-compute/2026-01-27/000.jpg"
+      }
+    },
+    {
+      "id": "2026-01-scan-semantic-layout-rag@2026-01-03",
+      "paperId": "2026-01-scan-semantic-layout-rag",
+      "versionDate": "2026-01-03",
+      "title": "SCAN: Semantic Document Layout Analysis for Textual and Visual Retrieval-Augmented Generation",
+      "authors": [
+        "Nobuhiro Ueda",
+        "Yuyang Dong",
+        "Krisztián Boros",
+        "Daiki Ito",
+        "Takuya Sera",
+        "Masafumi Oyamada"
+      ],
+      "year": 2026,
+      "venue": "EACL (Findings)",
+      "type": "conference",
+      "tags": [
+        "Retrieval"
+      ],
+      "doi": "10.48550/arXiv.2505.14381",
+      "abstract": "With the increasing adoption of Large Language Models (LLMs) and Vision-Language Models (VLMs), rich document analysis technologies for applications like Retrieval-Augmented Generation (RAG) and visual RAG are gaining significant attention. Recent research indicates that using VLMs yields better RAG performance, but processing rich documents remains a challenge since a single page contains large amounts of information. In this paper, we present SCAN (SemantiC Document Layout ANalysis), a novel approach that enhances both textual and visual Retrieval-Augmented Generation (RAG) systems that work with visually rich documents. It is a VLM-friendly approach that identifies document components with appropriate semantic granularity, balancing context preservation with processing efficiency. SCAN uses a coarse-grained semantic approach that divides documents into coherent regions covering contiguous components. We trained the SCAN model by fine-tuning object detection models on an annotated dataset. Our experimental results across English and Japanese datasets demonstrate that applying SCAN improves end-to-end textual RAG performance by up to 9.4 points and visual RAG performance by up to 10.4 points, outperforming conventional approaches and even commercial document processing solutions.",
+      "highlight": {
+        "kicker": "Chunk Documents by Meaning",
+        "summary": "Rich documents are hard for RAG because a page can mix charts, text, titles, and images. SCAN shows that retrieval improves when chunks follow semantic regions instead of tiny layout fragments, giving LLMs and VLMs the context they need without processing whole pages.",
+        "takeaways": [
+          "Groups contiguous document components into coherent semantic boxes.",
+          "Improves end-to-end textual RAG by up to 9.4 points and visual RAG by up to 10.4 points.",
+          "Evaluated across English and Japanese document QA datasets."
+        ],
+        "imageCaption": "SCAN groups fragmented page elements into larger semantic regions that preserve document context.",
+        "image": "/publications/highlights/2026-01-scan-semantic-layout-rag/2026-01-03/000.jpg"
+      }
+    },
+    {
+      "id": "2025-09-disc@2025-09-27",
+      "paperId": "2025-09-disc",
+      "versionDate": "2025-09-27",
+      "title": "DISC: Dynamic Decomposition Improves LLM Inference Scaling",
+      "authors": [
+        "Jonathan Light",
+        "Wei Cheng",
+        "Benjamin Riviere",
+        "Wu Yue",
+        "Masafumi Oyamada",
+        "Mengdi Wang",
+        "Yisong Yue",
+        "Santiago Paternain",
+        "Haifeng Chen"
+      ],
+      "year": 2025,
+      "venue": "NeurIPS",
+      "type": "conference",
+      "tags": [
+        "Inference Scaling"
+      ],
+      "doi": "10.48550/arXiv.2502.16706",
+      "abstract": "Inference scaling methods for LLMs often rely on decomposing problems into steps (or groups of tokens), followed by sampling and selecting the best next steps. However, these steps and their sizes are often predetermined or manually designed based on domain knowledge. We propose dynamic decomposition, a method that adaptively and automatically partitions solution and reasoning traces into manageable steps during inference. By more effectively allocating compute -- particularly through subdividing challenging steps and prioritizing their sampling -- dynamic decomposition significantly improves inference efficiency. Experiments on benchmarks such as APPS, MATH, and LiveCodeBench demonstrate that dynamic decomposition outperforms static approaches, including token-level, sentence-level, and single-step decompositions, reducing the pass@10 error rate by 5.0%, 6.7%, and 10.5% respectively. These findings highlight the potential of dynamic decomposition to improve a wide range of inference scaling techniques.",
+      "highlight": {
+        "kicker": "Let the Model Choose the Step Size",
+        "summary": "LLM inference scaling often depends on where a solution is split into steps. DISC makes that boundary adaptive: it uses rollout feedback to use coarser steps when progress is clear and finer steps when a decision looks risky, improving compute efficiency across math and coding benchmarks.",
+        "takeaways": [
+          "Adapts step sizes during inference instead of fixing them by tokens, sentences, or whole solutions.",
+          "Spends more sampling effort on difficult prefixes rather than distributing compute uniformly.",
+          "Reduces pass@10 error rate by 5.0%, 6.7%, and 10.5% against static decomposition baselines."
+        ],
+        "imageCaption": "DISC adapts reasoning step boundaries instead of committing to a fixed whole-solution, token-level, or sentence-level split.",
+        "image": "/publications/highlights/2025-09-disc/2025-09-27/000.jpg"
+      }
+    },
+    {
+      "id": "2025-08-lamdagent@2025-08-25",
+      "paperId": "2025-08-lamdagent",
+      "versionDate": "2025-08-25",
+      "title": "LaMDAgent: An Autonomous Framework for Post-Training Pipeline Optimization via LLM Agents",
+      "authors": [
+        "Taro Yano",
+        "Yoichi Ishibashi",
+        "Masafumi Oyamada"
+      ],
+      "year": 2025,
+      "venue": "EMNLP",
+      "type": "conference",
+      "tags": [
+        "Open Endedness",
+        "Training"
+      ],
+      "doi": "10.48550/arXiv.2505.21963",
+      "abstract": "Large Language Models (LLMs) have demonstrated exceptional performance across a wide range of tasks. To further tailor LLMs to specific domains or applications, post-training techniques such as Supervised Fine-Tuning (SFT), Preference Learning, and model merging are commonly employed. While each of these methods has been extensively studied in isolation, the automated construction of complete post-training pipelines remains an underexplored area. Existing approaches typically rely on manual design or focus narrowly on optimizing individual components, such as data ordering or merging strategies. In this work, we introduce LaMDAgent (short for Language Model Developing Agent), a novel framework that autonomously constructs and optimizes full post-training pipelines through the use of LLM-based agents. LaMDAgent systematically explores diverse model generation techniques, datasets, and hyperparameter configurations, leveraging task-based feedback to discover high-performing pipelines with minimal human intervention. Our experiments show that LaMDAgent improves tool-use accuracy by 9.0 points while preserving instruction-following capabilities. Moreover, it uncovers effective post-training strategies that are often overlooked by conventional human-driven exploration. We further analyze the impact of data and model size scaling to reduce computational costs on the exploration, finding that model size scalings introduces new challenges, whereas scaling data size enables cost-effective pipeline discovery.",
+      "highlight": {
+        "kicker": "Agents for Post-Training Design",
+        "summary": "LaMDAgent reframes model adaptation as an iterative design loop: enumerate possible training actions, build a candidate model, evaluate it, and remember what worked. The key idea is that an LLM agent can search over complete post-training pipelines, not just tune isolated hyperparameters.",
+        "takeaways": [
+          "Searches over SFT, model merging, datasets, prompts, and hyperparameters.",
+          "Uses task feedback and memory to guide the next model-building action."
+        ],
+        "imageCaption": "LaMDAgent searches post-training pipelines by looping through action enumeration, action selection, model evaluation, and memory updates.",
+        "image": "/publications/highlights/2025-08-lamdagent/2025-08-25/000.jpg"
+      }
+    },
+    {
+      "id": "2025-07-can-crow-hatch-falcon@2025-07-09",
+      "paperId": "2025-07-can-crow-hatch-falcon",
+      "versionDate": "2025-07-09",
+      "title": "Can a Crow Hatch a Falcon? Lineage Matters in Predicting Large Language Model Performance",
+      "authors": [
+        "Takuya Tamura",
+        "Taro Yano",
+        "Masafumi Enomoto",
+        "Masafumi Oyamada"
+      ],
+      "year": 2025,
+      "venue": "COLM",
+      "type": "conference",
+      "tags": [
+        "Evaluation",
+        "Training"
+      ],
+      "doi": "10.48550/arXiv.2504.19811",
+      "abstract": "Accurately forecasting the performance of Large Language Models (LLMs) before extensive fine-tuning or merging can substantially reduce both computational expense and development time. Although prior approaches like scaling laws account for global factors such as parameter size or training tokens, they often overlook explicit lineage relationships-i.e., which models are derived or merged from which parents. In this work, we propose a novel Lineage-Regularized Matrix Factorization (LRMF) framework that encodes ancestral ties among LLMs via a graph Laplacian regularizer. By leveraging multi-hop parent-child connections, LRMF consistently outperforms conventional matrix factorization and collaborative filtering methods in both instance-level and benchmark-level performance prediction. Our large-scale study includes 2,934 publicly available Hugging Face models and 21,000+ instances across 6 major benchmarks, showing that the introduction of lineage constraints yields up to 0.15-0.30 higher Pearson correlation coefficients with actual performance compared to baseline methods. Moreover, LRMF effectively addresses the cold-start problem, providing accurate estimates for newly derived or merged models even with minimal data. This lineage-guided strategy thus offers a resource-efficient way to inform hyperparameter tuning, data selection, and model combination in modern LLM development.",
+      "highlight": {
+        "kicker": "A Crow Rarely Hatches a Falcon",
+        "summary": "Model ancestry carries performance information. When LLMs are fine-tuned or merged, their descendants often inherit enough structure from their parents that a lineage-aware predictor can forecast benchmark behavior more accurately.",
+        "takeaways": [
+          "Models lineage as a family graph rather than treating each model as independent.",
+          "Compares against matrix factorization, collaborative filtering, and model-lineage averaging baselines.",
+          "Covers BBH, GPQA, IFEval, MATH, MMLU-Pro, and MuSR."
+        ],
+        "imageCaption": "The lineage-aware method tracks actual benchmark performance more closely across BBH, IFEval, MATH, MMLU-Pro, and the aggregate score.",
+        "image": "/publications/highlights/2025-07-can-crow-hatch-falcon/2025-07-09/001.jpg"
+      }
+    },
+    {
+      "id": "2025-06-context-attribution-synthesis@2025-06-19",
+      "paperId": "2025-06-context-attribution-synthesis",
+      "versionDate": "2025-06-19",
+      "title": "On Synthesizing Data for Context Attribution in Question Answering",
+      "authors": [
+        "Gorjan Radevski",
+        "Kiril Gashteovski",
+        "Shahbaz Syed",
+        "Christopher Malon",
+        "Sebastien Nicolas",
+        "Chia-Chien Hung",
+        "Timo Sztyler",
+        "Verena Heußer",
+        "Wiem Ben Rim",
+        "Masafumi Enomoto",
+        "Kunihiro Takeoka",
+        "Masafumi Oyamada",
+        "Goran Glavaš",
+        "Carolin Lawrence"
+      ],
+      "year": 2025,
+      "venue": "ACL",
+      "type": "conference",
+      "tags": [
+        "Retrieval",
+        "Training"
+      ],
+      "doi": "10.48550/arXiv.2504.05317",
+      "abstract": "Question Answering (QA) accounts for a significant portion of LLM usage \"in the wild\". However, LLMs sometimes produce false or misleading responses, also known as \"hallucinations\". Therefore, grounding the generated answers in contextually provided information -- i.e., providing evidence for the generated text -- is paramount for LLMs' trustworthiness. Providing this information is the task of context attribution. In this paper, we systematically study LLM-based approaches for this task, namely we investigate (i) zero-shot inference, (ii) LLM ensembling, and (iii) fine-tuning of small LMs on synthetic data generated by larger LLMs. Our key contribution is SynQA: a novel generative strategy for synthesizing context attribution data. Given selected context sentences, an LLM generates QA pairs that are supported by these sentences. This leverages LLMs' natural strengths in text generation while ensuring clear attribution paths in the synthetic training data. We show that the attribution data synthesized via SynQA is highly effective for fine-tuning small LMs for context attribution in different QA tasks and domains. Finally, with a user study, we validate the usefulness of small LMs (fine-tuned on synthetic data from SynQA) in context attribution for QA.",
+      "highlight": {
+        "kicker": "Attribution as a Data Design Problem",
+        "summary": "A small attribution model can become competitive when the training data has the right structure. SynQA shows that synthetic evidence paths can train a 1B-parameter model to identify answer-supporting context across several QA settings.",
+        "takeaways": [
+          "Reframes attribution quality as a question of supervision design, not only model scale.",
+          "Reports strong F1 compared with larger zero-shot and ensemble baselines.",
+          "Useful for QA systems that need evidence highlighting without relying only on very large models."
+        ],
+        "imageCaption": "SynQA reaches high attribution F1 with a 1B model while much larger baselines trail behind.",
+        "image": "/publications/highlights/2025-06-context-attribution-synthesis/2025-06-19/005.jpg"
+      }
+    },
+    {
+      "id": "2025-06-llm-as-a-judge-design-choices@2025-06-16",
+      "paperId": "2025-06-llm-as-a-judge-design-choices",
+      "versionDate": "2025-06-16",
+      "title": "An Empirical Study of LLM-as-a-Judge: How Design Choices Impact Evaluation Reliability",
+      "authors": [
+        "Yusuke Yamauchi",
+        "Taro Yano",
+        "Masafumi Oyamada"
+      ],
+      "year": 2025,
+      "venue": "CoRR",
+      "type": "preprint",
+      "tags": [
+        "Evaluation"
+      ],
+      "doi": "10.48550/arXiv.2506.13639",
+      "abstract": "As large language models (LLMs) continue to advance, reliable evaluation methods are essential particularly for open-ended, instruction-following tasks. LLM-as-a-Judge enables automatic evaluation using LLMs as evaluators, but its reliability remains uncertain. In this work, we analyze key factors affecting its trustworthiness, focusing on alignment with human judgments and evaluation consistency. Using BIGGENBench and EvalBiasBench, we study the effects of evaluation design, decoding strategies, and Chain-of-Thought (CoT) reasoning in evaluation. Our results show that evaluation criteria are critical for reliability, non-deterministic sampling improves alignment with human preferences over deterministic evaluation, and CoT reasoning offers minimal gains when clear evaluation criteria are present.",
+      "highlight": {
+        "kicker": "LLM Judges Need Rubrics",
+        "summary": "LLM judges are more reliable when they receive explicit evaluation criteria, not just a reference answer. For open-ended tasks, reliability is shaped by how scoring is specified, and that design choice can materially change results even with the same evaluator model.",
+        "takeaways": [
+          "Tested on BIGGENBench and EvalBiasBench.",
+          "Removing criteria and references sharply reduced reliability.",
+          "Clear rubrics made Chain-of-Thought scoring less important."
+        ],
+        "imageCaption": "Across BIGGENBench and EvalBiasBench, removing criteria or references changes LLM-judge reliability across evaluator models.",
+        "image": "/publications/highlights/2025-06-llm-as-a-judge-design-choices/2025-06-16/001.jpg"
+      }
+    },
+    {
+      "id": "2025-05-query-expansion-fails@2025-05-19",
+      "paperId": "2025-05-query-expansion-fails",
+      "versionDate": "2025-05-19",
+      "title": "LLM-based Query Expansion Fails for Unfamiliar and Ambiguous Queries",
+      "authors": [
+        "Kenya Abe",
+        "Kunihiro Takeoka",
+        "Makoto P. Kato",
+        "Masafumi Oyamada"
+      ],
+      "year": 2025,
+      "venue": "SIGIR",
+      "type": "conference",
+      "tags": [
+        "Retrieval"
+      ],
+      "doi": "10.48550/arXiv.2505.12694",
+      "abstract": "Query expansion (QE) enhances retrieval by incorporating relevant terms, with large language models (LLMs) offering an effective alternative to traditional rule-based and statistical methods. However, LLM-based QE suffers from a fundamental limitation: it often fails to generate relevant knowledge, degrading search performance. Prior studies have focused on hallucination, yet its underlying cause--LLM knowledge deficiencies--remains underexplored. This paper systematically examines two failure cases in LLM-based QE: (1) when the LLM lacks query knowledge, leading to incorrect expansions, and (2) when the query is ambiguous, causing biased refinements that narrow search coverage. We conduct controlled experiments across multiple datasets, evaluating the effects of knowledge and query ambiguity on retrieval performance using sparse and dense retrieval models. Our results reveal that LLM-based QE can significantly degrade the retrieval effectiveness when knowledge in the LLM is insufficient or query ambiguity is high. We introduce a framework for evaluating QE under these conditions, providing insights into the limitations of LLM-based retrieval augmentation.",
+      "highlight": {
+        "kicker": "When Expansion Needs Knowledge",
+        "summary": "LLM query expansion is not a free retrieval boost. It helps when the model already has enough knowledge about the query, but can hurt search quality when the query asks about unfamiliar concepts or under-specified intent.",
+        "takeaways": [
+          "Tested across sparse and dense retrievers, including BM25, Contriever, and E5-base-v2.",
+          "The failure is not just hallucination; missing or biased knowledge can produce expansion terms that move retrieval away from relevant documents."
+        ],
+        "imageCaption": "Expansion improves retrieval mainly when the query matches knowledge the model already has.",
+        "image": "/publications/highlights/2025-05-query-expansion-fails/2025-05-19/003.jpg"
+      }
+    },
+    {
+      "id": "2025-05-mining-hidden-thoughts@2025-05-15",
+      "paperId": "2025-05-mining-hidden-thoughts",
+      "versionDate": "2025-05-15",
+      "title": "Mining Hidden Thoughts from Texts: Evaluating Continual Pretraining with Synthetic Data for LLM Reasoning",
+      "authors": [
+        "Yoichi Ishibashi",
+        "Taro Yano",
+        "Masafumi Oyamada"
+      ],
+      "year": 2025,
+      "venue": "CoRR",
+      "type": "preprint",
+      "tags": [
+        "Training",
+        "Inference Scaling"
+      ],
+      "doi": "10.48550/arXiv.2505.10182",
+      "abstract": "Large Language Models (LLMs) have demonstrated significant improvements in reasoning capabilities through supervised fine-tuning and reinforcement learning. However, when training reasoning models, these approaches are primarily applicable to specific domains such as mathematics and programming, which imposes fundamental constraints on the breadth and scalability of training data. In contrast, continual pretraining (CPT) offers the advantage of not requiring task-specific signals. Nevertheless, how to effectively synthesize training data for reasoning and how such data affect a wide range of domains remain largely unexplored. This study provides a detailed evaluation of Reasoning CPT, a form of CPT that uses synthetic data to reconstruct the hidden thought processes underlying texts, based on the premise that texts are the result of the author's thinking process. Specifically, we apply Reasoning CPT to Gemma2-9B using synthetic data with hidden thoughts derived from STEM and Law corpora, and compare it to standard CPT on the MMLU benchmark. Our analysis reveals that Reasoning CPT consistently improves performance across all evaluated domains. Notably, reasoning skills acquired in one domain transfer effectively to others; the performance gap with conventional methods widens as problem difficulty increases, with gains of up to 8 points on the most challenging problems. Furthermore, models trained with hidden thoughts learn to adjust the depth of their reasoning according to problem difficulty.",
+      "highlight": {
+        "kicker": "Reasoning from Ordinary Text",
+        "summary": "Can reasoning data be mined from documents that were never written as step-by-step solutions? Reasoning CPT treats ordinary text as the visible trace of an author’s hidden thinking, reconstructs that process synthetically, and turns broad corpora into training data for reasoning.",
+        "takeaways": [
+          "Uses Law and STEM corpora without task-specific reasoning labels.",
+          "Improves MMLU accuracy across STEM, social sciences, humanities, and other categories.",
+          "Connects a simple intuition, text reflects thought, to a scalable training recipe."
+        ],
+        "imageCaption": "Ordinary legal text is augmented with reconstructed hidden thoughts for reasoning-oriented training.",
+        "image": "/publications/highlights/2025-05-mining-hidden-thoughts/2025-05-15/001.jpg"
+      }
+    },
+    {
+      "id": "2025-05-confidence-rag-medical@2025-05-11",
+      "paperId": "2025-05-confidence-rag-medical",
+      "versionDate": "2025-05-11",
+      "title": "Understanding the Impact of Confidence in Retrieval Augmented Generation: A Case Study in the Medical Domain",
+      "authors": [
+        "Shintaro Ozaki",
+        "Yuta Kato",
+        "Siyuan Feng",
+        "Masayo Tomita",
+        "Kazuki Hayashi",
+        "Wataru Hashimoto",
+        "Ryoma Obara",
+        "Masafumi Oyamada",
+        "Katsuhiko Hayashi",
+        "Hidetaka Kamigaito",
+        "Taro Watanabe"
+      ],
+      "year": 2024,
+      "venue": "BioNLP@ACL",
+      "type": "conference",
+      "tags": [
+        "Retrieval"
+      ],
+      "doi": "10.48550/arXiv.2412.20309",
+      "abstract": "Retrieval Augmented Generation (RAG) complements the knowledge of Large Language Models (LLMs) by leveraging external information to enhance response accuracy for queries. This approach is widely applied in several fields by taking its advantage of injecting the most up-to-date information, and researchers are focusing on understanding and improving this aspect to unlock the full potential of RAG in such high-stakes applications. However, despite the potential of RAG to address these needs, the mechanisms behind the confidence levels of its outputs remain underexplored. Our study focuses on the impact of RAG, specifically examining whether RAG improves the confidence of LLM outputs in the medical domain. We conduct this analysis across various configurations and models. We evaluate confidence by treating the model's predicted probability as its output and calculating several evaluation metrics which include calibration error method, entropy, the best probability, and accuracy. Experimental results across multiple datasets confirmed that certain models possess the capability to judge for themselves whether an inserted document relates to the correct answer. These results suggest that evaluating models based on their output probabilities determine whether they function as generators in the RAG framework. Our approach allows us to evaluate whether the models handle retrieved documents.",
+      "highlight": {
+        "kicker": "RAG Changes Confidence, Not Just Answers",
+        "summary": "A retrieved passage can make a model more or less certain even when the final answer is the same. This work treats output probability as a signal for how medical LLMs respond to evidence, revealing behavior that accuracy alone can miss.",
+        "takeaways": [
+          "Measures entropy, best probability, accuracy, and calibration error.",
+          "Frames confidence as a separate axis for evaluating RAG systems."
+        ],
+        "imageCaption": "Retrieval shifts answer probabilities from an overconfident wrong choice toward the evidence-supported medical answer.",
+        "image": "/publications/highlights/2025-05-confidence-rag-medical/2025-05-11/000.jpg"
+      }
+    },
+    {
+      "id": "2025-01-llm-invent-algorithms@2025-01-24",
+      "paperId": "2025-01-llm-invent-algorithms",
+      "versionDate": "2025-01-24",
+      "title": "Can Large Language Models Invent Algorithms to Improve Themselves?",
+      "authors": [
+        "Yoichi Ishibashi",
+        "Taro Yano",
+        "Masafumi Oyamada"
+      ],
+      "year": 2025,
+      "venue": "NAACL",
+      "type": "conference",
+      "tags": [
+        "Open Endedness",
+        "Training"
+      ],
+      "url": "https://arxiv.org/abs/2410.15639",
+      "abstract": "Large Language Models (LLMs) have achieved remarkable capabilities, yet their improvement methods remain fundamentally constrained by human design. We present Self-Developing, a framework that enables LLMs to autonomously discover, implement, and refine their own improvement algorithms. Our approach employs an iterative cycle where a seed model generates algorithmic candidates as executable code, evaluates their effectiveness, and uses Direct Preference Optimization to recursively improve increasingly sophisticated improvement strategies. We demonstrate this framework through model merging, a practical technique for combining specialized models. Self-Developing successfully discovered novel merging algorithms that outperform existing human-designed algorithms. On mathematical reasoning benchmarks, the autonomously discovered algorithms improve the seed model's GSM8k performance by 6% and exceed human-designed approaches like Task Arithmetic by 4.3%. Remarkably, these algorithms exhibit strong generalization, achieving 7.4% gains on out-of-domain models without re-optimization. Our findings demonstrate that LLMs can transcend their training to invent genuinely novel optimization techniques. This capability represents a crucial step toward a new era where LLMs not only solve problems but autonomously develop the methodologies for their own advancement.",
+      "highlight": {
+        "kicker": "LLM-Designed Merging Rules Improve Math Reasoning",
+        "summary": "The work asks whether a language model can invent useful model-improvement algorithms, not just apply human-written ones. In model merging, self-generated Python algorithms improve GSM8k from 70.1% to 76.1% and match the strongest MATH result among the compared human-designed methods.",
+        "takeaways": [
+          "Top discovered GSM8k result: 76.1%, versus 71.9% for Task Arithmetic.",
+          "MATH rises from 0.5% for the seed model to 8.5% for the best discovered model."
+        ],
+        "imageCaption": "LLM-designed merging rules outperform the seed model and human-designed baselines on GSM8k while matching the best MATH score.",
+        "image": "/publications/highlights/2025-01-llm-invent-algorithms/2025-01-24/002.jpg"
+      }
+    },
+    {
+      "id": "2024-11-jellyfish-instruction-tuning@2024-11-07",
+      "paperId": "2024-11-jellyfish-instruction-tuning",
+      "versionDate": "2024-11-07",
+      "title": "Jellyfish: Instruction-Tuning Local Large Language Models for Data Preprocessing.",
+      "authors": [
+        "Haochen Zhang",
+        "Yuyang Dong",
+        "Chuan Xiao",
+        "Masafumi Oyamada"
+      ],
+      "year": 2024,
+      "venue": "EMNLP",
+      "type": "conference",
+      "tags": [
+        "Training",
+        "Structured Data"
+      ],
+      "url": "https://dblp.org/rec/conf/emnlp/ZhangD0O24.html",
+      "abstract": "This paper explores the utilization of LLMs for data preprocessing (DP), a crucial step in the data mining pipeline that transforms raw data into a clean format. We instruction-tune local LLMs as universal DP task solvers that operate on a local, single, and low-priced GPU, ensuring data security and enabling further customization. We select a collection of datasets across four representative DP tasks and construct instruction data using data configuration, knowledge injection, and reasoning data distillation techniques tailored to DP. By tuning Mistral-7B, Llama 3-8B, and OpenOrca-Platypus2-13B, our models, Jellyfish-7B/8B/13B, deliver competitiveness compared to GPT-3.5/4 models and strong generalizability to unseen tasks while barely compromising the base models' abilities in NLP tasks. Meanwhile, Jellyfish offers enhanced reasoning capabilities compared to GPT-3.5. Our models are available at: https://huggingface.co/NECOUDBFM/Jellyfish. Our instruction dataset is available at: https://huggingface.co/datasets/NECOUDBFM/Jellyfish-Instruct",
+      "highlight": {
+        "kicker": "Small Models, Large Preprocessing Gains",
+        "summary": "Jellyfish shows that local 7B-13B LLMs can become strong data-preprocessing solvers when tuned on task descriptions, injected knowledge, and reasoning traces. The key lesson is practical: for cleaning tables, targeted instruction data can unlock large gains without relying only on bigger hosted models.",
+        "takeaways": [
+          "Improves over the base models by average DP gains of +35.97, +18.60, and +21.61 points for the 7B, 8B, and 13B variants.",
+          "Covers error detection, data imputation, schema matching, entity matching, column type annotation, and attribute value extraction."
+        ],
+        "imageCaption": "Across six data-preprocessing tasks, Jellyfish turns 7B-13B base models into much stronger local solvers with large average gains.",
+        "image": "/publications/highlights/2024-11-jellyfish-instruction-tuning/2024-11-07/007.jpg"
+      }
+    },
+    {
+      "id": "2024-10-llm-table-tasks-tutorial@2024-10-21",
+      "paperId": "2024-10-llm-table-tasks-tutorial",
+      "versionDate": "2024-10-21",
+      "title": "On the Use of Large Language Models for Table Tasks.",
+      "authors": [
+        "Yuyang Dong",
+        "Masafumi Oyamada",
+        "Chuan Xiao",
+        "Haochen Zhang"
+      ],
+      "year": 2024,
+      "venue": "CIKM",
+      "type": "conference",
+      "tags": [
+        "Structured Data"
+      ],
+      "doi": "10.1145/3627673.3679100",
+      "url": "https://dongyuyang.github.io/tableLLM-tutorial/",
+      "abstract": "The proliferation of large language models (LLMs) has catalyzed a diverse array of applications. This tutorial delves into the application of LLMs for tabular data and targets a variety of table-related tasks, such as table understanding, text-to-SQL conversion, and tabular data preprocessing. It surveys LLM solutions to these tasks in five classes, categorized by their underpinning techniques: prompting, fine-tuning, RAG, agents, and multimodal methods. It discusses how LLMs offer innovative ways to interpret, augment, query, and cleanse tabular data, featuring academic contributions and their practical use in the industrial sector. It emphasizes the versatility and effectiveness of LLMs in handling complex table tasks, showcasing their ability to improve data quality, enhance analytical capabilities, and facilitate more intuitive data interactions. By surveying different approaches, this tutorial highlights the strengths of LLMs in enriching table tasks with more accuracy and usability, setting a foundation for future research and application in data science and AI-driven analytics.",
+      "highlight": {
+        "kicker": "A Roadmap for Table-Aware LLMs",
+        "summary": "How should LLMs be used with tabular data? Table-aware LLM work can be organized around five practical routes: prompting, fine-tuning, RAG, agents, and vision-language models, making a fast-moving design space easier to compare and apply.",
+        "takeaways": [
+          "Covers table understanding, text-to-SQL, preprocessing, querying, and cleansing.",
+          "Connects academic methods with practical data-analysis and data-quality workflows."
+        ],
+        "imageCaption": "The material moves from table-task basics to five LLM strategies: prompting, fine-tuning, RAG, agents, and vision-language models.",
+        "image": "/publications/highlights/2024-10-llm-table-tasks-tutorial/2024-10-21/000.jpg"
+      }
+    },
+    {
+      "id": "2024-10-lightpal@2024-10-17",
+      "paperId": "2024-10-lightpal",
+      "versionDate": "2024-10-17",
+      "title": "LightPAL: Lightweight Passage Retrieval for Open Domain Multi-Document Summarization.",
+      "authors": [
+        "Masafumi Enomoto",
+        "Kunihiro Takeoka",
+        "Kosuke Akimoto",
+        "Kiril Gashteovski",
+        "Masafumi Oyamada"
+      ],
+      "year": 2024,
+      "venue": "CoRR",
+      "type": "preprint",
+      "tags": [
+        "Retrieval"
+      ],
+      "doi": "10.48550/arXiv.2406.12494",
+      "abstract": "Open-Domain Multi-Document Summarization (ODMDS) is the task of generating summaries from large document collections in response to user queries. This task is crucial for efficiently addressing diverse information needs from users. Traditional retrieve-then-summarize approaches fall short for open-ended queries in ODMDS tasks. These queries often require broader context than initially retrieved passages provide, making it challenging to retrieve all relevant information in a single search. While iterative retrieval methods has been explored for multi-hop question answering (MQA), it's impractical for ODMDS due to high latency from repeated LLM inference. Accordingly, we propose LightPAL, a lightweight passage retrieval method for ODMDS. LightPAL leverages an LLM to pre-construct a graph representing passage relationships, then employs random walk during retrieval, avoiding iterative LLM inference. Experiments demonstrate that LightPAL outperforms naive sparse and pre-trained dense retrievers in both retrieval and summarization metrics, while achieving higher efficiency compared to iterative MQA approaches.",
+      "highlight": {
+        "kicker": "Indirect Evidence Matters",
+        "summary": "Broad summarization queries often need passages that do not match the query directly. LightPAL treats retrieval as navigation through a passage graph, using random walks to surface indirectly relevant context while improving retrieval and summarization metrics in many settings.",
+        "takeaways": [
+          "Initial retrieval supplies seed passages; graph walks add contextual neighbors.",
+          "The design targets cases where relevant passages are sparse across large document collections."
+        ],
+        "imageCaption": "LightPAL moves from a directly retrieved passage to indirectly relevant context by walking a passage graph.",
+        "image": "/publications/highlights/2024-10-lightpal/2024-10-17/000.jpg"
+      }
+    },
+    {
+      "id": "2024-10-low-resource-lm-training@2024-10-16",
+      "paperId": "2024-10-low-resource-lm-training",
+      "versionDate": "2024-10-16",
+      "title": "Optimizing Low-Resource Language Model Training: Comprehensive Analysis of Multi-Epoch, Multi-Lingual, and Two-Stage Approaches.",
+      "authors": [
+        "Kosuke Akimoto",
+        "Masafumi Oyamada"
+      ],
+      "year": 2024,
+      "venue": "CoRR",
+      "type": "preprint",
+      "tags": [
+        "Training"
+      ],
+      "doi": "10.48550/arXiv.2410.12325",
+      "abstract": "In this paper, we address the challenge of optimizing training setups for Large Language Models (LLMs) of low-resource language with a limited amount of corpus. Existing works adopt multi-epoch, multi-lingual, and two-stage training to utilize the limited target language corpus efficiently. However, there is still a lack of understanding about the optimal hyperparameter setups for combining these three approaches to train LLMs. We exhaustively explore training setups for low-resource language LLM, combining these three approaches, and found the following insights for efficiently reducing the cost of hyperparameter search: (1) As the amount of target language corpus decreases, the optimal training approach shifts from monolingual single-stage training to multi-lingual two-stage training at a compute budget dependent threshold. (2) The optimal model scale remains stable regardless of the amount of target language corpus, allowing the use of the compute-optimal scale of monolingual training. (3) The optimal number of epochs can be extrapolated from smaller-scale experiments to larger scale using our proposed model. Also, we provide evidence that, in single-stage training, the target language validation loss follows a power law with respect to the target language ratio, with an exponent independent of the amount of data, model scale, and language pair.",
+      "highlight": {
+        "kicker": "When Less Data Changes the Recipe",
+        "summary": "Low-resource LLM training is not simply a matter of repeating scarce data more often. As target-language data shrinks, the best setup can shift from monolingual single-stage training to multilingual two-stage training, with the switch point depending on compute.",
+        "takeaways": [
+          "Compares multi-epoch, multilingual, and two-stage training in one search space.",
+          "Identifies a data-dependent transition in the best training strategy.",
+          "Helps practitioners choose what to tune first when target text is scarce."
+        ],
+        "imageCaption": "As target-language data becomes scarcer, multilingual two-stage training overtakes the single-stage alternatives in this setting.",
+        "image": "/publications/highlights/2024-10-low-resource-lm-training/2024-10-16/000.jpg"
+      }
+    },
+    {
+      "id": "2023-08-llm-data-preprocessors@2024-08-26",
+      "paperId": "2023-08-llm-data-preprocessors",
+      "versionDate": "2024-08-26",
+      "title": "Large Language Models as Data Preprocessors.",
+      "authors": [
+        "Haochen Zhang",
+        "Yuyang Dong",
+        "Chuan Xiao",
+        "Masafumi Oyamada"
+      ],
+      "year": 2024,
+      "venue": "VLDB Workshops",
+      "type": "conference",
+      "tags": [
+        "Structured Data"
+      ],
+      "url": "https://vldb.org/workshops/2024/proceedings/TaDA/TaDA.11.pdf",
+      "abstract": "Large Language Models (LLMs), typified by OpenAI's GPT, have marked a significant advancement in artificial intelligence. Trained on vast amounts of text data, LLMs are capable of understanding and generating human-like text across a diverse range of topics. This study expands on the applications of LLMs, exploring their potential in data preprocessing, a critical stage in data mining and analytics applications. Aiming at tabular data, we delve into the applicability of state-of-the-art LLMs such as GPT-4 and GPT-4o for a series of preprocessing tasks, including error detection, data imputation, schema matching, and entity matching. Alongside showcasing the inherent capabilities of LLMs, we highlight their limitations, particularly in terms of computational expense and inefficiency. We propose an LLM-based framework for data preprocessing, which integrates cutting-edge prompt engineering techniques, coupled with traditional methods like contextualization and feature selection, to improve the performance and efficiency of these models. The effectiveness of LLMs in data preprocessing is evaluated through an experimental study spanning a variety of public datasets. GPT-4 emerged as a standout, achieving 100% accuracy or F1 score on 4 of these datasets, suggesting LLMs' immense potential in these tasks. Despite certain limitations, our study underscores the promise of LLMs in this domain and anticipates future developments to overcome current hurdles.",
+      "highlight": {
+        "kicker": "A Stress Test for LLM Data Work",
+        "summary": "Tabular preprocessing asks whether LLMs can operate over structured records, not just fluent text. Across error detection, imputation, schema matching, and entity matching, the results are promising but uneven: LLMs can rival specialized tools on some benchmarks, while efficiency and reliability still shape their practical value.",
+        "takeaways": [
+          "Evaluates four preprocessing categories across public tabular datasets.",
+          "GPT-4 reaches top scores on several imputation and entity-matching benchmarks."
+        ],
+        "imageCaption": "LLMs rival specialized preprocessors on several tabular benchmarks, while gaps remain across tasks and datasets.",
+        "image": "/publications/highlights/2023-08-llm-data-preprocessors/2024-08-26/000.jpg"
+      }
+    },
+    {
+      "id": "2024-01-rde-keyword-augmentation@2024-01-05",
+      "paperId": "2024-01-rde-keyword-augmentation",
+      "versionDate": "2024-01-05",
+      "title": "Relevance, Diversity, and Exclusivity: Designing Keyword-augmentation Strategy for Zero-shot Classifiers.",
+      "authors": [
+        "Taro Yano",
+        "Kunihiro Takeoka",
+        "Masafumi Oyamada"
+      ],
+      "year": 2024,
+      "venue": "*SEM",
+      "type": "conference",
+      "tags": [
+        "Machine Learning"
+      ],
+      "doi": "10.18653/v1/2024.starsem-1.9",
+      "abstract": "Zero-shot text classification involves categorizing text into classes without labeled data, typically using a pre-trained language model to compute the correlation between text and class names. This makes it essential for class names to contain sufficient information. Existing methods incorporate semantically similar keywords related to class names, but the properties of effective keywords remain unclear. We demonstrate that effective keywords should possess three properties: 1) keyword relevance to the task objective, 2) inter-class exclusivity, and 3) intra-class diversity. We also propose an automatic method for acquiring keywords that satisfy these properties without additional knowledge bases or data. Experiments on nine real-world datasets show our method outperforms existing approaches in fully zero-shot and generalized zero-shot settings. Ablation studies further confirm the importance of all three properties for superior performance.",
+      "highlight": {
+        "kicker": "Three Criteria for Better Zero-Shot Keywords",
+        "summary": "Effective keyword augmentation for zero-shot text classification depends on more than semantic similarity. REDEX ranks candidate keywords by task-aware relevance, inter-class exclusivity, and intra-class diversity, improving performance across fully zero-shot and generalized zero-shot settings.",
+        "takeaways": [
+          "Defines three keyword properties that connect class-name augmentation to classification behavior.",
+          "Automatically generates and reranks keywords without extra knowledge bases or labeled data.",
+          "Improves average zero-shot accuracy over non-augmented and NPPrompt baselines in the reported experiments."
+        ],
+        "imageCaption": "Keyword augmentation is framed as a two-stage process: generate candidate terms from class names, then rerank them for relevance, exclusivity, and diversity.",
+        "image": "/publications/highlights/2024-01-rde-keyword-augmentation/2024-01-05/001.jpg"
+      }
+    },
+    {
+      "id": "2023-12-llm-organization-summarization@2023-12-15",
+      "paperId": "2023-12-llm-organization-summarization",
+      "versionDate": "2023-12-15",
+      "title": "Towards Large Language Model Organization: A Case Study on Abstractive Summarization.",
+      "authors": [
+        "Krisztián Boros",
+        "Masafumi Oyamada"
+      ],
+      "year": 2023,
+      "venue": "IEEE Big Data",
+      "type": "conference",
+      "tags": [
+        "Agents"
+      ],
+      "doi": "10.1109/BigData59044.2023.10386199",
+      "abstract": "In this work we propose \"LLM Organization\", an organizational structure-based LLM workflow for improving the performance of standard abstractive summarization techniques and mitigate unfaithful summary generation. We formulated the organizational structure-based LLM workflow as a directed acyclic graph (DAG), where each node corresponds to an LLM and each edge to a communication protocol. Our workflow is benchmarked on 5 datasets from various domains, using 7 evaluation metrics. The results indicate that LLM Organization could mitigate unfaithfulness and increase the overall performance of abstractive summarization methods.",
+      "highlight": {
+        "kicker": "No Single Best LLM Team",
+        "summary": "Can LLMs summarize better by working as an organization? This work models summarization as a DAG of cooperating LLM agents and shows a practical lesson: network-like and hierarchical workflows can improve faithfulness or quality in some settings, but the best structure depends on the task.",
+        "takeaways": [
+          "Tested on 5 summarization datasets across news, patents, and dialogue.",
+          "Compared similarity, G-Eval, and factuality metrics.",
+          "Organizational structure matters more than adding agents blindly."
+        ],
+        "imageCaption": "Single-call, networked, and hierarchical agent organizations route summarization work through different communication patterns.",
+        "image": "/publications/highlights/2023-12-llm-organization-summarization/2023-12-15/000.jpg"
+      }
+    },
+    {
+      "id": "2023-12-jellyfish-data-preprocessing@2023-12-04",
+      "paperId": "2023-12-jellyfish-data-preprocessing",
+      "versionDate": "2023-12-04",
+      "title": "Jellyfish: A Large Language Model for Data Preprocessing.",
+      "authors": [
+        "Haochen Zhang",
+        "Yuyang Dong",
+        "Chuan Xiao",
+        "Masafumi Oyamada"
+      ],
+      "year": 2023,
+      "venue": "CoRR",
+      "type": "preprint",
+      "tags": [
+        "Structured Data"
+      ],
+      "doi": "10.48550/arXiv.2312.01678",
+      "abstract": "This paper explores the utilization of LLMs for data preprocessing (DP), a crucial step in the data mining pipeline that transforms raw data into a clean format conducive to easy processing. Whereas the use of LLMs has sparked interest in devising universal solutions to DP, recent initiatives in this domain typically rely on GPT APIs, raising inevitable data breach concerns. Unlike these approaches, we consider instruction-tuning local LLMs (7 -- 13B models) as universal DP task solvers that operate on a local, single, and low-priced GPU, ensuring data security and enabling further customization. We select a collection of datasets across four representative DP tasks and construct instruction tuning data using data configuration, knowledge injection, and reasoning data distillation techniques tailored to DP. By tuning Mistral-7B, Llama 3-8B, and OpenOrca-Platypus2-13B, our models, namely, Jellyfish-7B/8B/13B, deliver competitiveness compared to GPT-3.5/4 models and strong generalizability to unseen tasks while barely compromising the base models' abilities in NLP tasks. Meanwhile, Jellyfish offers enhanced reasoning capabilities compared to GPT-3.5. Our models and instruction dataset are publicly available.",
+      "highlight": {
+        "kicker": "Local LLMs for Private Data Cleaning",
+        "summary": "Can data preprocessing get LLM-style flexibility without sending sensitive tables to an external API? Jellyfish shows that instruction-tuned 7B-13B local models can handle multiple data cleaning tasks on modest hardware while keeping data closer to where it lives.",
+        "takeaways": [
+          "Covers error detection, data imputation, schema matching, and entity matching.",
+          "Uses DP-specific instruction data, knowledge injection, and reasoning distillation.",
+          "Targets local, single-GPU deployment for privacy-sensitive preprocessing."
+        ],
+        "imageCaption": "Raw data preprocessing tasks are converted into instruction data for tuning compact local Jellyfish models.",
+        "image": "/publications/highlights/2023-12-jellyfish-data-preprocessing/2023-12-04/000.jpg"
+      }
+    },
+    {
+      "id": "2022-12-deepjoin@2023-08-15",
+      "paperId": "2022-12-deepjoin",
+      "versionDate": "2023-08-15",
+      "title": "DeepJoin: Joinable Table Discovery with Pre-trained Language Models.",
+      "authors": [
+        "Yuyang Dong",
+        "Chuan Xiao",
+        "Takuma Nozawa",
+        "Masafumi Enomoto",
+        "Masafumi Oyamada"
+      ],
+      "year": 2023,
+      "venue": "VLDB",
+      "type": "journal",
+      "tags": [
+        "Structured Data",
+        "Retrieval"
+      ],
+      "doi": "10.14778/3603581.3603587",
+      "abstract": "Due to the usefulness in data enrichment for data analysis tasks, joinable table discovery has become an important operation in data lake management. Existing approaches target equi-joins, the most common way of combining tables for creating a unified view, or semantic joins, which tolerate misspellings and different formats to deliver more join results. They are either exact solutions whose running time is linear in the sizes of query column and target table repository or approximate solutions lacking precision. In this paper, we propose DeepJoin, a deep learning model for accurate and efficient joinable table discovery. Our solution is an embedding-based retrieval, which employs a pre-trained language model (PLM) and is designed as one framework serving both equi- and semantic joins. We propose a set of contextualization options to transform column contents to a text sequence. The PLM reads the sequence and is fine-tuned to embed columns to vectors such that columns are expected to be joinable if they are close to each other in the vector space. Since the output of the PLM is fixed in length, the subsequent search procedure becomes independent of the column size. With a state-of-the-art approximate nearest neighbor search algorithm, the search time is logarithmic in the repository size. To train the model, we devise the techniques for preparing training data as well as data augmentation. The experiments on real datasets demonstrate that by training on a small subset of a corpus, DeepJoin generalizes to large datasets and its precision consistently outperforms other approximate solutions'. DeepJoin is even more accurate than an exact solution to semantic joins when evaluated with labels from experts. Moreover, when equipped with a GPU, DeepJoin is up to two orders of magnitude faster than existing solutions.",
+      "highlight": {
+        "kicker": "Joinable-Table Discovery as Vector Search",
+        "summary": "DeepJoin reframes joinable-table discovery as learned retrieval. Instead of comparing raw column values one by one, it trains a language model so joinable columns land near each other in vector space, then uses approximate nearest-neighbor search to find candidates quickly.",
+        "takeaways": [
+          "The same embedding pipeline supports exact equi-joins and fuzzier semantic joins.",
+          "Column-to-text transformations let names, values, statistics, titles, and context inform the representation.",
+          "Experiments report stronger precision than approximate baselines on Webtable and Wikitable datasets."
+        ],
+        "imageCaption": "DeepJoin combines training, offline indexing, and online search into a vector-retrieval pipeline for joinable columns.",
+        "image": "/publications/highlights/2022-12-deepjoin/2023-08-15/000.jpg"
+      }
+    },
+    {
+      "id": "2023-07-cross-domain-user-similarity@2023-07-27",
+      "paperId": "2023-07-cross-domain-user-similarity",
+      "versionDate": "2023-07-27",
+      "title": "Cross-Domain User Similarity without Overlapping Attributes via Optimal Transport Theory.",
+      "authors": [
+        "Genki Kusano",
+        "Masafumi Oyamada"
+      ],
+      "year": 2023,
+      "venue": "eCom@SIGIR",
+      "type": "conference",
+      "tags": [
+        "Structured Data"
+      ],
+      "url": "https://ceur-ws.org/Vol-3589/paper_4.pdf",
+      "abstract": "Discovering similar users from different perspectives plays an essential role in marketing activities regarding understanding customers. In particular, user similarity based on attributes (e.g., preferences and behavioral tendencies) effectively captures user needs. However, such attributes are defined differently depending on the dataset, making comparing users accurately in a cross-domain setting challenging. Previous methods have focused on unifying attributes to calculate user similarity across multiple datasets. However, applicability is limited because they assume the existence of users or attributes that overlap in two datasets. In this paper, we propose Attribute TransPortation (ATP), a novel method based on optimal transport theory for calculating cross-domain user similarity without imposing the assumption of overlapping. In numerical experiments on six real-world datasets, ATP performed quantitatively better than related methods in two tasks, one for finding the same user to evaluate the similarity itself and the other for a cross-domain recommendation task to evaluate the effectiveness of utilizing the similarity.",
+      "highlight": {
+        "kicker": "Transporting Preferences Across Domains",
+        "summary": "If “opera” in music is close to several movie genres, its influence should be distributed across them, not forced into one hand-made label match. ATP uses optimal transport to translate preference weight between attribute spaces, then compares users after that translation.",
+        "takeaways": [
+          "Works without requiring identical attribute names across datasets.",
+          "Evaluated on user matching and cross-domain recommendation tasks."
+        ],
+        "imageCaption": "Optimal transport spreads the music attribute \"opera\" across nearby movie attributes instead of forcing a single label match.",
+        "image": "/publications/highlights/2023-07-cross-domain-user-similarity/2023-07-27/003.jpg"
+      }
+    },
+    {
+      "id": "2023-06-context-quality-fid@2023-06-10",
+      "paperId": "2023-06-context-quality-fid",
+      "versionDate": "2023-06-10",
+      "title": "Context Quality Matters in Training Fusion-in-Decoder for Extractive Open-Domain Question Answering.",
+      "authors": [
+        "Kosuke Akimoto",
+        "Kunihiro Takeoka",
+        "Masafumi Oyamada"
+      ],
+      "year": 2023,
+      "venue": "EMNLP (Findings)",
+      "type": "conference",
+      "tags": [
+        "Retrieval"
+      ],
+      "doi": "10.18653/v1/2023.findings-emnlp.784",
+      "abstract": "Retrieval-augmented generation models augment knowledge encoded in a language model by providing additional relevant external knowledge (context) during generation. Although it has been shown that the quantity and quality of context impact the performance of retrieval-augmented generation models during inference, limited research explores how these characteristics affect model training. This paper explores how context quantity and quality during model training affect the performance of Fusion-in-Decoder (FiD), the state-of-the-art retrieval-augmented generation model, in extractive open-domain question answering tasks. Experimental results suggest that FiD models overfit to context quality during training and show suboptimal performance when evaluated on different context quality. Through the experimental results, we also reveal FiD models trained with different context quality have different cross-attention distribution patterns. Specifically, as context quality during training increases, FiD models tend to attend more uniformly to each passage in context. Finally, based on these observations, we propose a method to mitigate overfitting to specific context quality by introducing bias to the cross-attention distribution, which we demonstrate to be effective in improving the performance of FiD models on different context quality.",
+      "highlight": {
+        "kicker": "Training Retrieval QA for Mismatched Context",
+        "summary": "Retrieval-augmented QA depends not only on the passages supplied at inference time, but also on the quality of passages seen during training. FiD can overfit to that context quality, so a model trained on clean evidence may lose accuracy when retrieval becomes noisier.",
+        "takeaways": [
+          "Separates context quality from context quantity during FiD training.",
+          "Shows train-test mismatch in retrieval quality as a hidden source of QA brittleness."
+        ],
+        "imageCaption": "Exact-match accuracy shifts sharply when FiD is trained on contexts whose evidence quality differs from the evaluation setting.",
+        "image": "/publications/highlights/2023-06-context-quality-fid/2023-06-10/000.jpg"
+      }
+    },
+    {
+      "id": "2022-07-table-enrichment-system@2022-07-11",
+      "paperId": "2022-07-table-enrichment-system",
+      "versionDate": "2022-07-11",
+      "title": "Table Enrichment System for Machine Learning.",
+      "authors": [
+        "Yuyang Dong",
+        "Masafumi Oyamada"
+      ],
+      "year": 2022,
+      "venue": "SIGIR",
+      "type": "conference",
+      "tags": [
+        "Machine Learning",
+        "Retrieval"
+      ],
+      "doi": "10.1145/3477495.3531678",
+      "highlight": {
+        "kicker": "Testing Whether Added Data Helps",
+        "summary": "Table augmentation is only valuable if it improves the model that will use it. The system makes enrichment an evaluable workflow: add external columns, train with the enriched table, and compare prediction quality before and after enrichment.",
+        "takeaways": [
+          "Connects table discovery to ML evaluation in one workflow.",
+          "Reports before-and-after metrics such as F1, precision, and recall.",
+          "Uses feature-importance views to inspect how added columns affect the model."
+        ],
+        "imageCaption": "The interface compares model performance before and after enrichment while showing the added columns that feed the prediction task.",
+        "image": "/publications/highlights/2022-07-table-enrichment-system/2022-07-11/002.jpg"
+      }
+    },
+    {
+      "id": "2021-11-low-resource-taxonomy-enrichment@2021-11-07",
+      "paperId": "2021-11-low-resource-taxonomy-enrichment",
+      "versionDate": "2021-11-07",
+      "title": "Low-resource Taxonomy Enrichment with Pretrained Language Models.",
+      "authors": [
+        "Kunihiro Takeoka",
+        "Kosuke Akimoto",
+        "Masafumi Oyamada"
+      ],
+      "year": 2021,
+      "venue": "EMNLP (1)",
+      "type": "conference",
+      "tags": [
+        "Structured Data"
+      ],
+      "doi": "10.18653/v1/2021.emnlp-main.217",
+      "abstract": "Taxonomies are symbolic representations of hierarchical relationships between terms or entities. While taxonomies are useful in broad applications, manually updating or maintaining them is labor-intensive and difficult to scale in practice. Conventional supervised methods for this enrichment task fail to find optimal parents of new terms in low-resource settings where only small taxonomies are available because of overfitting to hierarchical relationships in the taxonomies. To tackle the problem of low-resource taxonomy enrichment, we propose Musubu, an efficient framework for taxonomy enrichment in low-resource settings with pretrained language models (LMs) as knowledge bases to compensate for the shortage of information. Musubu leverages an LM-based classifier to determine whether or not inputted term pairs have hierarchical relationships. Musubu also utilizes Hearst patterns to generate queries to leverage implicit knowledge from the LM efficiently for more accurate prediction. We empirically demonstrate the effectiveness of our method in extensive experiments on taxonomies from both a SemEval task and real-world retailer datasets.",
+      "highlight": {
+        "kicker": "Pretrained Knowledge Helps Small Taxonomies Grow",
+        "summary": "The useful signal for taxonomy enrichment is not only in the seed taxonomy. Musubu uses pretrained language models as a source of implicit parent-child knowledge, improving parent prediction when only a small number of hierarchy examples are available.",
+        "takeaways": [
+          "Evaluated on SemEval and real commerce taxonomies.",
+          "Achieved the strongest overall Edge-F1 and Hierarchical-F1 among compared methods."
+        ],
+        "imageCaption": "Musubu maintains higher Edge-F1 than the baselines across low-resource training sizes.",
+        "image": "/publications/highlights/2021-11-low-resource-taxonomy-enrichment/2021-11-07/005.jpg"
+      }
+    },
+    {
+      "id": "2021-08-entity-matching-string-transformation@2021-08-16",
+      "paperId": "2021-08-entity-matching-string-transformation",
+      "versionDate": "2021-08-16",
+      "title": "Entity Matching with String Transformation and Similarity-Based Features",
+      "authors": [
+        "Kazunori Sakai",
+        "Yuyang Dong",
+        "Masafumi Oyamada",
+        "Kunihiro Takeoka",
+        "Takeshi Okadome"
+      ],
+      "year": 2021,
+      "venue": "SFDI 2021",
+      "type": "conference",
+      "tags": [
+        "Structured Data"
+      ],
+      "doi": "10.1007/978-3-030-93849-9_5",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-93849-9_5",
+      "abstract": "Entity matching is an important task in common data cleaning and data integration problems of determining two records that refer to the same real-world entity. Many research use string similarity as features to infer entity matching but the power of the similarity may be aﬀected by the pairs of hard-to-classify entities, which are actually different entities but have a high similarity or the same entity with low similarity. String transformation is a good solution to solve diﬀerent representations between two domains of datasets, such as abbreviations, misspellings, and other expressions. In this paper, we propose two powerful features, similarity gain and dissimilarity gain, that enables us to discriminate whether the two entities refer to the same entity after string transformation. The similarity gain is deﬁned by the maximum amount of similarity increase among the variations in similarity before and after applying string transformations. The dissimilarity is deﬁned by the maximum amount of similarity decrease. Moreover, the similarity gain and dissimilarity gain can also be used for selecting valuable samples in a limited labeling budget. Sufﬁcient experiments are conducted, and our method with the proposed features improves the best accuracy in most cases.",
+      "highlight": {
+        "kicker": "Features From Change, Not Similarity",
+        "summary": "Entity matching breaks when two names look similar for the wrong reason, or different for a superficial one. The key idea is to measure how similarity changes after string transformations, so a gain or drop becomes evidence about whether two records name the same entity.",
+        "takeaways": [
+          "Similarity gain captures the largest useful increase after transformation.",
+          "Dissimilarity gain captures the largest useful decrease after transformation.",
+          "The same signals can support both classification and sample selection."
+        ],
+        "imageCaption": "A transformed pair can move toward stronger agreement; the size of that movement becomes a matching feature.",
+        "image": "/publications/highlights/2021-08-entity-matching-string-transformation/2021-08-16/003.jpg"
+      }
+    },
+    {
+      "id": "2021-05-user-identity-linkage@2021-05-22",
+      "paperId": "2021-05-user-identity-linkage",
+      "versionDate": "2021-05-22",
+      "title": "User Identity Linkage for Different Behavioral Patterns across Domains.",
+      "authors": [
+        "Genki Kusano",
+        "Masafumi Oyamada"
+      ],
+      "year": 2021,
+      "venue": "ICWSM",
+      "type": "journal",
+      "tags": [
+        "Structured Data"
+      ],
+      "url": "https://dblp.org/rec/conf/icwsm/KusanoO21.html",
+      "abstract": "As customers use and benefit from multiple services, a large amount of customer data are accumulating daily. Connecting a customer's identity on a service with her identity on a different service, known as user identity linkage (UIL), enables a comprehensive understanding of users in a variety of real-world applications. The difficulties of UIL tasks in marketing applications are mainly the lack of user demographics and diverse user behavioral patterns, which differs from UIL tasks in social networking services that previous UIL methods have mainly been used to tackle. In this paper, we propose a novel method for UIL for different behavioral patterns to determine whether two given behavioral histories come from the same user without using any user demographics. Our proposed method links users by using natural language processing to efficiently characterize user intrinsic features and bridging the gap between two different behavioral patterns of the same user. We conducted experiments to evaluate our proposed method for three real-world open source datasets and observed that it successfully linked users compared to conventional UIL methods.",
+      "highlight": {
+        "kicker": "Linking Users Without Profiles",
+        "summary": "Can two accounts be matched when all you see is behavior, not demographics? Purchase logs and browsing logs can support likely identity matches when their histories are mapped into a shared behavioral representation.",
+        "takeaways": [
+          "Targets cross-domain linkage where the two services record different kinds of actions.",
+          "Uses NLP-style representations to compare behavioral histories rather than profile attributes.",
+          "Evaluated on Instacart, CTR, and Amazon datasets."
+        ],
+        "imageCaption": "Linking purchase and browsing histories reveals cross-domain behavior that a single service would miss.",
+        "image": "/publications/highlights/2021-05-user-identity-linkage/2021-05-22/000.jpg"
+      }
+    },
+    {
+      "id": "2021-05-quality-control-hierarchical-classification@2021-05-11",
+      "paperId": "2021-05-quality-control-hierarchical-classification",
+      "versionDate": "2021-05-11",
+      "title": "Quality Control for Hierarchical Classification with Incomplete Annotations.",
+      "authors": [
+        "Masafumi Enomoto",
+        "Kunihiro Takeoka",
+        "Yuyang Dong",
+        "Masafumi Oyamada",
+        "Takeshi Okadome"
+      ],
+      "year": 2021,
+      "venue": "PAKDD (3)",
+      "type": "conference",
+      "tags": [
+        "Machine Learning"
+      ],
+      "doi": "10.1007/978-3-030-75768-7_18",
+      "abstract": "Hierarchical classiﬁcation requires annotations with hierarchical class structures. Although crowdsourcing services are inexpensive ways to collect annotations for hierarchical classiﬁcation, the results are often incomplete because of the workers’ limited abilities that unable to label all classes, and crowdsourcing platforms also allow suspensions during the labeling ﬂow. Unfortunately, existing quality control approaches for reﬁning low-quality annotations discard those incomplete annotations, and this limits the quality improvement of the results. We propose a quality control method for hierarchical classiﬁcation that leverages incomplete annotations and the similarity between classes in the hierarchy for estimating the true leaf classes. Our method probabilistically models the labeling process and estimates the true leaf classes by considering the class-likelihood of samples and workers’ class-dependent expertise. Our method embeds the class hierarchy into a latent space and represents samples as well as the worker’s prototypical samples for classes (prototypes) as vectors in this space. The similarities between the vectors in the latent space are used to estimate the true leaf classes. The experimental results on both real-world and synthetic datasets demonstrate the eﬀectiveness of our method and its superiority over the baseline methods.",
+      "highlight": {
+        "kicker": "Quality Control Without Throwing Data Away",
+        "summary": "Crowdsourced hierarchical labels often stop before the most specific class. Instead of discarding those incomplete answers, this method combines the label hierarchy with worker-specific reliability to improve leaf-label estimation.",
+        "takeaways": [
+          "Treats partial annotations as structured evidence, not missing data.",
+          "Models workers as stronger for some branches of the hierarchy than others.",
+          "Improves hierarchical F-score on real and synthetic datasets."
+        ],
+        "imageCaption": "Partial annotations still identify useful regions of the class hierarchy, even when the exact leaf label is missing.",
+        "image": "/publications/highlights/2021-05-quality-control-hierarchical-classification/2021-05-11/000.jpg"
+      }
+    },
+    {
+      "id": "2020-10-efficient-joinable-table-discovery@2021-04-01",
+      "paperId": "2020-10-efficient-joinable-table-discovery",
+      "versionDate": "2021-04-01",
+      "title": "Efficient Joinable Table Discovery in Data Lakes: A High-Dimensional Similarity-Based Approach.",
+      "authors": [
+        "Yuyang Dong",
+        "Kunihiro Takeoka",
+        "Chuan Xiao",
+        "Masafumi Oyamada"
+      ],
+      "year": 2021,
+      "venue": "ICDE",
+      "type": "conference",
+      "tags": [
+        "Structured Data",
+        "Retrieval"
+      ],
+      "doi": "10.1109/ICDE51399.2021.00046",
+      "abstract": "Finding joinable tables in data lakes is key procedure in many applications such as data integration, data augmentation, data analysis, and data market. Traditional approaches that find equi-joinable tables are unable to deal with misspellings and different formats, nor do they capture any semantic joins. In this paper, we propose PEXESO, a framework for joinable table discovery in data lakes. We embed textual values as high-dimensional vectors and join columns under similarity predicates on high-dimensional vectors, hence to address the limitations of equi-join approaches and identify more meaningful results. To efficiently find joinable tables with similarity, we propose a block-and-verify method that utilizes pivot-based filtering. A partitioning technique is developed to cope with the case when the data lake is large and the index cannot fit in main memory. An experimental evaluation on real datasets shows that our solution identifies substantially more tables than equi-joins and outperforms other similarity-based options, and the join results are useful in data enrichment for machine learning tasks. The experiments also demonstrate the efficiency of the proposed method.",
+      "highlight": {
+        "kicker": "Finding Joins Beyond Exact Matches",
+        "summary": "Data lakes hide useful joins behind spelling variants, formatting differences, and semantic near-matches. PEXESO embeds textual table values as high-dimensional vectors, so join discovery can search by similarity in value space rather than exact string equality.",
+        "takeaways": [
+          "Targets joinable columns, not only duplicate cell values.",
+          "Uses vector similarity to recover joins that equi-joins miss.",
+          "Designed for data integration, augmentation, and analysis workflows."
+        ],
+        "imageCaption": "PEXESO builds an offline vector index so online queries can retrieve joinable tables by similarity.",
+        "image": "/publications/highlights/2020-10-efficient-joinable-table-discovery/2021-04-01/002.jpg"
+      }
+    },
+    {
+      "id": "2020-09-continuous-top-k-spatial-keyword@2020-09-05",
+      "paperId": "2020-09-continuous-top-k-spatial-keyword",
+      "versionDate": "2020-09-05",
+      "title": "Continuous top-k spatial-keyword search on dynamic objects.",
+      "authors": [
+        "Yuyang Dong",
+        "Chuan Xiao",
+        "Hanxiong Chen",
+        "Jeffrey Xu Yu",
+        "Kunihiro Takeoka",
+        "Masafumi Oyamada",
+        "Hiroyuki Kitagawa"
+      ],
+      "year": 2021,
+      "venue": "VLDB J.",
+      "type": "journal",
+      "tags": [
+        "Databases",
+        "Retrieval"
+      ],
+      "doi": "10.1007/s00778-020-00627-4",
+      "abstract": "As the popularity of SNS and GPS-equipped mobile devices rapidly grows, numerous location-based applications have emerged. A common scenario is that a large number of users change location and interests from time to time; e.g., a user watches news, blogs, and videos while moving outside. Many online services have been developed based on continuously querying spatial-keyword objects. For instance, Twitter adjusts advertisements based on the location and the content of the message a user has just tweeted. In this paper, we investigate the case of dynamic spatial-keyword objects whose locations and keywords change over time. We study the problem of continuously tracking top-k dynamic spatial-keyword objects for a given set of queries. Answering this type of queries benefits many location-aware services such as e-commerce potential customer identification, drone delivery, and self-driving stores. We develop a solution based on a grid index. To deal with the changing locations and keywords of objects, our solution first finds the set of queries whose results are affected by the change and then updates the results of these queries. We propose a series of indexing and query processing techniques to accelerate the two procedures. We also discuss batch processing to cope with the case when multiple objects change locations and keywords in a time interval and top-k results are reported afterwards. Experiments on real and synthetic datasets demonstrate the efficiency of our method and its superiority over alternative solutions.",
+      "highlight": {
+        "kicker": "Repair Top-k Results Instead of Recomputing Them",
+        "summary": "When people, posts, or devices move and change keywords, continuous spatial-keyword search can be maintained efficiently by treating each update as a targeted repair. The system identifies only the registered queries whose top-k answers may change, then refills those lists with grid-indexed spatial and keyword evidence.",
+        "takeaways": [
+          "Splits maintenance into affected-query detection and top-k refilling.",
+          "Indexes both dynamic objects and standing queries inside grid cells.",
+          "Supports single-object updates and batched updates over time intervals."
+        ],
+        "imageCaption": "Each object update is first matched to affected queries, then only those top-k lists are refilled.",
+        "image": "/publications/highlights/2020-09-continuous-top-k-spatial-keyword/2020-09-05/003.jpg"
+      }
+    },
+    {
+      "id": "2020-02-learning-unsure-responses@2020-02-07",
+      "paperId": "2020-02-learning-unsure-responses",
+      "versionDate": "2020-02-07",
+      "title": "Learning with Unsure Responses.",
+      "authors": [
+        "Kunihiro Takeoka",
+        "Yuyang Dong",
+        "Masafumi Oyamada"
+      ],
+      "year": 2020,
+      "venue": "AAAI",
+      "type": "conference",
+      "tags": [
+        "Machine Learning"
+      ],
+      "doi": "10.1609/aaai.v34i01.5355",
+      "abstract": "Many annotation systems provide to add an unsure option in the labels, because the annotators have different expertise, and they may not have enough confidence to choose a label for some assigned instances. However, all the existing approaches only learn the labels with a clear class name and ignore the unsure responses. Due to the unsure response also account for a proportion of the dataset (e.g., about 10-30% in real datasets), existing approaches lead to high costs such as paying more money or taking more time to collect enough size of labeled data. Therefore, it is a significant issue to make use of these unsure. In this paper, we make the unsure responses contribute to training classifiers. We found a property that the instances corresponding to the unsure responses always appear close to the decision boundary of classification. We design a loss function called unsure loss based on this property. We extend the conventional methods for classification and learning from crowds with this unsure loss . Experimental results on realworld and synthetic data demonstrate the performance of our method and its superiority over baseline methods.",
+      "highlight": {
+        "kicker": "Learning from Hesitation",
+        "summary": "When annotators choose Unsure, they may be flagging the hardest examples rather than adding unusable noise. This work treats those responses as boundary information, letting classifiers learn from ambiguity instead of throwing it away.",
+        "takeaways": [
+          "Introduces an unsure loss based on distance to the decision boundary.",
+          "Uses both confident labels and unsure responses during training.",
+          "Improves over baselines in synthetic and real annotation settings."
+        ],
+        "imageCaption": "Unsure responses cluster near the dog-wolf decision boundary, showing how hesitation can identify difficult training examples.",
+        "image": "/publications/highlights/2020-02-learning-unsure-responses/2020-02-07/000.jpg"
+      }
+    },
+    {
+      "id": "2019-12-extracting-feature-engineering-knowledge@2019-12-09",
+      "paperId": "2019-12-extracting-feature-engineering-knowledge",
+      "versionDate": "2019-12-09",
+      "title": "Extracting Feature Engineering Knowledge from Data Science Notebooks.",
+      "authors": [
+        "Masafumi Oyamada"
+      ],
+      "year": 2019,
+      "venue": "IEEE BigData",
+      "type": "conference",
+      "tags": [
+        "Structured Data",
+        "Machine Learning"
+      ],
+      "doi": "10.1109/BigData47090.2019.9006522",
+      "url": "https://arxiv.org/abs/1904.12054",
+      "abstract": "Designing good features for machine learning models, which is called feature-engineering, is one of the most important tasks in data analysis. Well-designed features, which capture the characteristics of data, improve the predictive performance and explainability of the model. Since good features generally reflect the deep knowledge on business domains of the data and the analysis task, feature engineering is considered as one of the most difficult phases in data analysis. Nowadays, AutoML is trying to automate the data science process by producing good features by autonomous algorithms such as feature-synthesis and feature-selection. While AutoML is making success in some extent, it cannot reproduce all the features crafted by expert data scientists in reality because of its huge search space. In this paper, we take different approach for assisting feature engineering process: transfer expert data scientists knowledge as much as possible. Proposed approach extracts frequently used feature engineering operations from source codes or notebooks by pattern discovery. Since naive textual pattern discovery performs poor for the source code, our approach converts source codes into abstract syntax trees and discovers important feature engineering operations as subgraphs by performing frequent subgraph mining.",
+      "highlight": {
+        "kicker": "Reusable Feature Engineering Patterns",
+        "summary": "Expert feature engineering often hides in ordinary notebook code, but naming differences make those operations difficult to reuse. This work turns code into typed syntax patterns so recurring transformations can be discovered across data-analysis projects.",
+        "takeaways": [
+          "Converts source code and notebooks into ASTs.",
+          "Uses type and semantic inference to normalize symbols.",
+          "Mines frequent subgraphs as candidates for reusable operations."
+        ],
+        "imageCaption": "Notebook code is transformed into typed syntax trees so repeated feature-engineering operations can be discovered across projects.",
+        "image": "/publications/highlights/2019-12-extracting-feature-engineering-knowledge/2019-12-09/000.jpg"
+      }
+    },
+    {
+      "id": "2019-01-meimei@2019-01-27",
+      "paperId": "2019-01-meimei",
+      "versionDate": "2019-01-27",
+      "title": "Meimei: An Efficient Probabilistic Approach for Semantically Annotating Tables.",
+      "authors": [
+        "Kunihiro Takeoka",
+        "Masafumi Oyamada",
+        "Shinji Nakadai",
+        "Takeshi Okadome"
+      ],
+      "year": 2019,
+      "venue": "AAAI",
+      "type": "conference",
+      "tags": [
+        "Structured Data",
+        "Machine Learning"
+      ],
+      "doi": "10.1609/aaai.v33i01.3301281",
+      "abstract": "Given a large amount of table data, how can we find the tables that contain the contents we want? A naive search fails when the column names are ambiguous, such as if columns containing stock price information are named \"Close\" in one table and named \"P\" in another table. One way of dealing with this problem that has been gaining attention is the semantic annotation of table data columns by using canonical knowledge. While previous studies successfully dealt with this problem for specific types of table data such as web tables, it still remains for various other types of table data: (1) most approaches do not handle table data with numerical values, and (2) their predictive performance is not satisfactory. This paper presents a novel approach for table data annotation that combines a latent probabilistic model with multilabel classifiers. It features three advantages over previous approaches due to using highly predictive multi-label classifiers in the probabilistic computation of semantic annotation. (1) It is more versatile due to using multi-label classifiers in the probabilistic model, which enables various types of data such as numerical values to be supported. (2) It is more accurate due to the multi-label classifiers and probabilistic model working together to improve predictive performance. (3) It is more efficient due to potential functions based on multi-label classifiers reducing the computational cost for annotation. Extensive experiments demonstrated the superiority of the proposed approach over state-of-the-art approaches for semantic annotation of real data (183 human-annotated tables obtained from the UCI Machine Learning Repository).",
+      "highlight": {
+        "kicker": "Column Meaning Is Contextual",
+        "summary": "A column’s meaning is rarely contained in its header alone. Meimei uses cell values and neighboring columns as context, so a numeric field like height is not confused with age or temperature just because the values look plausible.",
+        "takeaways": [
+          "Models dependencies among column concepts and the table title concept.",
+          "The full model reports stronger nDCG@5 than the version without column interdependency."
+        ],
+        "imageCaption": "Neighboring columns help resolve an ambiguous numeric Height column against labels such as Age or Temperature.",
+        "image": "/publications/highlights/2019-01-meimei/2019-01-27/003.jpg"
+      }
+    },
+    {
+      "id": "2018-12-accelerating-feature-engineering-apa-tree@2018-12-10",
+      "paperId": "2018-12-accelerating-feature-engineering-apa-tree",
+      "versionDate": "2018-12-10",
+      "title": "Accelerating Feature Engineering with Adaptive Partial Aggregation Tree.",
+      "authors": [
+        "Masafumi Oyamada"
+      ],
+      "year": 2018,
+      "venue": "IEEE BigData",
+      "type": "conference",
+      "tags": [
+        "Databases",
+        "Machine Learning"
+      ],
+      "doi": "10.1109/BigData.2018.8622192",
+      "abstract": "Range aggregation query is a fundamental operation in the feature engineering phase of the machine learning tasks, which computes statistics, such as the maximum and the standard deviation of a subset of records. Since the feature-engineering process is a trial-and-error process, data analysts repeatedly conduct tons of the range aggregation queries by changing the range conditions, which results in a heavy workload. To accelerate such repetitive range aggregation queries, we propose Adaptive Partial Aggregation Tree (APA-tree), which drastically reduces the amount of I/Os that happen in executing the range aggregation queries. The APA-tree partitions the data into several groups, executes range aggregations on each subgroups to obtain partial results, and caches the results in an imbalanced binary-tree. The APA-tree executes subsequent queries by reusing the cached partial query results as much as possible on the basis of the divide-and-conquer characteristic of the range aggregations. Experimental results confirm that APA-tree outperforms conventional partial aggregation methods regarding the amount of I/Os, especially in a skewed workload.",
+      "highlight": {
+        "kicker": "Reuse the Aggregates Analysts Repeat",
+        "summary": "Feature engineering often asks the same range-aggregation question in slightly different ways. APA-tree caches partial aggregate results in an adaptive tree, so later queries can reuse prior work instead of rereading the same records from disk.",
+        "takeaways": [
+          "Targets repeated range queries for statistics such as maximum and standard deviation.",
+          "Stores partial results over data groups in an imbalanced binary tree.",
+          "Refines cached summaries where the workload repeatedly returns."
+        ],
+        "imageCaption": "Frequently accessed ranges get finer cached summaries, letting later aggregation queries reuse more prior work.",
+        "image": "/publications/highlights/2018-12-accelerating-feature-engineering-apa-tree/2018-12-10/000.jpg"
+      }
+    },
+    {
+      "id": "2018-05-compressed-vector-set@2018-05-15",
+      "paperId": "2018-05-compressed-vector-set",
+      "versionDate": "2018-05-15",
+      "title": "Compressed Vector Set: A Fast and Space-Efficient Data Mining Framework.",
+      "authors": [
+        "Masafumi Oyamada",
+        "Jianquan Liu",
+        "Shinji Ito",
+        "Kazuyo Narita",
+        "Takuya Araki",
+        "Hiroyuki Kitagawa"
+      ],
+      "year": 2018,
+      "venue": "J. Inf. Process.",
+      "type": "journal",
+      "tags": [
+        "Databases",
+        "Machine Learning"
+      ],
+      "doi": "10.2197/ipsjjip.26.416",
+      "abstract": "In this paper, we present CVS (Compressed Vector Set), a fast and space-efficient data mining framework that efficiently handles both sparse and dense datasets. CVS holds a set of vectors in a compressed format and conducts primitive vector operations, such as l_p-norm and dot product, without decompression. By combining these primitive operations, CVS accelerates prominent data mining or machine learning algorithms including k-nearest neighbor algorithm, stochastic gradient descent algorithm on logistic regression, and kernel methods. In contrast to the commonly used sparse matrix/vector representation, which is not effective for dense datasets, CVS efficiently handles sparse datasets and dense datasets in a unified manner. Our experimental results demonstrate that CVS can process both dense datasets and sparse datasets faster than conventional sparse vector representation with smaller memory usage.",
+      "highlight": {
+        "kicker": "One Format for Sparse and Dense Vectors",
+        "summary": "Sparse formats are efficient only when the data really stays sparse. CVS asks whether one compressed representation can handle both sparse and dense vector sets efficiently, while still supporting the operations needed by learning algorithms.",
+        "takeaways": [
+          "Uses a block-based compressed vector representation",
+          "Runs primitive vector operations without full decompression",
+          "Reports lower memory use and faster processing than conventional sparse vector representations"
+        ],
+        "imageCaption": "Runtime speedups vary by compression scheme, but the compressed representations extend useful acceleration from sparse bag-of-words data to dense datasets where ordinary sparse storage performs poorly.",
+        "image": "/publications/highlights/2018-05-compressed-vector-set/2018-05-15/014.jpg"
+      }
+    },
+    {
+      "id": "2017-11-relational-mixture-of-experts@2017-11-18",
+      "paperId": "2017-11-relational-mixture-of-experts",
+      "versionDate": "2017-11-18",
+      "title": "Relational Mixture of Experts: Explainable Demographics Prediction with Behavioral Data.",
+      "authors": [
+        "Masafumi Oyamada",
+        "Shinji Nakadai"
+      ],
+      "year": 2017,
+      "venue": "ICDM",
+      "type": "conference",
+      "tags": [
+        "Machine Learning",
+        "Structured Data"
+      ],
+      "doi": "10.1109/ICDM.2017.45",
+      "abstract": "Given a collection of basic customer demographics (e.g., age and gender) and their behavioral data (e.g., item purchase histories), how can we predict sensitive demographics (e.g., income and occupation) that not every customer makes available? This demographics prediction problem is modeled as a classification task in which a customer's sensitive demographic y is predicted from his feature vector x. So far, two lines of work have tried to produce a \"good\" feature vector x from the customer's behavioral data: application-specific feature engineering using behavioral data and representation learning such as singular value decomposition or neural embedding on behavioral data. Although these approaches successfully improve the predictive performance, designing a good feature requires domain experts to make a great effort and features obtained from representation learning are hard to interpret. To overcome these problems, we present a Relational Infinite Support Vector Machine (R-iSVM), a mixture-of-experts model that can leverage behavioral data. Instead of augmenting the feature vectors of customers, R-iSVM uses behavioral data to find out behaviorally similar customer clusters and constructs a local prediction model at each customer cluster. In doing so, R-iSVM successfully improves the predictive performance without requiring application-specific feature designing and hard-to-interpret representations. Experimental results on three real-world datasets demonstrate the predictive performance and interpretability of R-iSVM. Furthermore, R-iSVM can co-exist with previous demographics prediction methods to further improve their predictive performance.",
+      "highlight": {
+        "kicker": "Behavior-Specific Demographic Experts",
+        "summary": "A single demographic predictor assumes the same behavioral signals matter for every customer. R-iSVM learns customer and item clusters from purchase histories, then trains a local expert for each customer group, using behavior as interpretable model structure rather than hand-built features.",
+        "takeaways": [
+          "Replaces one global classifier with cluster-specific prediction models.",
+          "Uses purchase behavior to reveal readable customer and item groups.",
+          "Evaluated on MovieLens 1M, Ta-Feng, and BeiRen."
+        ],
+        "imageCaption": "Customer groups and item groups are learned together, then each customer group gets its own demographic prediction model.",
+        "image": "/publications/highlights/2017-11-relational-mixture-of-experts/2017-11-18/002.jpg"
+      }
+    },
+    {
+      "id": "2013-03-continuous-query-processing-concurrency-control@2013-03-18",
+      "paperId": "2013-03-continuous-query-processing-concurrency-control",
+      "versionDate": "2013-03-18",
+      "title": "Continuous query processing with concurrency control: reading updatable resources consistently.",
+      "authors": [
+        "Masafumi Oyamada",
+        "Hideyuki Kawashima",
+        "Hiroyuki Kitagawa"
+      ],
+      "year": 2013,
+      "venue": "SAC",
+      "type": "conference",
+      "tags": [
+        "Databases"
+      ],
+      "doi": "10.1145/2480362.2480514",
+      "abstract": "A recent trend in data stream processing shows the use of advanced continuous queries (CQs) that reference non-streaming resources such as relational data in databases and machine learning models. Since non-streaming resources could be shared among multiple systems, resources may be updated by the systems during the CQ-execution. As a consequence, CQs may reference resources inconsistently, and lead to a wide range of problems from inappropriate results to fatal system failures. We address this inconsistency problem by introducing the concept of transaction processing onto data stream processing. We introduce CQ-derived transaction, a concept that derives read-only transactions from CQs, and illustrate that the inconsistency problem is solved by ensuring serializability of derived transactions and resource updating transactions. To ensure serializability, we propose three CQ-processing strategies based on concurrency control techniques: two-phase lock strategy, snapshot strategy, and optimistic strategy. Experimental study shows our CQ-processing strategies guarantee proper results, and their performances are comparable to the performance of conventional strategy that could produce improper results.",
+      "highlight": {
+        "kicker": "Transactions for Continuous Queries",
+        "summary": "Streaming systems often need mutable reference data, but ordinary continuous-query execution does not guarantee a consistent view of it. This work adapts database concurrency control to streaming: two-phase locking, snapshots, and optimistic validation preserve serializable results while processing continues.",
+        "takeaways": [
+          "Defines read-only transactions derived from continuous-query outputs.",
+          "Coordinates those transactions with resource-update transactions.",
+          "Compares three concurrency-control strategies for stream processing."
+        ],
+        "imageCaption": "The same stream events can produce different aggregates depending on whether the query reads one resource version or mixes versions.",
+        "image": "/publications/highlights/2013-03-continuous-query-processing-concurrency-control/2013-03-18/001.jpg"
+      }
+    },
+    {
+      "id": "2011-10-efficient-invocation-transaction-sequences@2011-10-26",
+      "paperId": "2011-10-efficient-invocation-transaction-sequences",
+      "versionDate": "2011-10-26",
+      "title": "Efficient Invocation of Transaction Sequences Triggered by Data Streams.",
+      "authors": [
+        "Masafumi Oyamada",
+        "Hideyuki Kawashima",
+        "Hiroyuki Kitagawa"
+      ],
+      "year": 2011,
+      "venue": "3PGCIC",
+      "type": "conference",
+      "tags": [
+        "Databases"
+      ],
+      "doi": "10.1109/3PGCIC.2011.63",
+      "abstract": "Streaming media such as GPS, wireless sensor nodes, RFID and electric commerce are spreading over our lives. To process data streams from such streaming media, DSMS has been developed and widely used. While DBMSs are rarely used to process data streams directly, there is a growing need to integrate DSMS and DBMS, which means to use DBMS as a source of information related to data streams and to use DBMS to archive data streams. In such integration of DSMS and DBMS, transactions are triggered by data streams. Since arrival rate of data streams can be extremely high, it is necessary to invoke those transaction sequences efficiently to keep performance of DSMS. In this paper, we model invocation of transaction sequences and propose three schemes named Synchronous Transaction Sequence Invocation (STSI), Asynchronous Transaction Sequence Invocation (ATSI) and Order-Preserving Asynchronous Transaction Sequence Invocation (OPATSI). We built a prototype system which implements those schemes and conducted experiments to evaluate their performance. Our primary experiments showed that we experienced an order of magnitude higher throughput in transaction processing by using ATSI compared with STSI while breaking the order of transaction results. The results of experiments also showed that throughput of OPATSI is comparable to that of the ATSI, though it preserves the order of transaction results.",
+      "highlight": {
+        "kicker": "Streaming Transactions Without Waiting",
+        "summary": "High-rate data streams can stall when every tuple waits for its database transaction to finish. Decoupling transaction invocation from result waiting improved throughput by an order of magnitude in the reported experiments, while an order-preserving variant kept results aligned with the stream.",
+        "takeaways": [
+          "Models transaction sequences triggered by incoming stream tuples.",
+          "Compares synchronous, asynchronous, and order-preserving asynchronous invocation.",
+          "Shows that waiting strategy can dominate end-to-end stream transaction throughput."
+        ],
+        "imageCaption": "Asynchronous invocation lets later stream tuples move forward while earlier transaction results are still pending.",
+        "image": "/publications/highlights/2011-10-efficient-invocation-transaction-sequences/2011-10-26/004.jpg"
+      }
+    }
+  ]
+}

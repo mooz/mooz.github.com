@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "news": [
+    {
+      "date": "2026-05-25",
+      "title": "Paper Accepted to AI4Science @ ICML 2026",
+      "type": "publication",
+      "content": "Our paper \"Effective Harness Engineering for Algorithm Discovery with Coding Agents\" has been accepted to AI4Science @ ICML 2026."
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Paper Accepted to ACM CAIS 2026 🤖",
+      "type": "publication",
+      "content": "Our paper \"cotomi Act: Learning to Automate Work by Watching You\" has been accepted to ACM CAIS'26 (Demos)."
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Paper Accepted to ACL 2026 (Findings) 📋",
+      "type": "publication",
+      "content": "Our paper \"Evaluating the Impact of Reviewer Guideline Design on LLM-Based Automated Peer Review\" has been accepted to ACL 2026 (Findings)."
+    },
+    {
+      "date": "2026-01-27",
+      "title": "Paper Accepted to ICLR 2026",
+      "type": "publication",
+      "content": "Our paper \"Best-of-∞ -- Asymptotic Performance of Test-Time Compute\" has been accepted to ICLR 2026."
+    },
+    {
+      "date": "2026-01-03",
+      "title": "Paper Accepted to EACL 2026 (Findings)",
+      "type": "publication",
+      "content": "Our paper \"SCAN: Semantic Document Layout Analysis for Textual and Visual Retrieval-Augmented Generation\" has been accepted to EACL 2026 (Findings)."
+    },
+    {
+      "date": "2025-09-27",
+      "title": "Paper Accepted to NeurIPS 2025",
+      "type": "publication",
+      "content": "Our paper \"DISC: Dynamic Decomposition Improves LLM Inference Scaling\" has been accepted to NeurIPS 2025."
+    },
+    {
+      "date": "2025-08-27",
+      "title": "NEC's cotomi Act Web Agent Beats Humans on WebArena Benchmark! 🤖",
+      "type": "news",
+      "content": "NEC's cotomi Act achieved world-first success rate of 80.4% on WebArena benchmark, surpassing human performance (78.2%) in web browser automation tasks! <a href=\"https://jpn.nec.com/press/202508/20250827_02.html\">Press Release</a>"
+    },
+    {
+      "date": "2025-08-25",
+      "title": "Paper Accepted to EMNLP 2025 🤖",
+      "type": "publication",
+      "content": "Our paper \"LaMDAgent: An Autonomous Framework for Post-Training Pipeline Optimization via LLM Agents\" has been accepted to EMNLP 2025."
+    },
+    {
+      "date": "2025-07-09",
+      "title": "Paper Accepted to COLM 2025 🦅",
+      "type": "publication",
+      "content": "Our paper \"Can a Crow Hatch a Falcon? Lineage Matters in Predicting Large Language Model Performance\" has been accepted to COLM 2025."
+    },
+    {
+      "date": "2025-06-19",
+      "title": "Paper Accepted to ACL 2025 📝",
+      "type": "publication",
+      "content": "Our paper \"On Synthesizing Data for Context Attribution in Question Answering\" has been accepted to ACL 2025."
+    },
+    {
+      "date": "2025-05-19",
+      "title": "Paper Accepted to SIGIR 2025 🔍",
+      "type": "publication",
+      "content": "Our paper \"LLM-based Query Expansion Fails for Unfamiliar and Ambiguous Queries\" has been accepted to SIGIR 2025."
+    },
+    {
+      "date": "2025-05-11",
+      "title": "Paper Accepted to BioNLP2025 🏥",
+      "type": "publication",
+      "content": "Our paper \"Understanding the Impact of Confidence in Retrieval Augmented Generation: A Case Study in the Medical Domain\" has been accepted to BioNLP2025 (Workshop colocated with ACL2025)."
+    },
+    {
+      "date": "2025-01-24",
+      "title": "Paper Accepted to NAACL 2024 main track 🤖",
+      "type": "publication",
+      "content": "Our paper \"Can Large Language Models Invent Algorithms to Improve Themselves?\" has been accepted to NAACL 2024 main track!"
+    },
+    {
+      "date": "2024-12-03",
+      "title": "KeyNote at ComSys 2024 🗣️",
+      "type": "talk",
+      "content": "Presented on Self-Improving LLM, RAG, and Action Model at the <a href=\"https://sigos.ipsj.or.jp/event/comsys2024/#program\">ComSys 2024</a> Conference."
+    },
+    {
+      "date": "2024-11-09",
+      "title": "Paper Accepted to IEEE Big Data 2024 🤖",
+      "type": "publication",
+      "content": "Our poster paper \"Towards Automated Workflow Construction for AI Agents: A Preliminary Study\" has been accepted to IEEE Big Data 2024."
+    },
+    {
+      "date": "2024-11-07",
+      "title": "Paper Accepted to EMNLP 2024 main track 🪼",
+      "type": "publication",
+      "content": "Our paper \"Jellyfish: Instruction-Tuning Local Large Language Models for Data Preprocessing\" has been accepted to EMNLP 2024."
+    },
+    {
+      "date": "2024-11-05",
+      "title": "Lecture at Kobe University 🎓",
+      "type": "talk",
+      "content": "Presented on Real-world Large Language Model Development and Recent Research Trends (such as Test-time Compute) at Kobe University."
+    },
+    {
+      "date": "2024-10-28",
+      "title": "Talk at ACM MM 2024 🎯",
+      "type": "talk",
+      "content": "Presented at ACM MM'24 on NEC's large language model development."
+    },
+    {
+      "date": "2024-09-11",
+      "title": "Invited Talk at WebDB Summer Workshop 🗣️",
+      "type": "talk",
+      "content": "Presented on Self-Improving LLM, RAG, and Action Model at the <a href=\"https://yangcao888.github.io/llm-workshop-2024/\">organized session of LLM and Data Management</a> in WebDB Summer Workshop."
+    },
+    {
+      "date": "2024-07-06",
+      "title": "Tutorial Accepted to CIKM 2024 📊",
+      "type": "publication",
+      "content": "Our tutorial \"On the Use of Large Language Models for Table Tasks\" has been accepted to CIKM 2024."
+    },
+    {
+      "date": "2024-07-03",
+      "title": "Talk at IPSJ Seminar 🎤",
+      "type": "talk",
+      "content": "Presented at [IPSJ Seminar](https://www.ipsj.or.jp/event/seminar/2024/program03.html) on NEC's large language model development."
+    },
+    {
+      "date": "2024-01-05",
+      "title": "Paper Accepted to *SEM@NAACL 2024 🎯",
+      "type": "publication",
+      "content": "Our paper \"Relevance, Diversity, and Exclusivity: Designing Keyword-augmentation Strategy for Zero-shot Classifiers\" has been accepted to *SEM@NAACL 2024."
+    },
+    {
+      "date": "2023-08-15",
+      "title": "Paper Accepted to VLDB 2023 🔍",
+      "type": "publication",
+      "content": "Our paper \"DeepJoin: Joinable Table Discovery with Pre-trained Language Models\" has been accepted to VLDB 2023."
+    },
+    {
+      "date": "2023-07-20",
+      "title": "Paper Accepted to IEEE Big Data 2023 📚",
+      "type": "publication",
+      "content": "Our paper \"Towards Large Language Model Organization: A Case Study on Abstractive Summarization\" has been accepted to IEEE Big Data 2023."
+    },
+    {
+      "date": "2023-06-10",
+      "title": "Paper Accepted to EMNLP Findings 2023 🔍",
+      "type": "publication",
+      "content": "Our paper \"Context Quality Matters in Training Fusion-in-Decoder for Extractive Open-Domain Question Answering\" has been accepted to EMNLP Findings 2023."
+    },
+    {
+      "date": "2023-03-15",
+      "title": "Paper Accepted to PAKDD 2023 🤝",
+      "type": "publication",
+      "content": "Our paper \"QA-Matcher: Unsupervised Entity Matching Using a Question Answering Model\" has been accepted to PAKDD 2023."
+    },
+    {
+      "date": "2022-04-20",
+      "title": "Paper Accepted to SIGIR 2022 📊",
+      "type": "publication",
+      "content": "Our paper \"Table Enrichment System for Machine Learning\" has been accepted to SIGIR 2022."
+    }
+  ]
+}
