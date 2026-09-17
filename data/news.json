@@ -2,6 +2,12 @@
   "schemaVersion": 1,
   "news": [
     {
+      "date": "2026-06-01",
+      "title": "Paper Accepted to EMNLP 2026 (Findings) 📈",
+      "type": "publication",
+      "content": "Our paper \"M^3 Scaling Law: Optimizing Multi-Epoch, Multi-Lingual, and Multi-Stage Training for Low-Resource Language Models\" has been accepted to EMNLP 2026 (Findings)."
+    },
+    {
       "date": "2026-05-25",
       "title": "Paper Accepted to AI4Science @ ICML 2026",
       "type": "publication",

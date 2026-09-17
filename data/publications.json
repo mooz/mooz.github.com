@@ -3,6 +3,34 @@
   "versionPolicy": "latest-per-paper",
   "publications": [
     {
+      "id": "2024-10-low-resource-lm-training@2026-06-01",
+      "paperId": "2024-10-low-resource-lm-training",
+      "versionDate": "2026-06-01",
+      "title": "M^3 Scaling Law: Optimizing Multi-Epoch, Multi-Lingual, and Multi-Stage Training for Low-Resource Language Models",
+      "authors": [
+        "Kosuke Akimoto",
+        "Taiki Miyagawa",
+        "Masafumi Oyamada"
+      ],
+      "year": 2026,
+      "venue": "EMNLP (Findings)",
+      "type": "conference",
+      "doi": "10.48550/arXiv.2410.12325",
+      "url": "https://arxiv.org/abs/2410.12325",
+      "abstract": "In this paper, we study a fundamental design problem in pretraining Large Language Models (LLMs) for low-resource language regimes. Existing works adopt multi-epoch, multi-lingual, and multi-stage training to utilize the limited target-language corpus efficiently, but no prior scaling law can compare recipes spanning these approaches under the same compute budget $C$ and target-language corpus size $D_T$, leaving the optimal training setup unclear.\nTo address this gap, we propose the $M^3$ Scaling Law, a unified predictive model parameterized by the model scale, the number of target-corpus epochs $k$, the average target-language ratio $r$, and the final-stage target-language ratio $r_f$, which places monolingual single-stage, multi-lingual single-stage, and multi-lingual multi-stage recipes on a single target-language loss surface.\nAcross three language pairs, it extrapolates to unseen hyperparameter regions more accurately than existing scaling laws.\nUsing $M^3$ as a surrogate objective, we derive two practical guidelines for low-resource LLM pretraining: (i) as $D_T$ decreases, the optimal recipe shifts directly from monolingual single-stage to multi-lingual two-stage training at a compute-budget-dependent threshold, with multi-lingual single-stage never optimal in our experimental grid; and (ii) the optimal number of epochs collapses onto a single curve in the scarcity variable $D_T/D^*(C)$, where $D^*(C) \\propto C^{\\alpha/(\\alpha+\\beta)}$ is the monolingual compute-optimal corpus size.",
+      "highlight": {
+        "kicker": "Predicting the Best Low-Resource Recipe",
+        "summary": "Scarce target-language data changes the best pretraining recipe. The M^3 scaling law places model scale, data reuse, language mix, and stage structure on one loss surface, revealing a compute-dependent switch from monolingual single-stage to multilingual two-stage training.",
+        "takeaways": [
+          "Multilingual single-stage training is never optimal in the tested grid.",
+          "Comparisons hold compute budget C and target-corpus size D_T fixed.",
+          "The model covers monolingual, multilingual, and multi-stage recipes."
+        ],
+        "imageCaption": "Optimal regions shift from monolingual single-stage to multilingual two-stage training as target-corpus size becomes smaller relative to compute.",
+        "image": "/publications/highlights/2024-10-low-resource-lm-training/2026-06-01/000.jpg"
+      }
+    },
+    {
       "id": "2026-05-revisiting-observation-reduction-for-web-agents@2026-05-28",
       "paperId": "2026-05-revisiting-observation-reduction-for-web-agents",
       "versionDate": "2026-05-28",
@@ -621,35 +649,6 @@
       }
     },
     {
-      "id": "2024-10-low-resource-lm-training@2024-10-16",
-      "paperId": "2024-10-low-resource-lm-training",
-      "versionDate": "2024-10-16",
-      "title": "Optimizing Low-Resource Language Model Training: Comprehensive Analysis of Multi-Epoch, Multi-Lingual, and Two-Stage Approaches.",
-      "authors": [
-        "Kosuke Akimoto",
-        "Masafumi Oyamada"
-      ],
-      "year": 2024,
-      "venue": "CoRR",
-      "type": "preprint",
-      "tags": [
-        "Training"
-      ],
-      "doi": "10.48550/arXiv.2410.12325",
-      "abstract": "In this paper, we address the challenge of optimizing training setups for Large Language Models (LLMs) of low-resource language with a limited amount of corpus. Existing works adopt multi-epoch, multi-lingual, and two-stage training to utilize the limited target language corpus efficiently. However, there is still a lack of understanding about the optimal hyperparameter setups for combining these three approaches to train LLMs. We exhaustively explore training setups for low-resource language LLM, combining these three approaches, and found the following insights for efficiently reducing the cost of hyperparameter search: (1) As the amount of target language corpus decreases, the optimal training approach shifts from monolingual single-stage training to multi-lingual two-stage training at a compute budget dependent threshold. (2) The optimal model scale remains stable regardless of the amount of target language corpus, allowing the use of the compute-optimal scale of monolingual training. (3) The optimal number of epochs can be extrapolated from smaller-scale experiments to larger scale using our proposed model. Also, we provide evidence that, in single-stage training, the target language validation loss follows a power law with respect to the target language ratio, with an exponent independent of the amount of data, model scale, and language pair.",
-      "highlight": {
-        "kicker": "When Less Data Changes the Recipe",
-        "summary": "Low-resource LLM training is not simply a matter of repeating scarce data more often. As target-language data shrinks, the best setup can shift from monolingual single-stage training to multilingual two-stage training, with the switch point depending on compute.",
-        "takeaways": [
-          "Compares multi-epoch, multilingual, and two-stage training in one search space.",
-          "Identifies a data-dependent transition in the best training strategy.",
-          "Helps practitioners choose what to tune first when target text is scarce."
-        ],
-        "imageCaption": "As target-language data becomes scarcer, multilingual two-stage training overtakes the single-stage alternatives in this setting.",
-        "image": "/publications/highlights/2024-10-low-resource-lm-training/2024-10-16/000.jpg"
-      }
-    },
-    {
       "id": "2023-08-llm-data-preprocessors@2024-08-26",
       "paperId": "2023-08-llm-data-preprocessors",
       "versionDate": "2024-08-26",
@@ -725,7 +724,7 @@
         "Agents"
       ],
       "doi": "10.1109/BigData59044.2023.10386199",
-      "abstract": "In this work we propose \"LLM Organization\", an organizational structure-based LLM workflow for improving the performance of standard abstractive summarization techniques and mitigate unfaithful summary generation. We formulated the organizational structure-based LLM workflow as a directed acyclic graph (DAG), where each node corresponds to an LLM and each edge to a communication protocol. Our workflow is benchmarked on 5 datasets from various domains, using 7 evaluation metrics. The results indicate that LLM Organization could mitigate unfaithfulness and increase the overall performance of abstractive summarization methods.",
+      "abstract": "In this work we propose \"LLM Organization\", an organizational structure-based LLM workflow for improving the performance of standard abstractive summarization techniques and mitigate unfaithful summary generation. We formulated the organizational structure-based LLM workflow as a directed acyclic graph (DAG), where each node corresponds to an LLM and each edge to a communication protocol. Our workflow is benchmarked on 5 datasets from various domains, using 7 evaluation metrics. The results indicate that LLM Organization could mitigate unfaithfulness and increase the overall performance of abstractive summarization methods. ",
       "highlight": {
         "kicker": "No Single Best LLM Team",
         "summary": "Can LLMs summarize better by working as an organization? This work models summarization as a DAG of cooperating LLM agents and shows a practical lesson: network-like and hierarchical workflows can improve faithfulness or quality in some settings, but the best structure depends on the task.",
@@ -818,7 +817,7 @@
         "Structured Data"
       ],
       "url": "https://ceur-ws.org/Vol-3589/paper_4.pdf",
-      "abstract": "Discovering similar users from different perspectives plays an essential role in marketing activities regarding understanding customers. In particular, user similarity based on attributes (e.g., preferences and behavioral tendencies) effectively captures user needs. However, such attributes are defined differently depending on the dataset, making comparing users accurately in a cross-domain setting challenging. Previous methods have focused on unifying attributes to calculate user similarity across multiple datasets. However, applicability is limited because they assume the existence of users or attributes that overlap in two datasets. In this paper, we propose Attribute TransPortation (ATP), a novel method based on optimal transport theory for calculating cross-domain user similarity without imposing the assumption of overlapping. In numerical experiments on six real-world datasets, ATP performed quantitatively better than related methods in two tasks, one for finding the same user to evaluate the similarity itself and the other for a cross-domain recommendation task to evaluate the effectiveness of utilizing the similarity.",
+      "abstract": "Discovering similar users from different perspectives plays an essential role in marketing activities regarding understanding customers. In particular, user similarity based on attributes (e.g., preferences and behavioral tendencies) effectively captures user needs. However, such attributes are defined differently depending on the dataset, making comparing users accurately in a cross-domain setting challenging. Previous methods have focused on unifying attributes to calculate user similarity across multiple datasets. However, applicability is limited because they assume the existence of users or attributes that overlap in two datasets. In this paper, we propose Attribute TransPortation (ATP), a novel method based on optimal transport theory for calculating cross-domain user similarity without imposing the assumption of overlapping. In numerical experiments on six real-world datasets, ATP performed quantitatively better than related methods in two tasks, one for finding the same user to evaluate the similarity itself and the other for a cross-domain recommendation task to evaluate the effectiveness of utilizing the similarity. ",
       "highlight": {
         "kicker": "Transporting Preferences Across Domains",
         "summary": "If “opera” in music is close to several movie genres, its influence should be distributed across them, not forced into one hand-made label match. ATP uses optimal transport to translate preference weight between attribute spaces, then compares users after that translation.",
@@ -1065,7 +1064,7 @@
         "Retrieval"
       ],
       "doi": "10.1007/s00778-020-00627-4",
-      "abstract": "As the popularity of SNS and GPS-equipped mobile devices rapidly grows, numerous location-based applications have emerged. A common scenario is that a large number of users change location and interests from time to time; e.g., a user watches news, blogs, and videos while moving outside. Many online services have been developed based on continuously querying spatial-keyword objects. For instance, Twitter adjusts advertisements based on the location and the content of the message a user has just tweeted. In this paper, we investigate the case of dynamic spatial-keyword objects whose locations and keywords change over time. We study the problem of continuously tracking top-k dynamic spatial-keyword objects for a given set of queries. Answering this type of queries benefits many location-aware services such as e-commerce potential customer identification, drone delivery, and self-driving stores. We develop a solution based on a grid index. To deal with the changing locations and keywords of objects, our solution first finds the set of queries whose results are affected by the change and then updates the results of these queries. We propose a series of indexing and query processing techniques to accelerate the two procedures. We also discuss batch processing to cope with the case when multiple objects change locations and keywords in a time interval and top-k results are reported afterwards. Experiments on real and synthetic datasets demonstrate the efficiency of our method and its superiority over alternative solutions.",
+      "abstract": "As the popularity of SNS and GPS-equipped mobile devices rapidly grows, numerous location-based applications have emerged. A common scenario is that a large number of users change location and interests from time to time; e.g., a user watches news, blogs, and videos while moving outside. Many online services have been developed based on continuously querying spatial-keyword objects. For instance, Twitter adjusts advertisements based on the location and the content of the message a user has just tweeted. In this paper, we investigate the case of dynamic spatial-keyword objects whose locations and keywords change over time. We study the problem of continuously tracking top-k dynamic spatial-keyword objects for a given set of queries. Answering this type of queries benefits many location-aware services such as e-commerce potential customer identification, drone delivery, and self-driving stores. We develop a solution based on a grid index. To deal with the changing locations and keywords of objects, our solution first finds the set of queries whose results are affected by the change and then updates the results of these queries. We propose a series of indexing and query processing techniques to accelerate the two procedures. We also discuss batch processing to cope with the case when multiple objects change locations and keywords in a time interval and top-k results are reported afterwards. Experiments on real and synthetic datasets demonstrate the efficiency of our method and its superiority over alternative solutions. ",
       "highlight": {
         "kicker": "Repair Top-k Results Instead of Recomputing Them",
         "summary": "When people, posts, or devices move and change keywords, continuous spatial-keyword search can be maintained efficiently by treating each update as a targeted repair. The system identifies only the registered queries whose top-k answers may change, then refills those lists with grid-indexed spatial and keyword evidence.",
@@ -1219,7 +1218,7 @@
         "Machine Learning"
       ],
       "doi": "10.2197/ipsjjip.26.416",
-      "abstract": "In this paper, we present CVS (Compressed Vector Set), a fast and space-efficient data mining framework that efficiently handles both sparse and dense datasets. CVS holds a set of vectors in a compressed format and conducts primitive vector operations, such as l_p-norm and dot product, without decompression. By combining these primitive operations, CVS accelerates prominent data mining or machine learning algorithms including k-nearest neighbor algorithm, stochastic gradient descent algorithm on logistic regression, and kernel methods. In contrast to the commonly used sparse matrix/vector representation, which is not effective for dense datasets, CVS efficiently handles sparse datasets and dense datasets in a unified manner. Our experimental results demonstrate that CVS can process both dense datasets and sparse datasets faster than conventional sparse vector representation with smaller memory usage.",
+      "abstract": "In this paper, we present CVS (Compressed Vector Set), a fast and space-efficient data mining framework that efficiently handles both sparse and dense datasets. CVS holds a set of vectors in a compressed format and conducts primitive vector operations, such as l_p-norm and dot product, without decompression. By combining these primitive operations, CVS accelerates prominent data mining or machine learning algorithms including k-nearest neighbor algorithm, stochastic gradient descent algorithm on logistic regression, and kernel methods. In contrast to the commonly used sparse matrix/vector representation, which is not effective for dense datasets, CVS efficiently handles sparse datasets and dense datasets in a unified manner. Our experimental results demonstrate that CVS can process both dense datasets and sparse datasets faster than conventional sparse vector representation with smaller memory usage. ",
       "highlight": {
         "kicker": "One Format for Sparse and Dense Vectors",
         "summary": "Sparse formats are efficient only when the data really stays sparse. CVS asks whether one compressed representation can handle both sparse and dense vector sets efficiently, while still supporting the operations needed by learning algorithms.",
