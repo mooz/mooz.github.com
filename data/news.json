@@ -2,6 +2,12 @@
   "schemaVersion": 1,
   "news": [
     {
+      "date": "2026-10-14",
+      "title": "NeurIPS 2026 Paper Available on arXiv",
+      "type": "publication",
+      "content": "Our paper \"Tail Competition Explains Scaling in Best-of-N Sampling for Verifiable Problems\", accepted to NeurIPS 2026, is now available on arXiv."
+    },
+    {
       "date": "2026-06-01",
       "title": "Paper Accepted to EMNLP 2026 (Findings) 📈",
       "type": "publication",

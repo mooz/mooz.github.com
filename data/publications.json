@@ -3,6 +3,37 @@
   "versionPolicy": "latest-per-paper",
   "publications": [
     {
+      "id": "2026-10-tail-competition-explains-scaling-in-best-of-n-sampling-for-verifiable@2026-10-14",
+      "paperId": "2026-10-tail-competition-explains-scaling-in-best-of-n-sampling-for-verifiable",
+      "versionDate": "2026-10-14",
+      "title": "Tail Competition Explains Scaling in Best-of-N Sampling for Verifiable Problems",
+      "authors": [
+        "Taro Yano",
+        "Yoichi Ishibashi",
+        "Masafumi Oyamada"
+      ],
+      "year": 2026,
+      "venue": "NeurIPS",
+      "type": "conference",
+      "tags": [
+        "Inference Scaling"
+      ],
+      "doi": "10.48550/arXiv.2610.19362",
+      "url": "https://arxiv.org/abs/2610.19362",
+      "abstract": "Best-of-N sampling is a simple inference-time scaling strategy for large language models, yet its behavior under incomplete reward models remains poorly understood. We study Best-of-N as a competition between the extreme reward tails of correct and incorrect responses. This view shows that success depends not only on the probability of sampling a correct response, but also on whether correct responses dominate incorrect ones in the upper tail. Using extreme value theory, we characterize three asymptotic regimes: correct-tail-dominant, incorrect-tail-dominant, and critical explaining both monotonic gains and reward-hacking-induced degradation. We further derive finite-sample scaling laws for representative reward distributions, showing that, under Gaussian rewards, incorrect responses with sufficiently large variance can dominate selection even when their mean reward is lower. Unlike oracle selection, convergence with an incomplete selector can be polynomial rather than exponential. Finally, we propose a lightweight tail-tension criterion to estimate when additional sampling may become harmful. Experiments on synthetic data and real reward model scores are consistent with the theoretically predicted regimes, scaling laws, and diagnostic behavior, suggesting that tail competition provides a unified lens on Best-of-N sampling for verifiable problems.",
+      "highlight": {
+        "kicker": "Tail Competition Explains Best-of-N Scaling",
+        "summary": "Why can sampling more answers make Best-of-N less accurate? As sampling grows, success depends on whether correct or incorrect answers dominate the upper reward tail. Extreme value theory connects this competition to both accuracy gains and reward hacking.",
+        "takeaways": [
+          "Early accuracy gains can reverse when incorrect answers dominate the upper reward tail.",
+          "Even when accuracy approaches one, Gaussian reward models can yield polynomial convergence—slower than exponential convergence with an oracle selector.",
+          "Tail-tension early stopping uses reward scores to detect when further sampling may hurt, without requiring correctness labels."
+        ],
+        "imageCaption": "Left to right, more samples make accuracy (1) rise, (2) fall, (3) rise then fall, or (4) fall then recover. Correct answers eventually win in panels 1 and 4; incorrect answers eventually win in panels 2 and 3 because their reward distribution has the heavier upper tail.",
+        "image": "/publications/highlights/2026-10-tail-competition-explains-scaling-in-best-of-n-sampling-for-verifiable/2026-10-14/004.jpg"
+      }
+    },
+    {
       "id": "2024-10-low-resource-lm-training@2026-06-01",
       "paperId": "2024-10-low-resource-lm-training",
       "versionDate": "2026-06-01",
