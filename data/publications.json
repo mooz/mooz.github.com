@@ -3,6 +3,41 @@
   "versionPolicy": "latest-per-paper",
   "publications": [
     {
+      "id": "2026-10-agent-behavior-maps-locating-agents-by-what-they-would-do-without@2026-10-21",
+      "paperId": "2026-10-agent-behavior-maps-locating-agents-by-what-they-would-do-without",
+      "versionDate": "2026-10-21",
+      "title": "Agent Behavior Maps: Locating Agents by What They Would Do, Without Running Them",
+      "authors": [
+        "Shota Fujikawa",
+        "Takuya Tamura",
+        "Kosuke Akimoto",
+        "Daichi Haraguchi",
+        "Masafumi Oyamada"
+      ],
+      "year": 2026,
+      "venue": "CoRR",
+      "type": "preprint",
+      "tags": [
+        "Agents",
+        "Harness",
+        "Evaluation"
+      ],
+      "doi": "10.48550/arXiv.2610.30014",
+      "url": "https://arxiv.org/abs/2610.30014",
+      "abstract": "LLM agents with similar success rates can follow different action sequences. An Agent Behavior Map represents LLM-harness combinations using centered action log-likelihoods on shared reference trajectories, without requiring new environment rollouts from the target agent. We derive error bounds relating squared coordinate distances to trajectory KL under explicit assumptions, and across eight cross-scored models the distances track the directly measured trajectory KL in rank order. Across 100 LLMs and four environments, ALFWorld-based coordinates support performance prediction and identify behavioral similarities. In ALFWorld, these similarities persist after controlling for success rates and model size, including across model families. As an extension, harness-component displacements approximately compose, with accuracy varying across components and environments.",
+      "highlight": {
+        "kicker": "Estimate agent success before new task runs",
+        "summary": "Agent Behavior Maps place agents by how likely they are to take recorded actions in shared task histories. In ALFWorld, an agent’s success rate can be estimated from its evaluated neighbors, without collecting new environment runs for that agent.",
+        "takeaways": [
+          "100 models mapped from 500 shared ALFWorld trajectories.",
+          "Nearby agents show similar action patterns in ALFWorld, even across model families.",
+          "Holding out each model in turn gives prediction correlation 0.88, versus 0.63 for model size."
+        ],
+        "imageCaption": "Among 100 agents, green points mark gemma4-31b’s (star) five nearest map neighbors; orange rings mark the five closest in model size.",
+        "image": "/publications/highlights/2026-10-agent-behavior-maps-locating-agents-by-what-they-would-do-without/2026-10-21/001.jpg"
+      }
+    },
+    {
       "id": "2026-10-tail-competition-explains-scaling-in-best-of-n-sampling-for-verifiable@2026-10-14",
       "paperId": "2026-10-tail-competition-explains-scaling-in-best-of-n-sampling-for-verifiable",
       "versionDate": "2026-10-14",
