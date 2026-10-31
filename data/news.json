@@ -2,6 +2,12 @@
   "schemaVersion": 1,
   "news": [
     {
+      "date": "2026-10-26",
+      "title": "Invited Tutorial on Thinking Systems at IBIS 2026",
+      "type": "talk",
+      "content": "I gave an [invited tutorial on thinking systems](https://speakerdeck.com/stillpedant/thinking-systems) at [IBIS 2026](https://ibisml.org/ibis2026/)."
+    },
+    {
       "date": "2026-10-14",
       "title": "NeurIPS 2026 Paper Available on arXiv",
       "type": "publication",
