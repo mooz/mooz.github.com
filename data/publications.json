@@ -3,6 +3,34 @@
   "versionPolicy": "latest-per-paper",
   "publications": [
     {
+      "id": "2026-10-thinking-systems@2026-10-26",
+      "paperId": "2026-10-thinking-systems",
+      "versionDate": "2026-10-26",
+      "title": "現代AI入門: 大規模言語モデルから思考するシステムへ - Test-Time Scaling, Loop, Harness, RSI",
+      "authors": [
+        "Masafumi Oyamada"
+      ],
+      "year": 2026,
+      "venue": "IBIS (Invited Tutorial)",
+      "type": "tutorial",
+      "tags": [
+        "Agent Systems",
+        "Test-Time Scaling",
+        "Self-Improvement & Discovery"
+      ],
+      "titleLanguage": "ja",
+      "venueUrl": "https://ibisml.org/ibis2026/tutorial/#session3",
+      "url": "https://speakerdeck.com/stillpedant/thinking-systems",
+      "abstract": "AI capabilities, particularly those of coding agents, have advanced rapidly, producing striking results across many fields. Eight years after GPT, four after ChatGPT, two after o1, and one after Claude Code, progress can seem to be accelerating rather than slowing. What is driving these gains?\n\nThese advances are the product of repeated shifts in approach as researchers encounter the limits of existing methods. Modern AI increasingly takes the form of a thinking system, with a language model as one component among interacting algorithms and systems.\n\nThis tutorial traces the development of language-model-based AI into thinking systems, including advances in tackling open mathematical problems. It focuses on four themes: test-time scaling, loops, harnesses, and recursive self-improvement (RSI). Drawing on work from our research group, it examines each theme through three perspectives: phenomena and methods, theory and interpretation, and practical applications.\n",
+      "highlight": {
+        "kicker": "現代AI入門: 大規模言語モデルから思考するシステムへ - Test-Time Scaling, Loop, Harness, RSI",
+        "summary": "How did language models become thinking systems? This invited tutorial traces the ideas behind modern AI, focusing on test-time scaling, loops, harnesses, and recursive self-improvement (RSI). Drawing on examples from our research, it connects phenomena and methods, theory and interpretation, and practical applications.",
+        "overview": "AI capabilities, particularly those of coding agents, have advanced rapidly, producing striking results across many fields. Eight years after GPT, four after ChatGPT, two after o1, and one after Claude Code, progress can seem to be accelerating rather than slowing. What is driving these gains?\n\nThese advances are the product of repeated shifts in approach as researchers encounter the limits of existing methods. Modern AI increasingly takes the form of a thinking system, with a language model as one component among interacting algorithms and systems.\n\nThis tutorial traces the development of language-model-based AI into thinking systems, including advances in tackling open mathematical problems. It focuses on four themes: test-time scaling, loops, harnesses, and recursive self-improvement (RSI). Drawing on work from our research group, it examines each theme through three perspectives: phenomena and methods, theory and interpretation, and practical applications.\n",
+        "takeaways": [],
+        "image": "/publications/highlights/2026-10-thinking-systems/2026-10-26/thumbnail.png"
+      }
+    },
+    {
       "id": "2026-10-agent-behavior-maps-locating-agents-by-what-they-would-do-without@2026-10-21",
       "paperId": "2026-10-agent-behavior-maps-locating-agents-by-what-they-would-do-without",
       "versionDate": "2026-10-21",
